@@ -1,0 +1,1 @@
+This chapter presents solutions to the previous exercise, then tests the performance of the tree-backed map. I present a problem with the implementation and explain how Java's `TreeMap` solves it.

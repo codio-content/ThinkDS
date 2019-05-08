@@ -1,0 +1,1139 @@
+workspace:
+  directory: ThinkDataStructures/book
+  tex: book.tex
+refs:
+  chapter_counter_from: 0
+metadata:
+  suppressPageNumbering: true
+sections:
+  - name: Preface
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: The philosophy behind the book
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Prerequisites
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Working with the code
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Contributors
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+# Chapter 1
+  - name: Interfaces
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Why are there two kinds of \java{List}?
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Interfaces in Java
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: The List interface
+    type: section
+    transformations:
+        - remove: 21
+          position: 650
+        - add:  |
+             See the contrived example that demonstrates the point in the panel to the left.
+   
+          position: 671
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ListClientExample.java"
+          panel: 0
+          action: open
+  - name: Exercise 1
+    type: section
+    transformations:
+        - remove: 37
+          position: 728
+        - add:  |
+             If you look in the two tabs to the left,
+  
+          position: 728
+        - remove: 18
+          position: 781
+        - add:  |
+             Review `ListClientExample` and make sure you understand what it does. Then compile and run it by pressing the button below:
+             {Run!}(sh .guides/bg.sh javac code/ListClientExample.java java -cp code/ ListClientExample )
+  
+          position: 800
+        - add:  |
+             {Check It!|assessment}(test-958272319)
+  
+          position: 806
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ListClientExample.java"
+          panel: 0
+          action: open
+        - path: "code/ListClientExampleTest.java"
+          panel: 0
+          action: open
+# Chapter 2
+  - name: Analysis of Algorithms
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Selection sort
+    type: section
+    transformations:
+        - remove: 42
+          position: 935
+        - add:  |
+             For example, see the implementation of a simple algorithm called *selection sort** (see \url{http://thinkdast.com/selectsort}) in the panel to the left.
+   
+          position: 934
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/SelectionSort.java"
+          panel: 0
+          action: open
+  - name: Big O notation
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Exercise 2
+    type: section
+    transformations:
+        - remove: 2
+          position: 1098
+        - add:  |
+             If you look in the two tabs to the left, you'll find the source files you need:
+  
+          position: 1100
+        - remove: 4
+          position: 1113
+        - add:  |
+             {Run Test!}(sh .guides/bg.sh javac code/MyArrayListTest.java java -cp code/ MyArrayListTest )
+  
+          position: 1124
+        - add:  |
+             {Run Test!}(sh .guides/bg.sh javac code/MyArrayListTest.java java -cp code/ MyArrayListTest )
+  
+          position: 1262
+        - remove: 2
+          position: 2181
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyArrayList.java"
+          panel: 0
+          action: open
+        - path: "code/MyArrayListTest.java"
+          panel: 0
+          action: open
+# Chapter 3
+  - name: ArrayList
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Classifying MyArrayList methods
+    type: section
+    transformations:
+        - add:  |
+             [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public E get" count=6)
+  
+          position: 1312
+        - add:  |
+             [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public E set" count=5)
+  
+          position: 1330
+        - add:  |
+             [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public int indexOf" count=8)
+  
+          position: 1357
+        - add:  |
+             [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="private boolean equals" count=7)
+  
+          position: 1370
+        - add:  |
+             [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public E remove" count=8)
+  
+          position: 1404
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyArrayList.java"
+          panel: 0
+          action: open
+  - name: Classifying \java{add}
+    type: section
+    transformations:
+        - add:  |
+             [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public void add" count=14)
+  
+          position: 1436
+        - add:  |
+             [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public boolean add" count=11)
+  
+          position: 1460
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyArrayList.java"
+          panel: 0
+          action: open
+  - name: Problem Size
+    type: section
+    transformations:
+        - add:  |
+             [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public boolean removeAll" count=7)
+  
+          position: 1584
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyArrayList.java"
+          panel: 0
+          action: open
+  - name: Linked Data Structures
+    type: section
+    transformations:
+        - remove: 27
+          position: 1636
+        - add: |
+              See the ListNode.java file in the top-left pane for a class definition for a simple node.
+  
+          position: 1664
+        - add:  |
+             [Highlight in Code](open_file code/ListNode.java panel=0 ref="public Object data" count=2)
+  
+          position: 1669
+        - add:  |
+             [Highlight in Code](open_file code/ListNode.java panel=0 ref="public ListNode" count=14)
+  
+          position: 1675
+        - add:  |
+             [Highlight in Code](open_file code/LinkedListExample.java panel=1 ref="ListNode node1" count=3)
+  
+          position: 1688
+        - add:  |
+             [Highlight in Code](open_file code/LinkedListExample.java panel=1 ref="node1.next" count=3)
+  
+          position: 1696
+        - add:  |
+             [Highlight in Code](open_file code/LinkedListExample.java panel=1 ref="ListNode node0" count=1)
+  
+          position: 1704
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ListNode.java"
+          panel: 0
+          action: open
+        - path: "code/LinkedListExample.java"
+          panel: 1
+          action: open
+  - name: Exercise 3
+    type: section
+    transformations:
+        - remove: 1
+          position: 1731
+        - add: In the panes to the right, 
+          position: 251
+    configuration:
+      layout: 3-cell-left
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyLinkedList.java"
+          panel: 0
+          action: open
+        - path: "code/MyLinkedListTest.java"
+          panel: 1
+          action: open
+  - name: A note on garbage collection
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+# Chapter 4
+  - name: LinkedList
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Classifying \java{MyLinkedList} methods
+    type: section
+    transformations:
+        - add:  |
+             [Highlight in Code](open_file code/MyLinkedList.java panel=0 ref="public int indexOf" count=10)
+  
+          position: 1970
+        - add:  |
+             [Highlight in Code](open_file code/MyLinkedList.java panel=0 ref="public void add" count=9)
+  
+          position: 2024
+        - add:  |
+             [Highlight in Code](open_file code/MyLinkedList.java panel=0 ref="private Node getNode" count=10)
+  
+          position: 2044
+        - add:  |
+             [Highlight in Code](open_file code/MyLinkedList.java panel=0 ref="public E remove" count=11)
+  
+          position: 2091
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyLinkedList.java"
+          panel: 0
+          action: open
+  - name: Comparing \java{MyArrayList} and \java{MyLinkedList}
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Profiling
+    type: section
+    configuration:
+      layout: 4-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Profiler.java"
+          panel: 0
+          action: open
+        - path: "code/ProfileListAdd.java"
+          panel: 1
+          action: open
+        - path: "#preview: https://{{domain3000}}/"
+          panel: 3
+          action: open
+  - name: Interpreting results}\label{interpreting-results
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Exercise 4
+    type: section
+    configuration:
+      layout: 4-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/Profiler.java"
+          panel: 0
+          action: open
+        - path: "code/ProfileListAdd.java"
+          panel: 1
+          action: open
+        - path: "#preview: https://{{domain3000}}/"
+          panel: 3
+          action: open
+# Chapter 5
+  - name: Doubly-linked list
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Performance profiling results
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ProfileListAdd.java"
+          panel: 0
+          action: open
+  - name: Profiling \java{LinkedList} methods
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ProfileListAdd.java"
+          panel: 0
+          action: open
+  - name: Adding to the end of a \java{LinkedList}
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ProfileListAdd.java"
+          panel: 0
+          action: open
+  - name: Doubly-linked list
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Choosing a Structure
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+# Chapter 6
+  - name: Tree traversal
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Search engines
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Parsing HTML
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Using jsoup
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Iterating through the DOM
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/WikiNodeIterable.java"
+          panel: 0
+          action: open
+  - name: Depth-first search
+    type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#preview: https://en.wikipedia.org/wiki/Tree_traversal"
+          panel: 0
+          action: open
+        - path: "#preview: https://en.wikipedia.org/wiki/Call_stack"
+          panel: 1
+          action: open
+  - name: Stacks in Java
+    type: section
+    configuration:
+      layout: 2-panels-guides-left
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "#preview: https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html"
+          panel: 1
+          action: open
+  - name: Iterative DFS
+    type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/WikiNodeExample.java"
+          panel: 0
+          action: open
+        - path: "#tutor: code/WikiNodeExample.java"
+          panel: 1
+          action: open
+# Chapter 7
+  - name: Getting to Philosophy
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Getting started
+    type: section
+    transformations:
+        - add: |
+              {Run `ant WikiPhilosophy` | terminal}(ant WikiPhilosophy)
+  
+          position: 3461
+    configuration:
+      layout: 4-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/WikiNodeExample.java"
+          panel: 0
+          action: open
+        - path: "code/WikiNodeIterable.java"
+          panel: 0
+          action: open
+        - path: "code/WikiFetcher.java"
+          panel: 0
+          action: open
+        - path: "code/WikiPhilosophy.java"
+          panel: 2
+          action: open
+        - path: "#terminal: "
+          panel: 3
+          action: open
+  - name: Iterables and Iterators
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/WikiNodeIterable.java"
+          panel: 0
+          action: open
+  - name: \java{WikiFetcher}
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/WikiFetcher.java"
+          panel: 0
+          action: open
+  - name: Exercise 5
+    type: section
+    configuration:
+      layout: 3-cell-tree
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/WikiPhilosophy.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
+# Chapter 8
+  - name: Indexer
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Data structure selection
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: TermCounter
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/TermCounter.java"
+          panel: 0
+          action: open
+  - name: Exercise 6
+    type: section
+    transformations:
+        - add: |
+              {Run! | terminal}(javac code/ScannerBug.java && java -cp code/ ScannerBug)
+  
+          position: 251
+    configuration:
+      layout: 3-cell-tree
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/WikiNodeIterable.java"
+          panel: 0
+          action: open
+        - path: "code/WikiFetcher.java"
+          panel: 0
+          action: open
+        - path: "code/Index.java"
+          panel: 0
+          action: open
+        - path: "code/TermCounterTest.java"
+          panel: 0
+          action: open
+        - path: "code/TermCounter.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
+# Chapter 9
+  - name: The Map interface
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Implementing \java{MyLinearMap}
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyLinearMap.java"
+          panel: 0
+          action: open
+  - name: Exercise 7
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyLinearMap.java"
+          panel: 0
+          action: open
+        - path: "code/MyLinearMapTest.java"
+          panel: 0
+          action: open
+  - name: Analyzing \java{MyLinearMap}
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyLinearMap.java"
+          panel: 0
+          action: open
+        - path: "code/MyLinearMapTest.java"
+          panel: 0
+          action: open
+# Chapter 10
+  - name: Hashing
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Hashing
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyBetterMap.java"
+          panel: 0
+          action: open
+  - name: How does hashing work?
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/SillyString.java"
+          panel: 0
+          action: open
+  - name: Hashing and mutation
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/SillyArray.java"
+          panel: 0
+          action: open
+  - name: Exercise 8
+    type: section
+    configuration:
+      layout: 3-cell-tree
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyBetterMap.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
+# Chapter 11
+  - name: HashMap
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Exercise 9
+    type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyHashMap.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
+  - name: Analyzing \java{MyHashMap}
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: The tradeoffs
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Profiling \java{MyHashMap}
+    type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/ProfileMapPut.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
+  - name: Fixing \java{MyHashMap}
+    type: section
+    configuration:
+      layout: 3-cell
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyHashMap.java"
+          panel: 0
+          action: open
+        - path: "#terminal: "
+          panel: 1
+          action: open
+  - name: UML class diagrams
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+# Chapter 12
+  - name: TreeMap
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: What's wrong with hashing?
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Binary search tree
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Exercise 10
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyTreeMap.java"
+          panel: 0
+          action: open
+  - name: Implementing a TreeMap
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyTreeMap.java"
+          panel: 0
+          action: open
+        - path: "code/MyTreeMapTest.java"
+          panel: 0
+          action: open
+# Chapter 13
+  - name: Binary search tree
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: A simple \java{MyTreeMap}
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyTreeMap.java"
+          panel: 0
+          action: open
+  - name: Searching for values
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyTreeMap.java"
+          panel: 0
+          action: open
+  - name: Implementing {\tt put}
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyTreeMap.java"
+          panel: 0
+          action: open
+  - name: In-order traversal
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyTreeMap.java"
+          panel: 0
+          action: open
+  - name: The logarithmic methods
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyTreeMap.java"
+          panel: 0
+          action: open
+  - name: Self-balancing trees
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyTreeMap.java"
+          panel: 0
+          action: open
+  - name: One more exercise
+    type: section
+    configuration:
+      layout: 2-panels
+      files:
+        - path: "#tabs"
+          action: close
+        - path: "code/MyTreeMap.java"
+          panel: 0
+          action: open
+# Chapter 14
+  - name: Persistence
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Redis
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Redis clients and servers
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Making a Redis-backed index
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Redis data types
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Exercise 11
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: More suggestions if you want them
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: A few design hints
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+# Chapter 15
+  - name: Crawling Wikipedia
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: The Redis-backed indexer
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Analysis of lookup
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Analysis of indexing
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Graph traversal
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Exercise 12
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+# Chapter 16
+  - name: Boolean search
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Crawler solution
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Information retrieval
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close 
+  - name: Boolean search
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Exercise 13
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Comparable and Comparator
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Extensions
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+# Chapter 17
+  - name: Sorting
+    type: chapter
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Insertion sort
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Exercise 14
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Analysis of merge sort
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Radix sort
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Heap sort
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Bounded heap
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
+  - name: Space complexity
+    type: section
+    configuration:
+      layout: 1-panel
+      files:
+          - path: "#tabs"
+            action: close
