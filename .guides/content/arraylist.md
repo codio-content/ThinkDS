@@ -1,0 +1,1 @@
+This chapter kills two birds with one stone: I present solutions to the previous exercise and demonstrate a way to classify algorithms using **amortized analysis**.

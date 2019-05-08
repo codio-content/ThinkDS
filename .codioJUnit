@@ -1,0 +1,12 @@
+{
+ "mainSource": "code/ListClientExample.java",
+ "testSource": "code",
+ "libraries": "code/lib/*",
+ "cases": [
+  {
+   "path": "code/ListClientExampleTest.java",
+   "className": "ListClientExampleTest"
+  }
+ ],
+ "wd": ""
+}

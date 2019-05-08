@@ -1,0 +1,688 @@
+{
+ "children": [
+  {
+   "children": [
+    {
+     "id": "preface-the-philosophy-behind-the-book",
+     "pageId": "preface-the-philosophy-behind-the-book",
+     "title": "The philosophy behind the book",
+     "type": "page"
+    },
+    {
+     "id": "preface-prerequisites",
+     "pageId": "preface-prerequisites",
+     "title": "Prerequisites",
+     "type": "page"
+    },
+    {
+     "id": "preface-working-with-the-code",
+     "pageId": "preface-working-with-the-code",
+     "title": "Working with the code",
+     "type": "page"
+    },
+    {
+     "id": "preface-contributors",
+     "pageId": "preface-contributors",
+     "title": "Contributors",
+     "type": "page"
+    }
+   ],
+   "id": "preface",
+   "title": "Preface",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "interfaces-why-are-there-two-kinds-of-list-",
+     "pageId": "interfaces-why-are-there-two-kinds-of-list-",
+     "title": "Why are there two kinds of List?",
+     "type": "page"
+    },
+    {
+     "id": "interfaces-interfaces-in-java",
+     "pageId": "interfaces-interfaces-in-java",
+     "title": "Interfaces in Java",
+     "type": "page"
+    },
+    {
+     "id": "interfaces-the-list-interface",
+     "pageId": "interfaces-the-list-interface",
+     "title": "The List interface",
+     "type": "page"
+    },
+    {
+     "id": "interfaces-exercise-1",
+     "pageId": "interfaces-exercise-1",
+     "title": "Exercise 1",
+     "type": "page"
+    }
+   ],
+   "id": "interfaces",
+   "pageId": "interfaces",
+   "title": "Interfaces",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "analysis-of-algorithms-selection-sort",
+     "pageId": "analysis-of-algorithms-selection-sort",
+     "title": "Selection sort",
+     "type": "page"
+    },
+    {
+     "id": "analysis-of-algorithms-big-o-notation",
+     "pageId": "analysis-of-algorithms-big-o-notation",
+     "title": "Big O notation",
+     "type": "page"
+    },
+    {
+     "id": "analysis-of-algorithms-exercise-2",
+     "pageId": "analysis-of-algorithms-exercise-2",
+     "title": "Exercise 2",
+     "type": "page"
+    }
+   ],
+   "id": "analysis-of-algorithms",
+   "pageId": "analysis-of-algorithms",
+   "title": "Analysis of Algorithms",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "arraylist-classifying-myarraylist-methods",
+     "pageId": "arraylist-classifying-myarraylist-methods",
+     "title": "Classifying MyArrayList methods",
+     "type": "page"
+    },
+    {
+     "id": "arraylist-classifying-add",
+     "pageId": "arraylist-classifying-add",
+     "title": "Classifying add",
+     "type": "page"
+    },
+    {
+     "id": "arraylist-problem-size",
+     "pageId": "arraylist-problem-size",
+     "title": "Problem Size",
+     "type": "page"
+    },
+    {
+     "id": "arraylist-linked-data-structures",
+     "pageId": "arraylist-linked-data-structures",
+     "title": "Linked Data Structures",
+     "type": "page"
+    },
+    {
+     "id": "arraylist-exercise-3",
+     "pageId": "arraylist-exercise-3",
+     "title": "Exercise 3",
+     "type": "page"
+    },
+    {
+     "id": "arraylist-a-note-on-garbage-collection",
+     "pageId": "arraylist-a-note-on-garbage-collection",
+     "title": "A note on garbage collection",
+     "type": "page"
+    }
+   ],
+   "id": "arraylist",
+   "pageId": "arraylist",
+   "title": "ArrayList",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "linkedlist-classifying-mylinkedlist-methods",
+     "pageId": "linkedlist-classifying-mylinkedlist-methods",
+     "title": "Classifying MyLinkedList methods",
+     "type": "page"
+    },
+    {
+     "id": "linkedlist-comparing-myarraylist-and-mylinkedlist",
+     "pageId": "linkedlist-comparing-myarraylist-and-mylinkedlist",
+     "title": "Comparing MyArrayList and MyLinkedList",
+     "type": "page"
+    },
+    {
+     "id": "linkedlist-profiling",
+     "pageId": "linkedlist-profiling",
+     "title": "Profiling",
+     "type": "page"
+    },
+    {
+     "id": "linkedlist-interpreting-results",
+     "pageId": "linkedlist-interpreting-results",
+     "title": "Interpreting results",
+     "type": "page"
+    },
+    {
+     "id": "linkedlist-exercise-4",
+     "pageId": "linkedlist-exercise-4",
+     "title": "Exercise 4",
+     "type": "page"
+    }
+   ],
+   "id": "linkedlist",
+   "pageId": "linkedlist",
+   "title": "LinkedList",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "doubly-linked-list-performance-profiling-results",
+     "pageId": "doubly-linked-list-performance-profiling-results",
+     "title": "Performance profiling results",
+     "type": "page"
+    },
+    {
+     "id": "doubly-linked-list-profiling-linkedlist-methods",
+     "pageId": "doubly-linked-list-profiling-linkedlist-methods",
+     "title": "Profiling LinkedList methods",
+     "type": "page"
+    },
+    {
+     "id": "doubly-linked-list-adding-to-the-end-of-a-linkedlist",
+     "pageId": "doubly-linked-list-adding-to-the-end-of-a-linkedlist",
+     "title": "Adding to the end of a LinkedList",
+     "type": "page"
+    },
+    {
+     "id": "doubly-linked-list-doubly-linked-list",
+     "pageId": "doubly-linked-list-doubly-linked-list",
+     "title": "Doubly-linked list",
+     "type": "page"
+    },
+    {
+     "id": "doubly-linked-list-choosing-a-structure",
+     "pageId": "doubly-linked-list-choosing-a-structure",
+     "title": "Choosing a Structure",
+     "type": "page"
+    }
+   ],
+   "id": "doubly-linked-list",
+   "pageId": "doubly-linked-list",
+   "title": "Doubly-linked list",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "tree-traversal-search-engines",
+     "pageId": "tree-traversal-search-engines",
+     "title": "Search engines",
+     "type": "page"
+    },
+    {
+     "id": "tree-traversal-parsing-html",
+     "pageId": "tree-traversal-parsing-html",
+     "title": "Parsing HTML",
+     "type": "page"
+    },
+    {
+     "id": "tree-traversal-using-jsoup",
+     "pageId": "tree-traversal-using-jsoup",
+     "title": "Using jsoup",
+     "type": "page"
+    },
+    {
+     "id": "tree-traversal-iterating-through-the-dom",
+     "pageId": "tree-traversal-iterating-through-the-dom",
+     "title": "Iterating through the DOM",
+     "type": "page"
+    },
+    {
+     "id": "tree-traversal-depth-first-search",
+     "pageId": "tree-traversal-depth-first-search",
+     "title": "Depth-first search",
+     "type": "page"
+    },
+    {
+     "id": "tree-traversal-stacks-in-java",
+     "pageId": "tree-traversal-stacks-in-java",
+     "title": "Stacks in Java",
+     "type": "page"
+    },
+    {
+     "id": "tree-traversal-iterative-dfs",
+     "pageId": "tree-traversal-iterative-dfs",
+     "title": "Iterative DFS",
+     "type": "page"
+    }
+   ],
+   "id": "tree-traversal",
+   "pageId": "tree-traversal",
+   "title": "Tree traversal",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "getting-to-philosophy-getting-started",
+     "pageId": "getting-to-philosophy-getting-started",
+     "title": "Getting started",
+     "type": "page"
+    },
+    {
+     "id": "getting-to-philosophy-iterables-and-iterators",
+     "pageId": "getting-to-philosophy-iterables-and-iterators",
+     "title": "Iterables and Iterators",
+     "type": "page"
+    },
+    {
+     "id": "getting-to-philosophy-wikifetcher",
+     "pageId": "getting-to-philosophy-wikifetcher",
+     "title": "WikiFetcher",
+     "type": "page"
+    },
+    {
+     "id": "getting-to-philosophy-exercise-5",
+     "pageId": "getting-to-philosophy-exercise-5",
+     "title": "Exercise 5",
+     "type": "page"
+    }
+   ],
+   "id": "getting-to-philosophy",
+   "pageId": "getting-to-philosophy",
+   "title": "Getting to Philosophy",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "indexer-data-structure-selection",
+     "pageId": "indexer-data-structure-selection",
+     "title": "Data structure selection",
+     "type": "page"
+    },
+    {
+     "id": "indexer-termcounter",
+     "pageId": "indexer-termcounter",
+     "title": "TermCounter",
+     "type": "page"
+    },
+    {
+     "id": "indexer-exercise-6",
+     "pageId": "indexer-exercise-6",
+     "title": "Exercise 6",
+     "type": "page"
+    }
+   ],
+   "id": "indexer",
+   "pageId": "indexer",
+   "title": "Indexer",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "the-map-interface-implementing-mylinearmap",
+     "pageId": "the-map-interface-implementing-mylinearmap",
+     "title": "Implementing MyLinearMap",
+     "type": "page"
+    },
+    {
+     "id": "the-map-interface-exercise-7",
+     "pageId": "the-map-interface-exercise-7",
+     "title": "Exercise 7",
+     "type": "page"
+    },
+    {
+     "id": "the-map-interface-analyzing-mylinearmap",
+     "pageId": "the-map-interface-analyzing-mylinearmap",
+     "title": "Analyzing MyLinearMap",
+     "type": "page"
+    }
+   ],
+   "id": "the-map-interface",
+   "pageId": "the-map-interface",
+   "title": "The Map interface",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "hashing-hashing",
+     "pageId": "hashing-hashing",
+     "title": "Hashing",
+     "type": "page"
+    },
+    {
+     "id": "hashing-how-does-hashing-work-",
+     "pageId": "hashing-how-does-hashing-work-",
+     "title": "How does hashing work?",
+     "type": "page"
+    },
+    {
+     "id": "hashing-hashing-and-mutation",
+     "pageId": "hashing-hashing-and-mutation",
+     "title": "Hashing and mutation",
+     "type": "page"
+    },
+    {
+     "id": "hashing-exercise-8",
+     "pageId": "hashing-exercise-8",
+     "title": "Exercise 8",
+     "type": "page"
+    }
+   ],
+   "id": "hashing",
+   "pageId": "hashing",
+   "title": "Hashing",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "hashmap-exercise-9",
+     "pageId": "hashmap-exercise-9",
+     "title": "Exercise 9",
+     "type": "page"
+    },
+    {
+     "id": "hashmap-analyzing-myhashmap",
+     "pageId": "hashmap-analyzing-myhashmap",
+     "title": "Analyzing MyHashMap",
+     "type": "page"
+    },
+    {
+     "id": "hashmap-the-tradeoffs",
+     "pageId": "hashmap-the-tradeoffs",
+     "title": "The tradeoffs",
+     "type": "page"
+    },
+    {
+     "id": "hashmap-profiling-myhashmap",
+     "pageId": "hashmap-profiling-myhashmap",
+     "title": "Profiling MyHashMap",
+     "type": "page"
+    },
+    {
+     "id": "hashmap-fixing-myhashmap",
+     "pageId": "hashmap-fixing-myhashmap",
+     "title": "Fixing MyHashMap",
+     "type": "page"
+    },
+    {
+     "id": "hashmap-uml-class-diagrams",
+     "pageId": "hashmap-uml-class-diagrams",
+     "title": "UML class diagrams",
+     "type": "page"
+    }
+   ],
+   "id": "hashmap",
+   "pageId": "hashmap",
+   "title": "HashMap",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "treemap-what-s-wrong-with-hashing-",
+     "pageId": "treemap-what-s-wrong-with-hashing-",
+     "title": "What's wrong with hashing?",
+     "type": "page"
+    },
+    {
+     "id": "treemap-binary-search-tree",
+     "pageId": "treemap-binary-search-tree",
+     "title": "Binary search tree",
+     "type": "page"
+    },
+    {
+     "id": "treemap-exercise-10",
+     "pageId": "treemap-exercise-10",
+     "title": "Exercise 10",
+     "type": "page"
+    },
+    {
+     "id": "treemap-implementing-a-treemap",
+     "pageId": "treemap-implementing-a-treemap",
+     "title": "Implementing a TreeMap",
+     "type": "page"
+    }
+   ],
+   "id": "treemap",
+   "pageId": "treemap",
+   "title": "TreeMap",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "binary-search-tree-a-simple-mytreemap",
+     "pageId": "binary-search-tree-a-simple-mytreemap",
+     "title": "A simple MyTreeMap",
+     "type": "page"
+    },
+    {
+     "id": "binary-search-tree-searching-for-values",
+     "pageId": "binary-search-tree-searching-for-values",
+     "title": "Searching for values",
+     "type": "page"
+    },
+    {
+     "id": "binary-search-tree-implementing-put",
+     "pageId": "binary-search-tree-implementing-put",
+     "title": "Implementing put",
+     "type": "page"
+    },
+    {
+     "id": "binary-search-tree-in-order-traversal",
+     "pageId": "binary-search-tree-in-order-traversal",
+     "title": "In-order traversal",
+     "type": "page"
+    },
+    {
+     "id": "binary-search-tree-the-logarithmic-methods",
+     "pageId": "binary-search-tree-the-logarithmic-methods",
+     "title": "The logarithmic methods",
+     "type": "page"
+    },
+    {
+     "id": "binary-search-tree-self-balancing-trees",
+     "pageId": "binary-search-tree-self-balancing-trees",
+     "title": "Self-balancing trees",
+     "type": "page"
+    },
+    {
+     "id": "binary-search-tree-one-more-exercise",
+     "pageId": "binary-search-tree-one-more-exercise",
+     "title": "One more exercise",
+     "type": "page"
+    }
+   ],
+   "id": "binary-search-tree",
+   "pageId": "binary-search-tree",
+   "title": "Binary search tree",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "persistence-redis",
+     "pageId": "persistence-redis",
+     "title": "Redis",
+     "type": "page"
+    },
+    {
+     "id": "persistence-redis-clients-and-servers",
+     "pageId": "persistence-redis-clients-and-servers",
+     "title": "Redis clients and servers",
+     "type": "page"
+    },
+    {
+     "id": "persistence-making-a-redis-backed-index",
+     "pageId": "persistence-making-a-redis-backed-index",
+     "title": "Making a Redis-backed index",
+     "type": "page"
+    },
+    {
+     "id": "persistence-redis-data-types",
+     "pageId": "persistence-redis-data-types",
+     "title": "Redis data types",
+     "type": "page"
+    },
+    {
+     "id": "persistence-exercise-11",
+     "pageId": "persistence-exercise-11",
+     "title": "Exercise 11",
+     "type": "page"
+    },
+    {
+     "id": "persistence-more-suggestions-if-you-want-them",
+     "pageId": "persistence-more-suggestions-if-you-want-them",
+     "title": "More suggestions if you want them",
+     "type": "page"
+    },
+    {
+     "id": "persistence-a-few-design-hints",
+     "pageId": "persistence-a-few-design-hints",
+     "title": "A few design hints",
+     "type": "page"
+    }
+   ],
+   "id": "persistence",
+   "pageId": "persistence",
+   "title": "Persistence",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "crawling-wikipedia-the-redis-backed-indexer",
+     "pageId": "crawling-wikipedia-the-redis-backed-indexer",
+     "title": "The Redis-backed indexer",
+     "type": "page"
+    },
+    {
+     "id": "crawling-wikipedia-analysis-of-lookup",
+     "pageId": "crawling-wikipedia-analysis-of-lookup",
+     "title": "Analysis of lookup",
+     "type": "page"
+    },
+    {
+     "id": "crawling-wikipedia-analysis-of-indexing",
+     "pageId": "crawling-wikipedia-analysis-of-indexing",
+     "title": "Analysis of indexing",
+     "type": "page"
+    },
+    {
+     "id": "crawling-wikipedia-graph-traversal",
+     "pageId": "crawling-wikipedia-graph-traversal",
+     "title": "Graph traversal",
+     "type": "page"
+    },
+    {
+     "id": "crawling-wikipedia-exercise-12",
+     "pageId": "crawling-wikipedia-exercise-12",
+     "title": "Exercise 12",
+     "type": "page"
+    }
+   ],
+   "id": "crawling-wikipedia",
+   "pageId": "crawling-wikipedia",
+   "title": "Crawling Wikipedia",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "boolean-search-crawler-solution",
+     "pageId": "boolean-search-crawler-solution",
+     "title": "Crawler solution",
+     "type": "page"
+    },
+    {
+     "id": "boolean-search-information-retrieval",
+     "pageId": "boolean-search-information-retrieval",
+     "title": "Information retrieval",
+     "type": "page"
+    },
+    {
+     "id": "boolean-search-boolean-search",
+     "pageId": "boolean-search-boolean-search",
+     "title": "Boolean search",
+     "type": "page"
+    },
+    {
+     "id": "boolean-search-exercise-13",
+     "pageId": "boolean-search-exercise-13",
+     "title": "Exercise 13",
+     "type": "page"
+    },
+    {
+     "id": "boolean-search-comparable-and-comparator",
+     "pageId": "boolean-search-comparable-and-comparator",
+     "title": "Comparable and Comparator",
+     "type": "page"
+    },
+    {
+     "id": "boolean-search-extensions",
+     "pageId": "boolean-search-extensions",
+     "title": "Extensions",
+     "type": "page"
+    }
+   ],
+   "id": "boolean-search",
+   "pageId": "boolean-search",
+   "title": "Boolean search",
+   "type": "chapter"
+  },
+  {
+   "children": [
+    {
+     "id": "sorting-insertion-sort",
+     "pageId": "sorting-insertion-sort",
+     "title": "Insertion sort",
+     "type": "page"
+    },
+    {
+     "id": "sorting-exercise-14",
+     "pageId": "sorting-exercise-14",
+     "title": "Exercise 14",
+     "type": "page"
+    },
+    {
+     "id": "sorting-analysis-of-merge-sort",
+     "pageId": "sorting-analysis-of-merge-sort",
+     "title": "Analysis of merge sort",
+     "type": "page"
+    },
+    {
+     "id": "sorting-radix-sort",
+     "pageId": "sorting-radix-sort",
+     "title": "Radix sort",
+     "type": "page"
+    },
+    {
+     "id": "sorting-heap-sort",
+     "pageId": "sorting-heap-sort",
+     "title": "Heap sort",
+     "type": "page"
+    },
+    {
+     "id": "sorting-bounded-heap",
+     "pageId": "sorting-bounded-heap",
+     "title": "Bounded heap",
+     "type": "page"
+    },
+    {
+     "id": "sorting-space-complexity",
+     "pageId": "sorting-space-complexity",
+     "title": "Space complexity",
+     "type": "page"
+    }
+   ],
+   "id": "sorting",
+   "pageId": "sorting",
+   "title": "Sorting",
+   "type": "chapter"
+  }
+ ],
+ "name": "Think Data Structures"
+}

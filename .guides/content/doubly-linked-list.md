@@ -1,0 +1,1 @@
+This chapter reviews results from the previous exercise and introduces yet another implementation of the `List` interface, the doubly-linked list.
