@@ -1,1 +1,0 @@
-In this chapter I present a solution to the previous exercise. Then you will write code to combine multiple search results and sort them by their relevance to the search terms.

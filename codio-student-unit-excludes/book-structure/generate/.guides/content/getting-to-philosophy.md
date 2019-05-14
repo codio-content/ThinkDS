@@ -1,1 +1,0 @@
-The goal of this chapter is to develop a Web crawler that tests the “Getting to Philosophy” conjecture, which we presented in Section 6.1.

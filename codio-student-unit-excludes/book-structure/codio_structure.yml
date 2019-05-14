@@ -237,11 +237,11 @@ sections:
     type: section
     transformations:
         - add:  |
-             [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public E get" count=6)
+             [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public T get" count=6)
   
           position: 1312
         - add:  |
-             [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public E set" count=5)
+             [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public T set" count=5)
   
           position: 1330
         - add:  |
@@ -253,7 +253,7 @@ sections:
   
           position: 1370
         - add:  |
-             [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public E remove" count=8)
+             [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public T remove" count=8)
   
           position: 1404
     configuration:
@@ -301,7 +301,7 @@ sections:
   - name: Linked Data Structures
     type: section
     transformations:
-        - remove: 27
+        - remove: 28
           position: 1636
         - add: |
               See the ListNode.java file in the top-left pane for a class definition for a simple node.
@@ -312,7 +312,7 @@ sections:
   
           position: 1669
         - add:  |
-             [Highlight in Code](open_file code/ListNode.java panel=0 ref="public ListNode" count=14)
+             [Highlight in Code](open_file code/ListNode.java panel=0 ref="//constructors" count=15)
   
           position: 1675
         - add:  |
@@ -344,17 +344,53 @@ sections:
         - remove: 1
           position: 1731
         - add: In the panes to the right, 
-          position: 251
+          position: 1730
+# TODO: need to add assessment on line 1745
+        - remove: 4
+          position: 1746
+        - add:  |
+              Before you start, let's walk through some of the code. Find the instance variables and constructor for `MyLinkedList.java` in the top-left panel. [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="public class MyLinkedList" count=10)
+ 
+          position: 1753
+        - remove: 16
+          position: 1754
+        - add:  |
+              [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="private class Node" count=9)
+ 
+          position: 1808
+        - remove: 11
+          position: 1809
+        - add:  |
+               [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="public boolean add" count=12)
+   
+          position: 1827
+        - remove: 14
+          position: 1828
+        - add:  |
+               [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="public public int indexOf" count=4)
+   
+          position: 1868
+# TODO: need to add assessment on line 1879
+       - add:  |
+               [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="public void add" count=3)
+   
+          position: 1886
+        - add:  |
+               [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="public E remove" count=4)
+   
+          position: 1892
+        - remove: 2
+          position: 1893
     configuration:
       layout: 3-cell-left
       files:
         - path: "#tabs"
           action: close
         - path: "code/MyLinkedList.java"
-          panel: 0
+          panel: 1
           action: open
         - path: "code/MyLinkedListTest.java"
-          panel: 1
+          panel: 2
           action: open
   - name: A note on garbage collection
     type: section

@@ -1,1 +1,0 @@
-In this chapter, I define `MyBetterMap`, a better implementation of the `Map` interface than `MyLinearMap`, and introduce **hashing**, which makes `MyBetterMap` more efficient.

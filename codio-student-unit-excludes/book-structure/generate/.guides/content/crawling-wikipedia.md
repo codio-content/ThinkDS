@@ -1,1 +1,0 @@
-In this chapter, I present a solution to the previous exercise and analyze the performance of Web indexing algorithms. Then we build a simple Web crawler.

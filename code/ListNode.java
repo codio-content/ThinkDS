@@ -1,5 +1,3 @@
-
-
 /**
  * @author downey
  *
@@ -9,6 +7,7 @@ public class ListNode {
 	public Object data;
 	public ListNode next;
 
+  //constructors
 	public ListNode() {
 		this.data = null;
 		this.next = null;
