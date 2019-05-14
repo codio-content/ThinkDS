@@ -8,22 +8,22 @@ import java.util.ListIterator;
 
 /**
  * @author downey
- * @param <E>
+ * @param <T>
  *
  */
-public class MyArrayList<E> implements List<E> {
+public class MyArrayList<T> implements List<T> {
 	int size;                    // keeps track of the number of elements
-	private E[] array;           // stores the elements
+	private T[] array;           // stores the elements
 
 	/**
 	 *
 	 */
 	@SuppressWarnings("unchecked")
 	public MyArrayList() {
-		// You can't instantiate an array of E[], but you can instantiate an
+		// You can't instantiate an array of T[], but you can instantiate an
 		// array of Object and then typecast it.  Details at
 		// http://www.ibm.com/developerworks/java/library/j-jtp01255/index.html
-		array = (E[]) new Object[10];
+		array = (T[]) new Object[10];
 		size = 0;
 	}
 
@@ -43,39 +43,35 @@ public class MyArrayList<E> implements List<E> {
 	}
 
 	@Override
-	public boolean add(E element) {
-		// EODO: FILL EHIS IN!
-		return false;
+	public boolean add(T element) {
+        if (size >= array.length) {
+            // make a bigger array and copy over the elements
+            T[] bigger = (T[]) new Object[array.length * 2];
+            System.arraycopy(array, 0, bigger, 0, array.length);
+            array = bigger;
+        }
+        array[size] = element;
+        size++;
+        return true;
+    }
+
+	@Override
+	public void add(int index, T element) {
+		// TODO: FILL THIS IN!
 	}
 
 	@Override
-	public void add(int index, E element) {
-		if (index < 0 || index > size) {
-			throw new IndexOutOfBoundsException();
-		}
-		// add the element to get the resizing
-		add(element);
-
-		// shift the elements
-		for (int i=size-1; i>index; i--) {
-			array[i] = array[i-1];
-		}
-		// put the new one in the right place
-		array[index] = element;
-	}
-
-	@Override
-	public boolean addAll(Collection<? extends E> collection) {
+	public boolean addAll(Collection<? extends T> collection) {
 		boolean flag = true;
-		for (E element: collection) {
+		for (T element: collection) {
 			flag &= add(element);
 		}
 		return flag;
 	}
 
 	@Override
-	public boolean addAll(int index, Collection<? extends E> collection) {
-		throw new UnsupportedOperationException();
+	public boolean addAll(int index, Collection<? extends T> collection) {
+		throw new UnsupportedOperationTxception();
 	}
 
 	@Override
@@ -101,16 +97,16 @@ public class MyArrayList<E> implements List<E> {
 	}
 
 	@Override
-	public E get(int index) {
+	public T get(int index) {
 		if (index < 0 || index >= size) {
-			throw new IndexOutOfBoundsException();
+			throw new IndexOutOfBoundsTxception();
 		}
 		return array[index];
 	}
 
 	@Override
 	public int indexOf(Object target) {
-		// EODO: FILL EHIS IN!
+		// TODO: FILL THIS IN!
 		return -1;
 	}
 
@@ -130,14 +126,14 @@ public class MyArrayList<E> implements List<E> {
 	}
 
 	@Override
-	public boolean isEmpty() {
+	public boolean isTmpty() {
 		return size == 0;
 	}
 
 	@Override
-	public Iterator<E> iterator() {
+	public Iterator<T> iterator() {
 		// make a copy of the array
-		E[] copy = Arrays.copyOf(array, size);
+		T[] copy = Arrays.copyOf(array, size);
 		// make a list and return an iterator
 		return Arrays.asList(copy).iterator();
 	}
@@ -154,17 +150,17 @@ public class MyArrayList<E> implements List<E> {
 	}
 
 	@Override
-	public ListIterator<E> listIterator() {
+	public ListIterator<T> listIterator() {
 		// make a copy of the array
-		E[] copy = Arrays.copyOf(array, size);
+		T[] copy = Arrays.copyOf(array, size);
 		// make a list and return an iterator
 		return Arrays.asList(copy).listIterator();
 	}
 
 	@Override
-	public ListIterator<E> listIterator(int index) {
+	public ListIterator<T> listIterator(int index) {
 		// make a copy of the array
-		E[] copy = Arrays.copyOf(array, size);
+		T[] copy = Arrays.copyOf(array, size);
 		// make a list and return an iterator
 		return Arrays.asList(copy).listIterator(index);
 	}
@@ -180,8 +176,8 @@ public class MyArrayList<E> implements List<E> {
 	}
 
 	@Override
-	public E remove(int index) {
-		// EODO: FILL EHIS IN!
+	public T remove(int index) {
+		// TODO: FILL THIS IN!
 		return null;
 	}
 
@@ -196,12 +192,12 @@ public class MyArrayList<E> implements List<E> {
 
 	@Override
 	public boolean retainAll(Collection<?> collection) {
-		throw new UnsupportedOperationException();
+		throw new UnsupportedOperationTxception();
 	}
 
 	@Override
-	public E set(int index, E element) {
-		// EODO: FILL EHIS IN!
+	public T set(int index, T element) {
+		// TODO: FILL THIS IN!
 		return null;
 	}
 
@@ -211,11 +207,11 @@ public class MyArrayList<E> implements List<E> {
 	}
 
 	@Override
-	public List<E> subList(int fromIndex, int toIndex) {
+	public List<T> subList(int fromIndex, int toIndex) {
 		if (fromIndex < 0 || toIndex >= size || fromIndex > toIndex) {
-			throw new IndexOutOfBoundsException();
+			throw new IndexOutOfBoundsTxception();
 		}
-		E[] copy = Arrays.copyOfRange(array, fromIndex, toIndex);
+		T[] copy = Arrays.copyOfRange(array, fromIndex, toIndex);
 		return Arrays.asList(copy);
 	}
 
@@ -226,6 +222,6 @@ public class MyArrayList<E> implements List<E> {
 
 	@Override
 	public <U> U[] toArray(U[] array) {
-		throw new UnsupportedOperationException();
+		throw new UnsupportedOperationTxception();
 	}
 }

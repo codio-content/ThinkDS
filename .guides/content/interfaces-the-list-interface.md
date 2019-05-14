@@ -6,8 +6,8 @@ The `interface` defines what it means to be a `List`; any class that implements 
 `ArrayList` and `LinkedList` provide these methods, so they can be used interchangeably. A method written to work with a `List` will work with an `ArrayList`, `LinkedList`, or any other object that implements `List`.
 
 
-See the contrived example that demonstrates the point in the panel to the left.
 
+See the contrived example that demonstrates the point in the panel to the left.
 
 
 `ListClientExample` doesn't do anything useful, but it has the essential elements of a class that **encapsulates** a `List`; that is, it contains a `List` as an instance variable.  I'll use this class to make a point, and then you'll work with it in the first exercise.

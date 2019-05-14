@@ -1,6 +1,7 @@
 Since this is the first exercise, we'll keep it simple. You will take the code from the previous section and **swap the implementation**; that is, you will replace the `LinkedList` with an `ArrayList`.  Because the code programs to an interface, you will be able to swap the implementation by changing a single line and adding an `import` statement.
 
-If you navigate into `src/com/allendowney/thinkdast`, you'll find the source code for this exercise:
+If you look in the two tabs to the left, you'll find the source code for this exercise:
+
 
 
 
@@ -17,7 +18,7 @@ Review `ListClientExample` and make sure you understand what it does. Then compi
 {Run!}(sh .guides/bg.sh javac code/ListClientExample.java java -cp code/ ListClientExample )
 
 
-Review `ListClientExampleTest`. It runs one test, which creates a `ListClientExample`, invokes `getList`, and then checks whether the result is an `ArrayList`. Initially, this test will fail because the result is a `LinkedList`, not an `ArrayList`. Run this test and confirm that it fails. {Check It!|assessment}(test-958272319)
+Review `ListClientExampleTest`. It runs one test, which creates a `ListClientExample`, invokes `getList`, and then checks whether the result is an `ArrayList`. Initially, this test will fail because the result is a `LinkedList`, not an `ArrayList`. Run this test and confirm that it fails. {Run Test|assessment}(test-958272319)
 
 
 NOTE: This test makes sense for this exercise, but it is not a good example of a test. Good tests should check whether the class under test satisfies the requirements of the *interface*; they should not depend on the details of the *implementation*.

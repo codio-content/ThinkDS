@@ -70,8 +70,9 @@ sections:
           position: 650
         - add:  |
              See the contrived example that demonstrates the point in the panel to the left.
-   
-          position: 671
+             [Open Visualizer](open_tutor code/ListClientExample.java panel=0)
+    
+          position: 674
     configuration:
       layout: 2-panels
       files:
@@ -83,21 +84,21 @@ sections:
   - name: Exercise 1
     type: section
     transformations:
-        - remove: 37
+        - remove: 39
           position: 728
         - add:  |
-             If you look in the two tabs to the left,
+             If you look in the two tabs to the left, you'll find the source code for this exercise:
   
-          position: 728
+          position: 767
         - remove: 18
-          position: 781
+          position: 780
         - add:  |
              Review `ListClientExample` and make sure you understand what it does. Then compile and run it by pressing the button below:
              {Run!}(sh .guides/bg.sh javac code/ListClientExample.java java -cp code/ ListClientExample )
   
           position: 800
         - add:  |
-             {Check It!|assessment}(test-958272319)
+             {Run Test|assessment}(test-958272319)
   
           position: 806
     configuration:
@@ -105,10 +106,10 @@ sections:
       files:
         - path: "#tabs"
           action: close
-        - path: "code/ListClientExample.java"
+        - path: "code/ListClientExampleTest.java"
           panel: 0
           action: open
-        - path: "code/ListClientExampleTest.java"
+        - path: "code/ListClientExample.java"
           panel: 0
           action: open
 # Chapter 2
@@ -126,8 +127,18 @@ sections:
           position: 935
         - add:  |
              For example, see the implementation of a simple algorithm called *selection sort** (see \url{http://thinkdast.com/selectsort}) in the panel to the left.
-   
+             
+             [Highlight swapElements](open_file code/SelectionSort.java panel=0 ref="public static void swapElements" count=5)
+ 
           position: 934
+        - add:  |
+             [Highlight indexLowest](open_file code/SelectionSort.java panel=0 ref="public static int indexLowest" count=9)
+ 
+          position: 988
+        - add:  |
+             [Highlight selectionSort](open_file code/SelectionSort.java panel=0 ref="public static void selectionSort" count=6)
+ 
+          position: 1008
     configuration:
       layout: 2-panels
       files:
@@ -155,24 +166,63 @@ sections:
         - remove: 4
           position: 1113
         - add:  |
-             {Run Test!}(sh .guides/bg.sh javac code/MyArrayListTest.java java -cp code/ MyArrayListTest )
+             {Run Test|assessment}(test-1977323988)
   
           position: 1124
+        - remove: 18
+          position: 1125
         - add:  |
-             {Run Test!}(sh .guides/bg.sh javac code/MyArrayListTest.java java -cp code/ MyArrayListTest )
+              Before you start filling in the missing methods, let's walk through
+              some of the code. Find the class definition, instance variables,
+              and constructor. [Highlight Code](open_file code/MyArrayList.java panel=0 ref="public class MyArrayList" count=14)
+   
+          position: 1144
+        - add:  |
+              [Highlight Code](open_file code/MyArrayList.java panel=0 ref="public boolean add(T element)" count=1)
+     
+          postion: 1170
+        - remove: 12
+          position: 1171
+        - add:  |
+              [Highlight Code](open_file code/MyArrayList.java panel=0 ref="public T get(int index)" count=6)
+    
+          position: 1205
+        - remove: 7
+          position: 1206
+        - remove: 8
+          position: 1223
+        - add:  |
+                In \java{MyArrayList.java}, you'll find a stub for \java{set}.
+                [Highlight Code](open_file code/MyArrayList.java panel=0 ref="public T set" count=4)
+ 
+          position: 1232
+        - add:  |
+                [Highlight Code](open_file code/MyArrayList.java panel=0 ref="public int indexOf" count=4)
+ 
+          position: 1246
+        - add:  |
+             {Run Test|assessment}(test-1977323988)
   
           position: 1262
+        - add:  |
+                [Highlight Code](open_file code/MyArrayList.java panel=0 ref="public void add" count=3)
+ 
+          position: 1267
+        - add:  |
+                [Highlight Code](open_file code/MyArrayList.java panel=0 ref="public T remove" count=4)
+ 
+          position: 1278
         - remove: 2
-          position: 2181
+          position: 1281
     configuration:
       layout: 2-panels
       files:
         - path: "#tabs"
           action: close
-        - path: "code/MyArrayList.java"
+        - path: "code/MyArrayListTest.java"
           panel: 0
           action: open
-        - path: "code/MyArrayListTest.java"
+        - path: "code/MyArrayList.java"
           panel: 0
           action: open
 # Chapter 3
