@@ -180,7 +180,7 @@ sections:
         - add:  |
               [Highlight Code](open_file code/MyArrayList.java panel=0 ref="public boolean add(T element)" count=1)
      
-          postion: 1170
+          position: 1170
         - remove: 12
           position: 1171
         - add:  |
@@ -371,7 +371,7 @@ sections:
    
           position: 1868
 # TODO: need to add assessment on line 1879
-       - add:  |
+        - add:  |
                [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="public void add" count=3)
    
           position: 1886
