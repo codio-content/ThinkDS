@@ -14,7 +14,7 @@ If you look in the two tabs to the left, you'll find the source files you need:
 When you run the tests, several of them should fail. If you examine the source code, you'll find four `TODO` comments indicating the methods you should fill in. {Run Test|assessment}(test-1977323988)
 
 
-\end{verbatim} Before you start filling in the missing methods, let's walk through
+Before you start filling in the missing methods, let's walk through
 some of the code. Find the class definition, instance variables,
 and constructor. [Highlight Code](open_file code/MyArrayList.java panel=0 ref="public class MyArrayList" count=14)
 
@@ -33,10 +33,9 @@ One detail about Java: you can't instantiate an array using a type parameter; fo
 
 To work around this limitation, you have to instantiate an array of `Object` and then typecast it. You can read more about this issue at [http://thinkdast.com/generics](http://thinkdast.com/generics).
 
-Next we'll look at the method that adds elements to the list: [Highlight Code](open_file code/MyArrayList.java panel=0 ref="public boolean add(T element)" count=1)
+Next we'll look at the method that adds elements to the list: [Highlight Code](open_file code/MyArrayList.java panel=0 ref="public boolean add" count=11)
 
 
-\end{verbatim}
 
 If there are no unused spaces in the array, we have to create a bigger array and copy over the elements. Then we can store the element in the array and increment `size`.
 
@@ -44,15 +43,14 @@ If there are no unused spaces in the array, we have to create a bigger array and
 It might not be obvious why this method returns a boolean, since it seems like it always returns `true`. As always, you can find the answer in the documentation: [http://thinkdast.com/colladd](http://thinkdast.com/colladd). It's also not obvious how to analyze the performance of this method. In the normal case, it's constant time, but if we have to resize the array, it's linear. I'll explain how to handle this in Section 3.2.
 
 
-Finally, let's look at `get`; then you can get started on the exercises. [Highlight Code](open_file code/MyArrayList.java panel=0 ref="public T get(int index)" count=6)
+Finally, let's look at `get`; then you can get started on the exercises. [Highlight Code](open_file code/MyArrayList.java panel=0 ref="public T get" count=6)
 
 
-\end{verbatim}
 
 Actually, `get` is pretty simple: if the index is out of bounds, it throws an exception; otherwise it reads and returns an element of the array. Notice that it checks whether the index is less than `size`, not `array.length`, so it's not possible to access the unused elements of the array.
 
 
-\end{verbatim} In \java{MyArrayList.java}, you'll find a stub for \java{set}.
+In `MyArrayList.java`, you'll find a stub for `set`.
 [Highlight Code](open_file code/MyArrayList.java panel=0 ref="public T set" count=4)
 
 
