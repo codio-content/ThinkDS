@@ -328,8 +328,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/arraylist-classifying-add.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyArrayList.java"
+        }
+      ],
       "id": "arraylist-classifying-add",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],

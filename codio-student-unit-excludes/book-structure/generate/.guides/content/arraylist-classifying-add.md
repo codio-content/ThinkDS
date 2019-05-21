@@ -17,6 +17,9 @@ Here's a version of `add` that takes an index and an element as parameters:
     }
 ```
 
+[Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public void add" count=14)
+
+
 This two-parameter version, called `add(int, E)`, uses the one-parameter version, called `add(E)`, which puts the new element at the end. Then it shifts the other elements to the right, and puts the new element in the correct place.
 
 
@@ -35,6 +38,9 @@ Before we can classify the two-parameter `add(int, E)`, we have to classify the 
         return true;
     }
 ```
+
+[Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public boolean add" count=11)
+
 
 The one-parameter version turns out to be hard to analyze. If there is an unused space in the array, it is constant time, but if we have to resize the array, it's linear because `System.arraycopy` takes time proportional to the size of the array. 
 

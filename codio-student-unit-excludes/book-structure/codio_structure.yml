@@ -265,14 +265,16 @@ sections:
         - path: "code/MyArrayList.java"
           panel: 0
           action: open
-  - name: Classifying \java{add}
+  - name: Classifying add
     type: section
     transformations:
         - add:  |
+
              [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public void add" count=14)
   
           position: 1436
         - add:  |
+
              [Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public boolean add" count=11)
   
           position: 1460
@@ -342,21 +344,24 @@ sections:
   - name: Exercise 3
     type: section
     transformations:
-        - remove: 1
+        - remove: 2
           position: 1731
-        - add: In the panes to the right, 
+        - add: In the panes to the right, you’ll find the source files you need for this exercise
           position: 1730
-# TODO: need to add assessment on line 1745
+        - add:  |
+              {Run Test|assessment}(test-187817179)
+    
+          position: 1745
         - remove: 4
           position: 1746
         - add:  |
-              Before you start, let's walk through some of the code. Find the instance variables and constructor for `MyLinkedList.java` in the top-left panel. [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="public class MyLinkedList" count=10)
+              Before you start, let's walk through some of the code. Find the instance variables and constructor for `MyLinkedList.java` in the top-left panel. [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="private int size" count=10)
  
           position: 1753
         - remove: 16
           position: 1754
         - add:  |
-              [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="private class Node" count=9)
+              [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="private class Node" count=8)
  
           position: 1808
         - remove: 11
@@ -368,10 +373,13 @@ sections:
         - remove: 14
           position: 1828
         - add:  |
-               [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="public public int indexOf" count=4)
+               [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="public int indexOf" count=4)
    
           position: 1868
-# TODO: need to add assessment on line 1879
+        - add:  |
+              {Run Test|assessment}(test-187817179)
+    
+          position: 1879
         - add:  |
                [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="public void add" count=3)
    
