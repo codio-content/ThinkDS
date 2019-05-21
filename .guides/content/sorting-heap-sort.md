@@ -7,35 +7,18 @@ Using a bounded heap, we can do much better! Here's how we will proceed:
 
 
 
-1. 
-I'll explain (unbounded) heap sort.
-
-1. 
-You'll implement it.
-
-1. 
-I'll explain bounded heap sort and analyze it.
-
+1.  I'll explain (unbounded) heap sort.
+1.  You'll implement it.
+1.  I'll explain bounded heap sort and analyze it. 
 
 
 To understand heap sort, you have to understand a heap, which is a data structure similar to a binary search tree (BST). Here are the differences:
 
 
 
-* 
-In a BST, every node, `x`, has the “BST property”: all nodes
-in the left subtree of `x` are less than `x` and all
-nodes in the right subtree are greater than `x`.
-
-* 
-In a heap, every node, `x`, has the “heap property”: all
-nodes in both subtrees of `x` are greater than `x`.
-
-* 
-Heaps are like balanced BSTs; when you add or remove elements, they
-do some extra work to rebalance the tree.  As a result, they can
-be implemented efficiently using an array of elements.
-
+*  In a BST, every node, `x`, has the “BST property”: all nodes in the left subtree of `x` are less than `x` and all nodes in the right subtree are greater than `x`.
+*  In a heap, every node, `x`, has the “heap property”: all nodes in both subtrees of `x` are greater than `x`.
+*  Heaps are like balanced BSTs; when you add or remove elements, they do some extra work to rebalance the tree.  As a result, they can be implemented efficiently using an array of elements. 
 
 The smallest element in a heap is always at the root, so we can find it in constant time. Adding and removing elements from a heap takes time proportional to the height of the tree $h$. And because the heap is always balanced, $h$ is proportional to $\log n$.  You can read more about heaps at [http://thinkdast.com/heap](http://thinkdast.com/heap).
 
@@ -44,27 +27,15 @@ The Java `PriorityQueue` is implemented using a heap. `PriorityQueue` provides t
 
 
 
-* 
-`offer`: Adds an element to the queue, updating the heap so
-that every node has the “heap property”. Takes $\log n$ time.
-
-* 
-`poll`: Removes the smallest element in the queue from the root
-and updates the heap. Takes $\log n$ time.
-
+*  `offer`: Adds an element to the queue, updating the heap so that every node has the “heap property”. Takes $\log n$ time.
+*  `poll`: Removes the smallest element in the queue from the root and updates the heap. Takes $\log n$ time. 
 
 Given a `PriorityQueue`, you can easily sort of a collection of $n$ elements like this:
 
 
 
-1. 
-Add all elements of the collection to a `PriorityQueue` using
-`offer`.
-
-1. 
-Remove the elements from the queue using `poll` and add them to
-a `List`.
-
+1.  Add all elements of the collection to a `PriorityQueue` using `offer`.
+1.  Remove the elements from the queue using `poll` and add them to a `List`. 
 
 Because `poll` returns the smallest element remaining in the queue, the elements are added to the `List` in ascending order. This way of sorting is called **heap sort** (see [http://thinkdast.com/heapsort](http://thinkdast.com/heapsort)).
 

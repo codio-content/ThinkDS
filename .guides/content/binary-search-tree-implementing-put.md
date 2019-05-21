@@ -53,16 +53,8 @@ The first parameter, `node`, is initially the root of the tree, but each time we
 
 
 
-* 
-If the left subtree is empty, that is, if `node.left` is
-`null`, we have reached the bottom of the tree without finding
-`key`. At this point, we know that `key` isn't in the
-tree, and we know where it should go. So we create a new node and add
-it as the left child of `node`.
-
-* 
-Otherwise we make a recursive call to search the left subtree.
-
+*  If the left subtree is empty, that is, if `node.left` is `null`, we have reached the bottom of the tree without finding `key`. At this point, we know that `key` isn't in the tree, and we know where it should go. So we create a new node and add it as the left child of `node`.
+*  Otherwise we make a recursive call to search the left subtree. 
 
 If `cmp > 0`, the key we're adding is greater than `node.key`, so we want to look in the right subtree. And we handle the same two cases as in the previous branch. Finally, if `cmp == 0`, we found the key in the tree, so we replace and return the old value.
 

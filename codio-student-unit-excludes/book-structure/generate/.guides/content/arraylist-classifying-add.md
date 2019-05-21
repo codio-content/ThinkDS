@@ -43,48 +43,22 @@ So is `add` constant time or linear? We can classify this method by thinking abo
 
 
 
-* 
-The first time we call add, it finds unused space in the array, so it
-stores 1 element.
-
-* 
-The second time, it finds unused space in the array, so it stores 1
-element.
-
-* 
-The third time, we have to resize the array, copy 2 elements, and
-store 1 element. Now the size of the array is 4.
-
-* 
-The fourth time stores 1 element.
-
-* 
-The fifth time resizes the array, copies 4 elements, and stores 1
-element. Now the size of the array is 8.
-
-* 
-The next 3 adds store 3 elements.
-
-* 
-The next add copies 8 and stores 1. Now the size is 16.
-
-* 
-The next 7 adds store 7 elements.
-
+*  The first time we call add, it finds unused space in the array, so it stores 1 element.
+*  The second time, it finds unused space in the array, so it stores 1 element.
+*  The third time, we have to resize the array, copy 2 elements, and store 1 element. Now the size of the array is 4.
+*  The fourth time stores 1 element.
+*  The fifth time resizes the array, copies 4 elements, and stores 1 element. Now the size of the array is 8.
+*  The next 3 adds store 3 elements.
+*  The next add copies 8 and stores 1. Now the size is 16.
+*  The next 7 adds store 7 elements. 
 
 And so on. Adding things up:
 
 
 
-* 
-After 4 adds, we've stored 4 elements and copied 2.
-
-* 
-After 8 adds, we've stored 8 elements and copied 6.
-
-* 
-After 16 adds, we've stored 16 elements and copied 14.
-
+*  After 4 adds, we've stored 4 elements and copied 2.
+*  After 8 adds, we've stored 8 elements and copied 6.
+*  After 16 adds, we've stored 16 elements and copied 14. 
 
 By now you should see the pattern: to do $n$ adds, we have to store $n$ elements and copy $n-2$. So the total number of operations is $n + n - 2$, which is $2n-2$.
 

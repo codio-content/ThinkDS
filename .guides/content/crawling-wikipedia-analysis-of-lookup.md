@@ -5,16 +5,9 @@ To look up a search term, we run `getCounts`, which
 
 
 
-1. 
-Creates a map.
-
-1. 
-Runs `getURLs` to get a Set of URLs.
-
-1. 
-For each URL in the Set, runs `getCount` and adds an entry
-to a `HashMap`.
-
+1.  Creates a map.
+1.  Runs `getURLs` to get a Set of URLs.
+1.  For each URL in the Set, runs `getCount` and adds an entry to a `HashMap`. 
 
 `getURLs` takes time proportional to the number of URLs that contain the search term. For rare terms, that might be a small number, but for common terms it might be as large as $N$.
 

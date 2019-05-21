@@ -2,12 +2,8 @@ In the repository for this book, you'll find the source files for this exercise:
 
 
 
-*  `MyLinearMap.java` contains starter code for the first part
-of the exercise.
-
-*  `MyLinearMapTest.java` contains the unit tests for
-`MyLinearMap`.
-
+*  `MyLinearMap.java` contains starter code for the first part of the exercise.
+*  `MyLinearMapTest.java` contains the unit tests for `MyLinearMap`. 
 
 You'll also find the Ant build file `build.xml`.
 

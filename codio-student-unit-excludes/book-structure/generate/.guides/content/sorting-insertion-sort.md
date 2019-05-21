@@ -61,17 +61,9 @@ If you are not sure about that, here's the argument:
 
 
 
-* 
-The first time through, $i=1$ and the inner loop runs at most
-once.
-
-* 
-The second time, $i=2$ and the inner loop runs at most twice.
-
-* 
-The last time, $i=n-1$ and the inner loop runs at most
-$n-1$ times.
-
+*  The first time through, $i=1$ and the inner loop runs at most once.
+*  The second time, $i=2$ and the inner loop runs at most twice.
+*  The last time, $i=n-1$ and the inner loop runs at most $n-1$ times. 
 
 So the total number of times the inner loop runs is the sum of the series $1, 2, \ldots , n-1$, which is $n (n-1) / 2$. And the leading term of that expression (the one with the highest exponent) is $n^2$.
 
@@ -80,16 +72,7 @@ In the worst case, insertion sort is quadratic. However:
 
 
 
-1. 
-If the elements are already sorted, or nearly so, insertion sort is
-linear. Specifically, if each element is no more than $k$
-locations away from where it should be, the inner loop never runs more
-than $k$ times, and the total runtime is $O(kn)$.
-
-1. 
-Because the implementation is simple, the overhead is low; that is,
-although the runtime is $a n^2$, the coefficient of the leading
-term, $a$, is probably small.
-
+1.  If the elements are already sorted, or nearly so, insertion sort is linear. Specifically, if each element is no more than $k$ locations away from where it should be, the inner loop never runs more than $k$ times, and the total runtime is $O(kn)$.
+1.  Because the implementation is simple, the overhead is low; that is, although the runtime is $a n^2$, the coefficient of the leading term, $a$, is probably small. 
 
 So if we know that the array is nearly sorted, or is not very big, insertion sort might be a good choice. But for large arrays, we can do better. In fact, much better.

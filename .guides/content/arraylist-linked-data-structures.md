@@ -3,7 +3,7 @@ For the next exercise I provide a partial implementation of the `List` interface
 
 A data structure is “linked” if it is made up of objects, often called “nodes”, that contain references to other nodes. In a linked *list*, each node contains a reference to the next node in the list. Other linked structures include trees and graphs, in which nodes can contain references to more than one other node.
 
-\end{verbatim} See the ListNode.java file in the top-left pane for a class definition for a simple node.
+See the ListNode.java file in the top-left pane for a class definition for a simple node.
 
 
 The `ListNode` object has two instance variables: `data` is a reference to some kind of `Object`, and `next` is a reference to the next node in the list. In the last node in the list, by convention, `next` is `null`. [Highlight in Code](open_file code/ListNode.java panel=0 ref="public Object data" count=2)

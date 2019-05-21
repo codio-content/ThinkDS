@@ -32,28 +32,9 @@ Here's how `containsValueHelper` works:
 
 
 
-* 
-The first `if` statement checks the base case of the recursion.
-If `node` is `null`, that means we have recursed to the
-bottom of the tree without finding the `target`, so we should
-return `false`. Note that this only means that the target did
-not appear on one path through the tree; it is still possible that it
-will be found on another.
-
-* 
-The second case checks whether we've found what we're looking for. If
-so, we return `true`. Otherwise, we have to keep going.
-
-* 
-The third case makes a recursive call to search for `target` in
-the left subtree. If we find it, we can return `true`
-immediately, without searching the right subtree. Otherwise, we keep
-going.
-
-* 
-The fourth case searches the right subtree. Again, if we find what we
-are looking for, we return `true`. Otherwise, having searched
-the whole tree, we return `false`.
-
+*  The first `if` statement checks the base case of the recursion. If `node` is `null`, that means we have recursed to the bottom of the tree without finding the `target`, so we should return `false`. Note that this only means that the target did not appear on one path through the tree; it is still possible that it will be found on another.
+*  The second case checks whether we've found what we're looking for. If so, we return `true`. Otherwise, we have to keep going.
+*  The third case makes a recursive call to search for `target` in the left subtree. If we find it, we can return `true` immediately, without searching the right subtree. Otherwise, we keep going.
+*  The fourth case searches the right subtree. Again, if we find what we are looking for, we return `true`. Otherwise, having searched the whole tree, we return `false`. 
 
 This method “visits” every node in the tree, so it takes time proportional to the number of nodes.

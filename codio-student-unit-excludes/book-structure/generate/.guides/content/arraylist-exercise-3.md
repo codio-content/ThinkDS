@@ -5,12 +5,8 @@ you'll find the source files you need for this exercise:
 
 
 
-*  `MyLinkedList.java` contains a partial implementation of
-the `List` interface using a linked list to store the elements.
-
-*  `MyLinkedListTest.java` contains JUnit tests for
-`MyLinkedList`.
-
+*  `MyLinkedList.java` contains a partial implementation of the `List` interface using a linked list to store the elements.
+*  `MyLinkedListTest.java` contains JUnit tests for `MyLinkedList`. 
 
 Several of them should fail. If you examine the source code, you'll find three `TODO` comments indicating the methods you should fill in. Before you start, let's walk through some of the code. Find the instance variables and constructor for `MyLinkedList.java` in the top-left panel. [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="public class MyLinkedList" count=10)
 
@@ -48,18 +44,8 @@ This example demonstrates two patterns you'll need for your solutions:
 
 
 
-1. 
-For many methods, we have to handle the first element of the list as a
-special case. In this example, if we are adding the first element of a
-list, we have to modify `head`. Otherwise, we traverse the
-list, find the end, and add the new node.
-
-1. 
-This method shows how to use a `for` loop to traverse the nodes
-in a list. In your solutions, you will probably write several
-variations on this loop. Notice that we have to declare `node`
-before the loop so we can access it after the loop.
-
+1.  For many methods, we have to handle the first element of the list as a special case. In this example, if we are adding the first element of a list, we have to modify `head`. Otherwise, we traverse the list, find the end, and add the new node.
+1.  This method shows how to use a `for` loop to traverse the nodes in a list. In your solutions, you will probably write several variations on this loop. Notice that we have to declare `node` before the loop so we can access it after the loop. 
 
 Now it's your turn.  Fill in the body of `indexOf`.  As usual, you should read the documentation, at [http://thinkdast.com/listindof](http://thinkdast.com/listindof), so you know what it is supposed to do. In particular, notice how it's supposed to handle `null`. [Highlight Code](open_file code/MyLinkedList.java panel=1 ref="public public int indexOf" count=4)
 

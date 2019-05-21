@@ -8,22 +8,9 @@ GitHub is a hosting service that provides storage for Git repositories and a con
 
 
 
-*  You can create a copy of the repository on GitHub by pressing
-the **Fork** button.  If you don't already have a GitHub account,
-you'll need to create one.  After forking, you'll have your own
-repository on GitHub that you can use to keep track of code you
-write.  Then you can “clone” the repository, which downloads a
-copy of the files to your computer.
-
-
-*  Alternatively, you could clone the repository without forking.
-If you choose this option, you don't need a GitHub account, but you
-won't be able to save your changes on GitHub.
-
-*  If you don't want to use Git at all, you can download the code
-in a ZIP archive using the **Download** button on the GitHub
-page, or this link: [http://thinkdast.com/zip](http://thinkdast.com/zip).
-
+*  You can create a copy of the repository on GitHub by pressing the **Fork** button.  If you don't already have a GitHub account, you'll need to create one.  After forking, you'll have your own repository on GitHub that you can use to keep track of code you write.  Then you can “clone” the repository, which downloads a copy of the files to your computer.
+*  Alternatively, you could clone the repository without forking. If you choose this option, you don't need a GitHub account, but you won't be able to save your changes on GitHub.
+*  If you don't want to use Git at all, you can download the code in a ZIP archive using the **Download** button on the GitHub page, or this link: [http://thinkdast.com/zip](http://thinkdast.com/zip). 
 
 After you clone the repository or unzip the ZIP file, you should have a directory called `ThinkDataStructures` with a subdirectory called `code`.
 

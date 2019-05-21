@@ -7,21 +7,9 @@ Now run `ant JedisIndexTest`. It should fail, because you have some work to do!
 
 
 
-* 
-`JedisIndex`, which is the constructor that takes a
-`Jedis` object as a parameter.
-
-* 
-`indexPage`, which adds a Web page to the index; it takes a
-`String` URL and a jsoup `Elements` object that contains the
-elements of the page that should be indexed.
-
-* 
-`getCounts`, which takes a search term and returns a
-`Map<String, Integer>` that maps from
-each URL that contains the search term to the number of times it
-appears on that page.
-
+*  `JedisIndex`, which is the constructor that takes a `Jedis` object as a parameter.
+*  `indexPage`, which adds a Web page to the index; it takes a `String` URL and a jsoup `Elements` object that contains the elements of the page that should be indexed.
+*  `getCounts`, which takes a search term and returns a `Map<String, Integer>` that maps from each URL that contains the search term to the number of times it appears on that page. 
 
 Here's an example of how these methods are used:
 
@@ -46,20 +34,8 @@ One suggestion for translating data structures from Java to Redis: remember that
 
 
 
-* 
-We define a `URLSet` to be a Redis \redis{set} that contains
-the URLs that contain a given search term. The key for each
-`URLSet` starts with `"URLSet:"`, so to get the URLs
-that contain the word “the”, we access the \redis{set} with the key
-`"URLSet:the"`.
-
-* 
-We define a `TermCounter` to be a Redis \redis{hash} that maps
-from each term that appears on a page to the number of times it
-appears. The key for each `TermCounter` starts with
-`"TermCounter:"` and ends with the URL of the page we're
-looking up.
-
+*  We define a `URLSet` to be a Redis \redis{set} that contains the URLs that contain a given search term. The key for each `URLSet` starts with `"URLSet:"`, so to get the URLs that contain the word “the”, we access the \redis{set} with the key `"URLSet:the"`.
+*  We define a `TermCounter` to be a Redis \redis{hash} that maps from each term that appears on a page to the number of times it appears. The key for each `TermCounter` starts with `"TermCounter:"` and ends with the URL of the page we're looking up. 
 
 
 In my implementation,  there is one `URLSet` for each term and one `TermCounter` for each indexed page. I provide two helper methods, `urlSetKey` and `termCounterKey`, to assemble these keys.

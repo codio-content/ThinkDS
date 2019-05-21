@@ -2,14 +2,8 @@ There are two possible solutions to this problem:
 
 
 
-* 
-You could avoid adding keys to the `Map` in order. But this is
-not always possible.
-
-* 
-You could make a tree that does a better job of handling keys if they
-happen to be in order.
-
+*  You could avoid adding keys to the `Map` in order. But this is not always possible.
+*  You could make a tree that does a better job of handling keys if they happen to be in order. 
 
 The second solution is better, and there are several ways to do it. The most common is to modify `put` so that it detects when the tree is starting to become unbalanced and, if so, rearranges the nodes. Trees with this capability are called “self-balancing”. Common self-balancing trees include the AVL tree (“AVL” are the initials of the inventors), and the red-black tree, which is what the Java `TreeMap` uses.
 

@@ -13,15 +13,9 @@ The second method, `indexLowest`, finds the index of the smallest element of the
 
 
 
-1.  If `start` is 0, `indexLowest` traverses the entire
-array, and the total number of comparisons is the length of
-the array, which I'll call $n$.
-
+1.  If `start` is 0, `indexLowest` traverses the entire array, and the total number of comparisons is the length of the array, which I'll call $n$.
 1.  If `start` is 1, the number of comparisons is $n-1$.
-
-1.  In general, the number of comparisons is $n$ - `start`, so
-`indexLowest` is linear.
-
+1.  In general, the number of comparisons is $n$ - `start`, so `indexLowest` is linear. 
 [Highlight selectionSort](open_file code/SelectionSort.java panel=0 ref="public static void selectionSort" count=6)
 
 

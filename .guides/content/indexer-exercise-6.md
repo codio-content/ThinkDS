@@ -2,21 +2,11 @@ In the repository for this book, you'll find the source files for this exercise:
 
 
 
-*  `TermCounter.java` contains the code from the previous
-section.
-
-*  `TermCounterTest.java` contains test code for
-`TermCounter.java`.
-
-*  `Index.java` contains the class definition for the next
-part of this exercise.
-
-*  `WikiFetcher.java` contains the class we used in the
-previous exercise to download and parse Web pages.
-
-*  `WikiNodeIterable.java` contains the class we used to
-traverse the nodes in a DOM tree.
-
+*  `TermCounter.java` contains the code from the previous section.
+*  `TermCounterTest.java` contains test code for `TermCounter.java`.
+*  `Index.java` contains the class definition for the next part of this exercise.
+*  `WikiFetcher.java` contains the class we used in the previous exercise to download and parse Web pages.
+*  `WikiNodeIterable.java` contains the class we used to traverse the nodes in a DOM tree. 
 
 You'll also find the Ant build file `build.xml`.
 

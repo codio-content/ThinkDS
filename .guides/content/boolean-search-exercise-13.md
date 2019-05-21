@@ -2,18 +2,9 @@ In the repository for this book you'll find the source files for this exercise:
 
 
 
-* 
-`WikiSearch.java`, which defines an object that contains search
-results and performs operations on them.
-
-* 
-`WikiSearchTest.java`, which contains test code for
-`WikiSearch`.
-
-* 
-`Card.java`, which demonstrates how to use the `sort`
-method in `java.util.Collections`.
-
+*  `WikiSearch.java`, which defines an object that contains search results and performs operations on them.
+*  `WikiSearchTest.java`, which contains test code for `WikiSearch`.
+*  `Card.java`, which demonstrates how to use the `sort` method in `java.util.Collections`. 
 
 You will also find some of the helper classes we've used in previous exercises.
 
@@ -44,16 +35,8 @@ You'll have the option to implement TF-IDF later, but we'll start with something
 
 
 
-* 
-If a query contains a single search term, the relevance of a page is
-its term frequency; that is, the number of time the term appears on
-the page.
-
-* 
-For queries with multiple terms, the relevance of a page is the sum of
-the term frequencies; that is, the total number of times any of the
-search terms appear.
-
+*  If a query contains a single search term, the relevance of a page is its term frequency; that is, the number of time the term appears on the page.
+*  For queries with multiple terms, the relevance of a page is the sum of the term frequencies; that is, the total number of times any of the search terms appear. 
 
 Now you're ready to start the exercise. Run `ant build` to compile the source files, then run `ant WikiSearchTest`. As usual, it should fail, because you have work to do.
 
@@ -68,15 +51,9 @@ Run `ant JedisMaker` to make sure it is configured to connect to your Redis serv
 
 
 
-* 
-“java”
-
-* 
-“programming”
-
-* 
-“java AND programming”
-
+*  “java”
+*  “programming”
+*  “java AND programming” 
 
 Initially the results will be in no particular order, because `WikiSearch.sort` is incomplete.
 
@@ -87,16 +64,8 @@ There are two versions of `sort`:
 
 
 
-* 
-The one-parameter version takes a list and sorts the elements using
-the `compareTo` method, so the elements have to be
-`Comparable`.
-
-* 
-The two-parameter version takes a list of any object type and a
-`Comparator`, which is an object that provides a
-`compare` method that compares elements.
-
+*  The one-parameter version takes a list and sorts the elements using the `compareTo` method, so the elements have to be `Comparable`.
+*  The two-parameter version takes a list of any object type and a `Comparator`, which is an object that provides a `compare` method that compares elements. 
 
 
 If you are not familiar with the `Comparable` and `Comparator` interfaces, I explain them in the next section.

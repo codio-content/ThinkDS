@@ -31,16 +31,8 @@ private Node findNode(Object target) {
 
 
 
-* 
-In this implementation, `null` is not a legal value for a key.
-
-* 
-Before we can invoke `compareTo` on `target`, we have to
-typecast it to some kind of `Comparable`. The “type wildcard”
-used here is as permissive as possible; that is, it works with any
-type that implements `Comparable` and whose `compareTo`
-method accepts `K` or any supertype of `K`.
-
+*  In this implementation, `null` is not a legal value for a key.
+*  Before we can invoke `compareTo` on `target`, we have to typecast it to some kind of `Comparable`. The “type wildcard” used here is as permissive as possible; that is, it works with any type that implements `Comparable` and whose `compareTo` method accepts `K` or any supertype of `K`. 
 
 
 After all that, the actual search is relatively simple. We initialize a loop variable `node` so it refers to the root node. Each time through the loop, we compare the target to `node.key`. If the target is less than the current key, we move to the left child. If it's greater, we move to the right child. And if it's equal, we return the current node.

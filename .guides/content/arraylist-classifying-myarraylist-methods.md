@@ -8,7 +8,7 @@ For many methods, we can identify the order of growth by examining the code. For
         return array[index];
     }
 ```
-[Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public E get" count=6)
+[Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public T get" count=6)
 
 
 Everything in `get` is constant time, so `get` is constant time. No problem.
@@ -23,7 +23,7 @@ Now that we've classified `get`, we can classify `set`, which uses it. Here is o
         return old;
     }
 ```
-[Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public E set" count=5)
+[Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public T set" count=5)
 
 
 One slightly clever part of this solution is that it does not check the bounds of the array explicitly; it takes advantage of `get`, which raises an exception if the index is invalid.
@@ -81,7 +81,7 @@ The analysis of `remove` is similar. Here's my implementation:
         return element;
     }
 ```
-[Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public E remove" count=8)
+[Highlight in Code](open_file code/MyArrayList.java panel=0 ref="public T remove" count=8)
 
 
 It uses `get`, which is constant time, and then loops through the array, starting from `index`. If we remove the element at the end of the list, the loop never runs and this method is constant time. If we remove the first element, we loop through all of the remaining elements, which is linear. So, again, this method is considered linear (except in the special case where we know the element is at the end or a constant distance from the end).

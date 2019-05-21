@@ -71,7 +71,7 @@ public class MyArrayList<T> implements List<T> {
 
 	@Override
 	public boolean addAll(int index, Collection<? extends T> collection) {
-		throw new UnsupportedOperationTxception();
+		throw new UnsupportedOperationException();
 	}
 
 	@Override
@@ -99,7 +99,7 @@ public class MyArrayList<T> implements List<T> {
 	@Override
 	public T get(int index) {
 		if (index < 0 || index >= size) {
-			throw new IndexOutOfBoundsTxception();
+			throw new IndexOutOfBoundsException();
 		}
 		return array[index];
 	}
@@ -126,7 +126,7 @@ public class MyArrayList<T> implements List<T> {
 	}
 
 	@Override
-	public boolean isTmpty() {
+	public boolean isEmpty() {
 		return size == 0;
 	}
 
@@ -192,7 +192,7 @@ public class MyArrayList<T> implements List<T> {
 
 	@Override
 	public boolean retainAll(Collection<?> collection) {
-		throw new UnsupportedOperationTxception();
+		throw new UnsupportedOperationException();
 	}
 
 	@Override
@@ -209,7 +209,7 @@ public class MyArrayList<T> implements List<T> {
 	@Override
 	public List<T> subList(int fromIndex, int toIndex) {
 		if (fromIndex < 0 || toIndex >= size || fromIndex > toIndex) {
-			throw new IndexOutOfBoundsTxception();
+			throw new IndexOutOfBoundsException();
 		}
 		T[] copy = Arrays.copyOfRange(array, fromIndex, toIndex);
 		return Arrays.asList(copy);
@@ -222,6 +222,6 @@ public class MyArrayList<T> implements List<T> {
 
 	@Override
 	public <U> U[] toArray(U[] array) {
-		throw new UnsupportedOperationTxception();
+		throw new UnsupportedOperationException();
 	}
 }

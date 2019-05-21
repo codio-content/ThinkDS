@@ -75,26 +75,9 @@ In addition, `TermCounter` provides these other methods to help with indexing We
 
 
 
-* 
-`processElements` takes an `Elements` object, which is a
-collection of jsoup `Element` objects. It iterates through the
-collection and calls `processTree` on each.
-
-* 
-`processTree` takes a jsoup `Node` that represents the
-root of a DOM tree. It iterates through the tree to find the nodes
-that contain text; then it extracts the text and passes it to
-`processText`.
-
-* 
-`processText` takes a `String` that contains words, spaces,
-punctuation, etc. It removes punctuation characters by replacing
-them with spaces, converts the remaining letters to lowercase, then
-splits the text into words. Then it loops through the words it found
-and calls `incrementTermCount` on each.  The `replaceAll`
-and `split` methods take **regular expressions** as parameters;
-you can read more about them at [http://thinkdast.com/regex](http://thinkdast.com/regex).
-
+*  `processElements` takes an `Elements` object, which is a collection of jsoup `Element` objects. It iterates through the collection and calls `processTree` on each.
+*  `processTree` takes a jsoup `Node` that represents the root of a DOM tree. It iterates through the tree to find the nodes that contain text; then it extracts the text and passes it to `processText`.
+*  `processText` takes a `String` that contains words, spaces, punctuation, etc. It removes punctuation characters by replacing them with spaces, converts the remaining letters to lowercase, then splits the text into words. Then it loops through the words it found and calls `incrementTermCount` on each.  The `replaceAll` and `split` methods take **regular expressions** as parameters; you can read more about them at [http://thinkdast.com/regex](http://thinkdast.com/regex). 
 
 
 Finally, here's an example that demonstrates how `TermCounter` is used:

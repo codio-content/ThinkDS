@@ -2,17 +2,8 @@ In the repository for this book you'll find the source files you need for this e
 
 
 
-1. 
-`Profiler.java` contains the implementation of the
-`Profiler` class described above. You will use this class, but
-you don't have to know how it works. But feel free to read the source.
-
-1. 
-`ProfileListAdd.java` contains starter code for this exercise,
-including the example, above, which profiles
-`ArrayList.add`. You will modify this file to profile a few
-other methods.
-
+1.  `Profiler.java` contains the implementation of the `Profiler` class described above. You will use this class, but you don't have to know how it works. But feel free to read the source.
+1.  `ProfileListAdd.java` contains starter code for this exercise, including the example, above, which profiles `ArrayList.add`. You will modify this file to profile a few other methods. 
 
 
 Also, in the `code` directory , you'll find the Ant build file `build.xml`.

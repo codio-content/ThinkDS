@@ -4,13 +4,8 @@ Before you start this book, you should know Java pretty well; in particular, you
 
 
 
-*  Downey and Mayfield, *Think Java* (O'Reilly Media, 2016),
-which is intended for people who have never programmed before.
-
-*  Sierra and Bates, *Head First Java* (O'Reilly Media, 2005),
-which is appropriate for people who already know another programming
-language.
-
+*  Downey and Mayfield, *Think Java* (O'Reilly Media, 2016), which is intended for people who have never programmed before.
+*  Sierra and Bates, *Head First Java* (O'Reilly Media, 2005), which is appropriate for people who already know another programming language. 
 
 If you are not familiar with interfaces in Java, you might want to work through the tutorial called “What Is an Interface?” at [http://thinkdast.com/interface](http://thinkdast.com/interface).
 

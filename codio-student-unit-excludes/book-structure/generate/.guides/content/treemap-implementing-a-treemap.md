@@ -2,14 +2,8 @@ In the repository for this book, you'll find these source files:
 
 
 
-* 
-`MyTreeMap.java` contains the code from the previous section
-with outlines for the missing methods.
-
-* 
-`MyTreeMapTest.java` contains the unit tests for
-`MyTreeMap`.
-
+*  `MyTreeMap.java` contains the code from the previous section with outlines for the missing methods.
+*  `MyTreeMapTest.java` contains the unit tests for `MyTreeMap`. 
 
 Run `ant build` to compile the source files. Then run `ant   MyTreeMapTest`.  Several tests should fail, because you have some work to do!
 
@@ -77,14 +71,8 @@ Fill in `putHelper` so it searches the tree and:
 
 
 
-1. 
-If `key` is already in the tree, it replaces the old value with
-the new, and returns the old value.
-
-1. 
-If `key` is not in the tree, it creates a new node, finds the
-right place to add it, and returns `null`.
-
+1.  If `key` is already in the tree, it replaces the old value with the new, and returns the old value.
+1.  If `key` is not in the tree, it creates a new node, finds the right place to add it, and returns `null`. 
 
 Your implementation of `put` should take time proportional to the height of the tree, $h$, not the number of elements, $n$. Ideally you should search the tree only once, but if you find it easier to search twice, you can do that; it will be slower, but it doesn't change the order of growth.
 

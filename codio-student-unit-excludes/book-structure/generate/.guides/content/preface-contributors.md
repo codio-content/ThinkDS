@@ -3,23 +3,10 @@ This book is an adapted version of a curriculum I wrote for the Flatiron School 
 
 
 
-*  At the Flatiron School, Joe Burgess, Ann John, and Charles
-Pletcher provided guidance, suggestions, and corrections from the
-initial specification all the way through implementation and
-testing.  Thank you all!
-
-*  I am very grateful to my technical reviewers, Barry Whitman,
-Patrick White, and Chris Mayfield, who made many helpful suggestions
-and caught many errors.  Of course, any remaining errors are my
-fault, not theirs!
-
-*  Thanks to the instructors and students in Data Structures and
-Algorithms at Olin College, who read this book and provided useful
-feedback.
-
-*  Charles Roumeliotis copyedited the book for O'Reilly Media
-and made many improvements.
-
+*  At the Flatiron School, Joe Burgess, Ann John, and Charles Pletcher provided guidance, suggestions, and corrections from the initial specification all the way through implementation and testing.  Thank you all!
+*  I am very grateful to my technical reviewers, Barry Whitman, Patrick White, and Chris Mayfield, who made many helpful suggestions and caught many errors.  Of course, any remaining errors are my fault, not theirs!
+*  Thanks to the instructors and students in Data Structures and Algorithms at Olin College, who read this book and provided useful feedback.
+*  Charles Roumeliotis copyedited the book for O'Reilly Media and made many improvements. 
 
 
 

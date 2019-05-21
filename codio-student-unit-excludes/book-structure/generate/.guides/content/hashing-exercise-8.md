@@ -2,38 +2,14 @@ In this exercise, you will finish off the implementation of `MyBetterMap`.  In t
 
 
 
-* 
-`MyLinearMap.java` contains our solution to the previous exercise,
-which we will build on in this exercise.
-
-* 
-`MyBetterMap.java` contains the code from the previous chapter
-with some methods you will fill in.
-
-* 
-`MyHashMap.java` contains the outline of a hash table that
-grows when needed, which you will complete.
-
-* 
-`MyLinearMapTest.java` contains the unit tests for
-`MyLinearMap`.
-
-* 
-`MyBetterMapTest.java` contains the unit tests for
-`MyBetterMap`.
-
-* 
-`MyHashMapTest.java` contains the unit tests for
-`MyHashMap`.
-
-* 
-`Profiler.java` contains code for measuring and plotting
-runtime versus problem size.
-
-* 
-`ProfileMapPut.java` contains code that profiles the
-`Map.put` method.
-
+*  `MyLinearMap.java` contains our solution to the previous exercise, which we will build on in this exercise.
+*  `MyBetterMap.java` contains the code from the previous chapter with some methods you will fill in.
+*  `MyHashMap.java` contains the outline of a hash table that grows when needed, which you will complete.
+*  `MyLinearMapTest.java` contains the unit tests for `MyLinearMap`.
+*  `MyBetterMapTest.java` contains the unit tests for `MyBetterMap`.
+*  `MyHashMapTest.java` contains the unit tests for `MyHashMap`.
+*  `Profiler.java` contains code for measuring and plotting runtime versus problem size.
+*  `ProfileMapPut.java` contains code that profiles the `Map.put` method. 
 
 As usual, you should run `ant build` to compile the source files. Then run `ant MyBetterMapTest`. Several tests should fail, because you have some work to do!
 

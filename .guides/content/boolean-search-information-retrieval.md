@@ -2,19 +2,10 @@ The next phase of this project is to implement a search tool. The pieces we'll n
 
 
 
-1. 
-An interface where users can provide search terms and view results.
-
-1. 
-A lookup mechanism that takes each search term and returns the pages
-that contain it.
-
-1. 
-Mechanisms for combining search results from multiple search terms.
-
-1. 
-Algorithms for ranking and sorting search results.
-
+1.  An interface where users can provide search terms and view results.
+1.  A lookup mechanism that takes each search term and returns the pages that contain it.
+1.  Mechanisms for combining search results from multiple search terms.
+1.  Algorithms for ranking and sorting search results. 
 
 The general term for processes like this is “information retrieval”, which you can read more about at  [http://thinkdast.com/infret](http://thinkdast.com/infret).
 

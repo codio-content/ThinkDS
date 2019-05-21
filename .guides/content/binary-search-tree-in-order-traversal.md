@@ -27,15 +27,9 @@ If `node` is `null`, that means the subtree is empty, so we return without addin
 
 
 
-1. 
-Traverse the left subtree in order.
-
-1. 
-Add `node.key`.
-
-1. 
-Traverse the right subtree in order.
-
+1.  Traverse the left subtree in order.
+1.  Add `node.key`.
+1.  Traverse the right subtree in order. 
 
 Remember that the BST property guarantees that all nodes in the left subtree are less than `node.key`, and all nodes in the right subtree are greater. So we know that `node.key` has been added in the correct order.
 

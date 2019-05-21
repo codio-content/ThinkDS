@@ -10,20 +10,9 @@ To see how this works, imagine you have a stack of index cards where each card c
 
 
 
-1. 
-Make one pass through the cards and divide them into buckets based on
-the first letter. So words starting with `a` should be
-in one bucket, followed by words starting with `b`, and so on.
-
-1. 
-Divide each bucket again based on the second letter. So words starting
-with `aa` should be together, followed by words starting with
-`ab`, and so on. Of course, not all buckets will be full, but
-that's OK.
-
-1. 
-Divide each bucket again based on the third letter.
-
+1.  Make one pass through the cards and divide them into buckets based on the first letter. So words starting with `a` should be in one bucket, followed by words starting with `b`, and so on.
+1.  Divide each bucket again based on the second letter. So words starting with `aa` should be together, followed by words starting with `ab`, and so on. Of course, not all buckets will be full, but that's OK.
+1.  Divide each bucket again based on the third letter. 
 
 At this point each bucket contains one element, and the buckets are sorted in ascending order. Figure 17.3 shows an example with three-letter words.
 

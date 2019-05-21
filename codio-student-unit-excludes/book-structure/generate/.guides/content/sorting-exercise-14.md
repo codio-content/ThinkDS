@@ -5,12 +5,8 @@ In the repository for this book, you'll find the source files for this exercise:
 
 
 
-* 
-`ListSorter.java`
-
-* 
-`ListSorterTest.java`
-
+*  `ListSorter.java`
+*  `ListSorterTest.java` 
 
 Run `ant build` to compile the source files, then run `ant ListSorterTest`. As usual, it should fail, because you have work to do.
 
@@ -37,16 +33,9 @@ Your job is to fill in `mergeSort`. Before you write a fully recursive version o
 
 
 
-1. 
-Split the list in half.
-
-1. 
-Sort the halves using `Collections.sort` or
-`insertionSort`.
-
-1. 
-Merge the sorted halves into a complete sorted list.
-
+1.  Split the list in half.
+1.  Sort the halves using `Collections.sort` or `insertionSort`.
+1.  Merge the sorted halves into a complete sorted list. 
 
 This will give you a chance to debug the merge code without dealing with the complexity of a recursive method.
 

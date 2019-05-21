@@ -20,14 +20,8 @@ The implementation of `WikiNodeIterable` follows a conventional formula:
 
 
 
-1. 
-The constructor takes and stores a reference to the root
-`Node`.
-
-1. 
-The `iterator` method creates a returns an `Iterator`
-object.
-
+1.  The constructor takes and stores a reference to the root `Node`.
+1.  The `iterator` method creates a returns an `Iterator` object. 
 
 Here's what it looks like:
 
@@ -86,18 +80,8 @@ This code is almost identical to the iterative version of DFS, but now it's spli
 
 
 
-1. 
-The constructor initializes the stack (which is implemented using an
-`ArrayDeque`) and pushes the root node onto it.
-
-1. 
-`isEmpty` checks whether the stack is empty.
-
-1. 
-`next` pops the next `Node` off the stack, pushes its
-children in reverse order, and returns the `Node` it popped. If
-someone invokes `next` on an empty `Iterator`, it throws
-an exception.
-
+1.  The constructor initializes the stack (which is implemented using an `ArrayDeque`) and pushes the root node onto it.
+1.  `isEmpty` checks whether the stack is empty.
+1.  `next` pops the next `Node` off the stack, pushes its children in reverse order, and returns the `Node` it popped. If someone invokes `next` on an empty `Iterator`, it throws an exception. 
 
 It might not be obvious that it is worthwhile to rewrite a perfectly good method with two classes and five methods.  But now that we've done it, we can use `WikiNodeIterable` anywhere an `Iterable` is called for, which makes it easy and syntactically clean to separate the logic of the iteration (DFS) from whatever processing we are doing on the nodes.

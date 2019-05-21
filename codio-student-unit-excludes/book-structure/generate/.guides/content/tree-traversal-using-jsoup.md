@@ -19,26 +19,8 @@ jsoup makes it easy to download and parse web pages, and to navigate the DOM tre
 
 
 
-* 
-`getElementById` takes a `String` and searches the tree for an
-element that has a matching “id” field. Here it selects the node
-`<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">`,
-which appears on every Wikipedia page to identify the
-`<div>` element that contains the main
-text of the page, as opposed to the navigation sidebar and other
-elements.
-
-The return value from `getElementById` is an `Element`
-object that represents this `<div>` and
-contains the elements in the `<div>` as
-children, grandchildren, etc.
-
-* 
-`select` takes a `String`, traverses the tree, and returns all
-the elements with tags that match the `String`. In this example, it
-returns all paragraph tags that appear in `content`. The return
-value is an `Elements` object.
-
+*  `getElementById` takes a `String` and searches the tree for an element that has a matching “id” field. Here it selects the node `<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">`, which appears on every Wikipedia page to identify the `<div>` element that contains the main text of the page, as opposed to the navigation sidebar and other elements. The return value from `getElementById` is an `Element` object that represents this `<div>` and contains the elements in the `<div>` as children, grandchildren, etc.
+*  `select` takes a `String`, traverses the tree, and returns all the elements with tags that match the `String`. In this example, it returns all paragraph tags that appear in `content`. The return value is an `Elements` object. 
 
 
 Before you go on, you should skim the documentation of these classes so you know what they can do. The most important classes are `Element`, `Elements`, and `Node`, which you can read  about at  [http://thinkdast.com/jsoupelt](http://thinkdast.com/jsoupelt), [http://thinkdast.com/jsoupelts](http://thinkdast.com/jsoupelts), and [http://thinkdast.com/jsoupnode](http://thinkdast.com/jsoupnode).

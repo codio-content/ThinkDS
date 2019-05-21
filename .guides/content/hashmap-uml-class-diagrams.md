@@ -2,19 +2,10 @@ One challenge of working with the code in this chapter is that we have several c
 
 
 
-* 
-`MyLinearMap` contains a `LinkedList` and implements
-`Map`.
-* 
-`MyBetterMap` contains many `MyLinearMap` objects and
-implements `Map`.
-* 
-`MyHashMap` extends `MyBetterMap`, so it also contains
-`MyLinearMap` objects, and it implements `Map`.
-* 
-`MyFixedHashMap` extends `MyHashMap` and
-implements `Map`.
-
+*  `MyLinearMap` contains a `LinkedList` and implements `Map`.
+*  `MyBetterMap` contains many `MyLinearMap` objects and implements `Map`.
+*  `MyHashMap` extends `MyBetterMap`, so it also contains `MyLinearMap` objects, and it implements `Map`.
+*  `MyFixedHashMap` extends `MyHashMap` and implements `Map`. 
 
 To help keep track of relationships like these, software engineers often use **UML class diagrams**. UML stands for Unified Modeling Language (see [http://thinkdast.com/uml](http://thinkdast.com/uml)). A “class diagram” is one of several graphical standards defined by UML.
 
@@ -29,20 +20,8 @@ Different relationships are represented by different arrows:
 
 
 
-* 
-Arrows with a solid head indicate HAS-A relationships. For example,
-each instance of `MyBetterMap` contains multiple instances of
-`MyLinearMap`, so they are connected by a solid arrow.
-
-* 
-Arrows with a hollow head and a solid line indicate IS-A
-relationships. For example, `MyHashMap` extends
-`MyBetterMap`, so they are connected by an IS-A arrow.
-
-* 
-Arrows with a hollow head and a dashed line indicate that a class
-implements an interface; in this diagram, every class implements
-`Map`.
-
+*  Arrows with a solid head indicate HAS-A relationships. For example, each instance of `MyBetterMap` contains multiple instances of `MyLinearMap`, so they are connected by a solid arrow.
+*  Arrows with a hollow head and a solid line indicate IS-A relationships. For example, `MyHashMap` extends `MyBetterMap`, so they are connected by an IS-A arrow.
+*  Arrows with a hollow head and a dashed line indicate that a class implements an interface; in this diagram, every class implements `Map`. 
 
 UML class diagrams provide a concise way to represent a lot of information about a collection of classes. They are used during design phases to communicate about alternative designs, during implementation phases to maintain a shared mental map of the project, and during deployment to document the design.

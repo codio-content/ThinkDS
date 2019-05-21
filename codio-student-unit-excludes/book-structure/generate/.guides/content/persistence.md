@@ -2,18 +2,9 @@ In the next few exercises we will get back to building a web search engine. To r
 
 
 
-* 
-Crawling: We'll need a program that can download a web page, parse it,
-and extract the text and any links to other pages.
-
-* 
-Indexing: We'll need an index that makes it possible to look up a
-search term and find the pages that contain it.
-
-* 
-Retrieval: And we'll need a way to collect results from the index and
-identify pages that are most relevant to the search terms.
-
+*  Crawling: We'll need a program that can download a web page, parse it, and extract the text and any links to other pages.
+*  Indexing: We'll need an index that makes it possible to look up a search term and find the pages that contain it.
+*  Retrieval: And we'll need a way to collect results from the index and identify pages that are most relevant to the search terms. 
 
 
 If you did Exercise 8.3, you implemented an index using Java maps. In this exercise, we'll revisit the indexer and make a new version that stores the results in a database.

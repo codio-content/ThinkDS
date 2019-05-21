@@ -13,11 +13,7 @@ This `interface` definition uses a type parameter, `T`, which makes `Comparable`
 
 
 *  Specify the type `T` refers to, and
-
-*  Provide a method
-named `compareTo` that takes an object as a parameter and returns
-an `int`.
-
+*  Provide a method named `compareTo` that takes an object as a parameter and returns an `int`. 
 
 
 For example, here's the source code for `java.lang.Integer`:

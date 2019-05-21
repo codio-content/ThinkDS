@@ -1,2160 +1,2155 @@
 {
- "sections": [
-  {
-   "id": "preface",
-   "title": "Preface",
-   "files": [
+  "allowGuideClose": false,
+  "collapsedOnStart": false,
+  "hideBackToDashboard": false,
+  "hideMenu": false,
+  "hideSectionsToggle": false,
+  "lexikonTopic": "",
+  "protectLayout": false,
+  "scripts": [],
+  "sections": [
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/preface.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "preface-the-philosophy-behind-the-book",
-   "title": "The philosophy behind the book",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/preface-the-philosophy-behind-the-book.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "preface-prerequisites",
-   "title": "Prerequisites",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/preface-prerequisites.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "preface-working-with-the-code",
-   "title": "Working with the code",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/preface-working-with-the-code.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "preface-contributors",
-   "title": "Contributors",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/preface-contributors.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "interfaces",
-   "title": "Interfaces",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/interfaces.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "interfaces-why-are-there-two-kinds-of-list-",
-   "title": "Why are there two kinds of List?",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/interfaces-why-are-there-two-kinds-of-list-.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "interfaces-interfaces-in-java",
-   "title": "Interfaces in Java",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/interfaces-interfaces-in-java.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "interfaces-the-list-interface",
-   "title": "The List interface",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": true,
+      "content-file": ".guides/content/preface.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "preface",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Preface",
+      "type": "markdown"
     },
     {
-     "path": "code/ListClientExample.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/preface-the-philosophy-behind-the-book.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "preface-the-philosophy-behind-the-book",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "The philosophy behind the book",
+      "type": "markdown"
     },
     {
-     "path": "#tutor: code/ListClientExample.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/interfaces-the-list-interface.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "interfaces-exercise-1",
-   "title": "Exercise 1",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/preface-prerequisites.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "preface-prerequisites",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Prerequisites",
+      "type": "markdown"
     },
     {
-     "path": "code/ListClientExample.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/preface-working-with-the-code.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "preface-working-with-the-code",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Working with the code",
+      "type": "markdown"
     },
     {
-     "path": "code/ListClientExampleTest.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/interfaces-exercise-1.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "analysis-of-algorithms",
-   "title": "Analysis of Algorithms",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/analysis-of-algorithms.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "analysis-of-algorithms-selection-sort",
-   "title": "Selection sort",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/preface-contributors.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "preface-contributors",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Contributors",
+      "type": "markdown"
     },
     {
-     "path": "code/SelectionSort.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/analysis-of-algorithms-selection-sort.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "analysis-of-algorithms-big-o-notation",
-   "title": "Big O notation",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/analysis-of-algorithms-big-o-notation.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "analysis-of-algorithms-exercise-2",
-   "title": "Exercise 2",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": true,
+      "content-file": ".guides/content/interfaces.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "interfaces",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Interfaces",
+      "type": "markdown"
     },
     {
-     "path": "code/MyArrayList.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/interfaces-why-are-there-two-kinds-of-list-.md",
+      "files": [],
+      "id": "interfaces-why-are-there-two-kinds-of-list-",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Why are there two kinds of List?",
+      "type": "markdown"
     },
     {
-     "path": "code/MyArrayListTest.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/analysis-of-algorithms-exercise-2.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "arraylist",
-   "title": "ArrayList",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/arraylist.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "arraylist-classifying-myarraylist-methods",
-   "title": "Classifying MyArrayList methods",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/interfaces-interfaces-in-java.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "interfaces-interfaces-in-java",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Interfaces in Java",
+      "type": "markdown"
     },
     {
-     "path": "code/MyArrayList.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/arraylist-classifying-myarraylist-methods.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "arraylist-classifying-add",
-   "title": "Classifying add",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/arraylist-classifying-add.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "arraylist-problem-size",
-   "title": "Problem Size",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/interfaces-the-list-interface.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ListClientExample.java"
+        }
+      ],
+      "id": "interfaces-the-list-interface",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "The List interface",
+      "type": "markdown"
     },
     {
-     "path": "code/MyArrayList.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/arraylist-problem-size.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "arraylist-linked-data-structures",
-   "title": "Linked Data Structures",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/interfaces-exercise-1.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ListClientExampleTest.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ListClientExample.java"
+        }
+      ],
+      "id": "interfaces-exercise-1",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 1",
+      "type": "markdown"
     },
     {
-     "path": "code/ListNode.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": true,
+      "content-file": ".guides/content/analysis-of-algorithms.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "analysis-of-algorithms",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Analysis of Algorithms",
+      "type": "markdown"
     },
     {
-     "path": "code/LinkedListExample.java",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/arraylist-linked-data-structures.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "arraylist-exercise-3",
-   "title": "Exercise 3",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/analysis-of-algorithms-selection-sort.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/SelectionSort.java"
+        }
+      ],
+      "id": "analysis-of-algorithms-selection-sort",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Selection sort",
+      "type": "markdown"
     },
     {
-     "path": "code/MyLinkedList.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/analysis-of-algorithms-big-o-notation.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "analysis-of-algorithms-big-o-notation",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Big O notation",
+      "type": "markdown"
     },
     {
-     "path": "code/MyLinkedListTest.java",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell-left",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/arraylist-exercise-3.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "arraylist-a-note-on-garbage-collection",
-   "title": "A note on garbage collection",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/arraylist-a-note-on-garbage-collection.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "linkedlist",
-   "title": "LinkedList",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/linkedlist.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "linkedlist-classifying-mylinkedlist-methods",
-   "title": "Classifying MyLinkedList methods",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/linkedlist-classifying-mylinkedlist-methods.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "linkedlist-comparing-myarraylist-and-mylinkedlist",
-   "title": "Comparing MyArrayList and MyLinkedList",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/linkedlist-comparing-myarraylist-and-mylinkedlist.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "linkedlist-profiling",
-   "title": "Profiling",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/analysis-of-algorithms-exercise-2.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyArrayListTest.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyArrayList.java"
+        }
+      ],
+      "id": "analysis-of-algorithms-exercise-2",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 2",
+      "type": "markdown"
     },
     {
-     "path": "code/Profiler.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": true,
+      "content-file": ".guides/content/arraylist.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "arraylist",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "ArrayList",
+      "type": "markdown"
     },
     {
-     "path": "code/ProfileListAdd.java",
-     "panel": 1,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/arraylist-classifying-myarraylist-methods.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyArrayList.java"
+        }
+      ],
+      "id": "arraylist-classifying-myarraylist-methods",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Classifying MyArrayList methods",
+      "type": "markdown"
     },
     {
-     "path": "#preview: https://{{domain3000}}/",
-     "panel": 3,
-     "action": "open"
-    }
-   ],
-   "layout": "4-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/linkedlist-profiling.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "linkedlist-interpreting-results",
-   "title": "Interpreting results",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/linkedlist-interpreting-results.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "linkedlist-exercise-4",
-   "title": "Exercise 4",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/arraylist-classifying-add.md",
+      "files": [],
+      "id": "arraylist-classifying-add",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Classifying add",
+      "type": "markdown"
     },
     {
-     "path": "code/Profiler.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/arraylist-problem-size.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyArrayList.java"
+        }
+      ],
+      "id": "arraylist-problem-size",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Problem Size",
+      "type": "markdown"
     },
     {
-     "path": "code/ProfileListAdd.java",
-     "panel": 1,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/arraylist-linked-data-structures.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ListNode.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/LinkedListExample.java"
+        }
+      ],
+      "id": "arraylist-linked-data-structures",
+      "layout": "3-cell",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Linked Data Structures",
+      "type": "markdown"
     },
     {
-     "path": "#preview: https://{{domain3000}}/",
-     "panel": 3,
-     "action": "open"
-    }
-   ],
-   "layout": "4-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/linkedlist-exercise-4.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "doubly-linked-list",
-   "title": "Doubly-linked list",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/doubly-linked-list.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "doubly-linked-list-performance-profiling-results",
-   "title": "Performance profiling results",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/arraylist-exercise-3.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/MyLinkedList.java"
+        },
+        {
+          "action": "open",
+          "panel": 2,
+          "path": "code/MyLinkedListTest.java"
+        }
+      ],
+      "id": "arraylist-exercise-3",
+      "layout": "3-cell-left",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 3",
+      "type": "markdown"
     },
     {
-     "path": "code/ProfileListAdd.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/doubly-linked-list-performance-profiling-results.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "doubly-linked-list-profiling-linkedlist-methods",
-   "title": "Profiling LinkedList methods",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/doubly-linked-list-profiling-linkedlist-methods.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "doubly-linked-list-adding-to-the-end-of-a-linkedlist",
-   "title": "Adding to the end of a LinkedList",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/doubly-linked-list-adding-to-the-end-of-a-linkedlist.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "doubly-linked-list-doubly-linked-list",
-   "title": "Doubly-linked list",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/doubly-linked-list-doubly-linked-list.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "doubly-linked-list-choosing-a-structure",
-   "title": "Choosing a Structure",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/doubly-linked-list-choosing-a-structure.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "tree-traversal",
-   "title": "Tree traversal",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/tree-traversal.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "tree-traversal-search-engines",
-   "title": "Search engines",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/tree-traversal-search-engines.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "tree-traversal-parsing-html",
-   "title": "Parsing HTML",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/tree-traversal-parsing-html.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "tree-traversal-using-jsoup",
-   "title": "Using jsoup",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/tree-traversal-using-jsoup.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "tree-traversal-iterating-through-the-dom",
-   "title": "Iterating through the DOM",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/arraylist-a-note-on-garbage-collection.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "arraylist-a-note-on-garbage-collection",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "A note on garbage collection",
+      "type": "markdown"
     },
     {
-     "path": "code/WikiNodeIterable.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/tree-traversal-iterating-through-the-dom.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "tree-traversal-depth-first-search",
-   "title": "Depth-first search",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": true,
+      "content-file": ".guides/content/linkedlist.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "linkedlist",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "LinkedList",
+      "type": "markdown"
     },
     {
-     "path": "#preview: https://en.wikipedia.org/wiki/Tree_traversal",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/linkedlist-classifying-mylinkedlist-methods.md",
+      "files": [],
+      "id": "linkedlist-classifying-mylinkedlist-methods",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Classifying MyLinkedList methods",
+      "type": "markdown"
     },
     {
-     "path": "#preview: https://en.wikipedia.org/wiki/Call_stack",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/tree-traversal-depth-first-search.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "tree-traversal-stacks-in-java",
-   "title": "Stacks in Java",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/linkedlist-comparing-myarraylist-and-mylinkedlist.md",
+      "files": [],
+      "id": "linkedlist-comparing-myarraylist-and-mylinkedlist",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Comparing MyArrayList and MyLinkedList",
+      "type": "markdown"
     },
     {
-     "path": "#preview: https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels-guides-left",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/tree-traversal-stacks-in-java.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "tree-traversal-iterative-dfs",
-   "title": "Iterative DFS",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/linkedlist-profiling.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Profiler.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/ProfileListAdd.java"
+        },
+        {
+          "action": "open",
+          "panel": 3,
+          "path": "#preview: https://{{domain3000}}/"
+        }
+      ],
+      "id": "linkedlist-profiling",
+      "layout": "4-cell",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Profiling",
+      "type": "markdown"
     },
     {
-     "path": "code/WikiNodeExample.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/linkedlist-interpreting-results.md",
+      "files": [],
+      "id": "linkedlist-interpreting-results",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Interpreting results",
+      "type": "markdown"
     },
     {
-     "path": "#tutor: code/WikiNodeExample.java",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/tree-traversal-iterative-dfs.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "getting-to-philosophy",
-   "title": "Getting to Philosophy",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/getting-to-philosophy.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "getting-to-philosophy-getting-started",
-   "title": "Getting started",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/linkedlist-exercise-4.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Profiler.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "code/ProfileListAdd.java"
+        },
+        {
+          "action": "open",
+          "panel": 3,
+          "path": "#preview: https://{{domain3000}}/"
+        }
+      ],
+      "id": "linkedlist-exercise-4",
+      "layout": "4-cell",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 4",
+      "type": "markdown"
     },
     {
-     "path": "code/WikiNodeExample.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": true,
+      "content-file": ".guides/content/doubly-linked-list.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "doubly-linked-list",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Doubly-linked list",
+      "type": "markdown"
     },
     {
-     "path": "code/WikiNodeIterable.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/doubly-linked-list-performance-profiling-results.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ProfileListAdd.java"
+        }
+      ],
+      "id": "doubly-linked-list-performance-profiling-results",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Performance profiling results",
+      "type": "markdown"
     },
     {
-     "path": "code/WikiFetcher.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/doubly-linked-list-profiling-linkedlist-methods.md",
+      "files": [],
+      "id": "doubly-linked-list-profiling-linkedlist-methods",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Profiling LinkedList methods",
+      "type": "markdown"
     },
     {
-     "path": "code/WikiPhilosophy.java",
-     "panel": 2,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/doubly-linked-list-adding-to-the-end-of-a-linkedlist.md",
+      "files": [],
+      "id": "doubly-linked-list-adding-to-the-end-of-a-linkedlist",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Adding to the end of a LinkedList",
+      "type": "markdown"
     },
     {
-     "path": "#terminal: ",
-     "panel": 3,
-     "action": "open"
-    }
-   ],
-   "layout": "4-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/getting-to-philosophy-getting-started.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "getting-to-philosophy-iterables-and-iterators",
-   "title": "Iterables and Iterators",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/doubly-linked-list-doubly-linked-list.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "doubly-linked-list-doubly-linked-list",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Doubly-linked list",
+      "type": "markdown"
     },
     {
-     "path": "code/WikiNodeIterable.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/getting-to-philosophy-iterables-and-iterators.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "getting-to-philosophy-wikifetcher",
-   "title": "WikiFetcher",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/getting-to-philosophy-wikifetcher.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "getting-to-philosophy-exercise-5",
-   "title": "Exercise 5",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/doubly-linked-list-choosing-a-structure.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "doubly-linked-list-choosing-a-structure",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Choosing a Structure",
+      "type": "markdown"
     },
     {
-     "path": "code/WikiPhilosophy.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": true,
+      "content-file": ".guides/content/tree-traversal.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "tree-traversal",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Tree traversal",
+      "type": "markdown"
     },
     {
-     "path": "#terminal: ",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell-tree",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/getting-to-philosophy-exercise-5.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "indexer",
-   "title": "Indexer",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/indexer.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "indexer-data-structure-selection",
-   "title": "Data structure selection",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/indexer-data-structure-selection.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "indexer-termcounter",
-   "title": "TermCounter",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/tree-traversal-search-engines.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "tree-traversal-search-engines",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Search engines",
+      "type": "markdown"
     },
     {
-     "path": "code/TermCounter.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/indexer-termcounter.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "indexer-exercise-6",
-   "title": "Exercise 6",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/tree-traversal-parsing-html.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "tree-traversal-parsing-html",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Parsing HTML",
+      "type": "markdown"
     },
     {
-     "path": "code/WikiNodeIterable.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/tree-traversal-using-jsoup.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "tree-traversal-using-jsoup",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Using jsoup",
+      "type": "markdown"
     },
     {
-     "path": "code/WikiFetcher.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/tree-traversal-iterating-through-the-dom.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/WikiNodeIterable.java"
+        }
+      ],
+      "id": "tree-traversal-iterating-through-the-dom",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Iterating through the DOM",
+      "type": "markdown"
     },
     {
-     "path": "code/Index.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/tree-traversal-depth-first-search.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "#preview: https://en.wikipedia.org/wiki/Tree_traversal"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://en.wikipedia.org/wiki/Call_stack"
+        }
+      ],
+      "id": "tree-traversal-depth-first-search",
+      "layout": "3-cell",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Depth-first search",
+      "type": "markdown"
     },
     {
-     "path": "code/TermCounterTest.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/tree-traversal-stacks-in-java.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html"
+        }
+      ],
+      "id": "tree-traversal-stacks-in-java",
+      "layout": "2-panels-guides-left",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Stacks in Java",
+      "type": "markdown"
     },
     {
-     "path": "code/TermCounter.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/tree-traversal-iterative-dfs.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/WikiNodeExample.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#tutor: code/WikiNodeExample.java"
+        }
+      ],
+      "id": "tree-traversal-iterative-dfs",
+      "layout": "3-cell",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Iterative DFS",
+      "type": "markdown"
     },
     {
-     "path": "#terminal: ",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell-tree",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/indexer-exercise-6.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "the-map-interface",
-   "title": "The Map interface",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/the-map-interface.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "the-map-interface-implementing-mylinearmap",
-   "title": "Implementing MyLinearMap",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/the-map-interface-implementing-mylinearmap.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "the-map-interface-exercise-7",
-   "title": "Exercise 7",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": true,
+      "content-file": ".guides/content/getting-to-philosophy.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "getting-to-philosophy",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Getting to Philosophy",
+      "type": "markdown"
     },
     {
-     "path": "code/MyLinearMap.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/getting-to-philosophy-getting-started.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/WikiNodeExample.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/WikiNodeIterable.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/WikiFetcher.java"
+        },
+        {
+          "action": "open",
+          "panel": 2,
+          "path": "code/WikiPhilosophy.java"
+        },
+        {
+          "action": "open",
+          "panel": 3,
+          "path": "#terminal: "
+        }
+      ],
+      "id": "getting-to-philosophy-getting-started",
+      "layout": "4-cell",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Getting started",
+      "type": "markdown"
     },
     {
-     "path": "code/MyLinearMapTest.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/the-map-interface-exercise-7.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "the-map-interface-analyzing-mylinearmap",
-   "title": "Analyzing MyLinearMap",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/the-map-interface-analyzing-mylinearmap.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "hashing",
-   "title": "Hashing",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/hashing.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "hashing-hashing",
-   "title": "Hashing",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/getting-to-philosophy-iterables-and-iterators.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/WikiNodeIterable.java"
+        }
+      ],
+      "id": "getting-to-philosophy-iterables-and-iterators",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Iterables and Iterators",
+      "type": "markdown"
     },
     {
-     "path": "code/MyBetterMap.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/hashing-hashing.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "hashing-how-does-hashing-work-",
-   "title": "How does hashing work?",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/getting-to-philosophy-wikifetcher.md",
+      "files": [],
+      "id": "getting-to-philosophy-wikifetcher",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "WikiFetcher",
+      "type": "markdown"
     },
     {
-     "path": "code/SillyString.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/hashing-how-does-hashing-work-.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "hashing-hashing-and-mutation",
-   "title": "Hashing and mutation",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/getting-to-philosophy-exercise-5.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/WikiPhilosophy.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
+      "id": "getting-to-philosophy-exercise-5",
+      "layout": "3-cell-tree",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 5",
+      "type": "markdown"
     },
     {
-     "path": "code/SillyArray.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/hashing-hashing-and-mutation.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "hashing-exercise-8",
-   "title": "Exercise 8",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": true,
+      "content-file": ".guides/content/indexer.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "indexer",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Indexer",
+      "type": "markdown"
     },
     {
-     "path": "code/MyBetterMap.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/indexer-data-structure-selection.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "indexer-data-structure-selection",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Data structure selection",
+      "type": "markdown"
     },
     {
-     "path": "#terminal: ",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell-tree",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/hashing-exercise-8.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "hashmap",
-   "title": "HashMap",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/hashmap.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "hashmap-exercise-9",
-   "title": "Exercise 9",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/indexer-termcounter.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/TermCounter.java"
+        }
+      ],
+      "id": "indexer-termcounter",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "TermCounter",
+      "type": "markdown"
     },
     {
-     "path": "code/MyHashMap.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/indexer-exercise-6.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/WikiNodeIterable.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/WikiFetcher.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Index.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/TermCounterTest.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/TermCounter.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
+      "id": "indexer-exercise-6",
+      "layout": "3-cell-tree",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 6",
+      "type": "markdown"
     },
     {
-     "path": "#terminal: ",
-     "panel": 1,
-     "action": "open"
-    }
-   ],
-   "layout": "3-cell",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/hashmap-exercise-9.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "hashmap-analyzing-myhashmap",
-   "title": "Analyzing MyHashMap",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/hashmap-analyzing-myhashmap.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "hashmap-the-tradeoffs",
-   "title": "The tradeoffs",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/hashmap-the-tradeoffs.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "hashmap-profiling-myhashmap",
-   "title": "Profiling MyHashMap",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/hashmap-profiling-myhashmap.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "hashmap-fixing-myhashmap",
-   "title": "Fixing MyHashMap",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/hashmap-fixing-myhashmap.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "hashmap-uml-class-diagrams",
-   "title": "UML class diagrams",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/hashmap-uml-class-diagrams.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "treemap",
-   "title": "TreeMap",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/treemap.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "treemap-what-s-wrong-with-hashing-",
-   "title": "What's wrong with hashing?",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/treemap-what-s-wrong-with-hashing-.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "treemap-binary-search-tree",
-   "title": "Binary search tree",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/treemap-binary-search-tree.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "treemap-exercise-10",
-   "title": "Exercise 10",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": true,
+      "content-file": ".guides/content/the-map-interface.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "the-map-interface",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "The Map interface",
+      "type": "markdown"
     },
     {
-     "path": "code/MyTreeMap.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/treemap-exercise-10.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "treemap-implementing-a-treemap",
-   "title": "Implementing a TreeMap",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/the-map-interface-implementing-mylinearmap.md",
+      "files": [],
+      "id": "the-map-interface-implementing-mylinearmap",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Implementing MyLinearMap",
+      "type": "markdown"
     },
     {
-     "path": "code/MyTreeMap.java",
-     "panel": 0,
-     "action": "open"
+      "chapter": false,
+      "content-file": ".guides/content/the-map-interface-exercise-7.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyLinearMap.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyLinearMapTest.java"
+        }
+      ],
+      "id": "the-map-interface-exercise-7",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 7",
+      "type": "markdown"
     },
     {
-     "path": "code/MyTreeMapTest.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/treemap-implementing-a-treemap.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "binary-search-tree",
-   "title": "Binary search tree",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/binary-search-tree.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "binary-search-tree-a-simple-mytreemap",
-   "title": "A simple MyTreeMap",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/binary-search-tree-a-simple-mytreemap.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "binary-search-tree-searching-for-values",
-   "title": "Searching for values",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/the-map-interface-analyzing-mylinearmap.md",
+      "files": [],
+      "id": "the-map-interface-analyzing-mylinearmap",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Analyzing MyLinearMap",
+      "type": "markdown"
     },
     {
-     "path": "code/MyTreeMap.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/binary-search-tree-searching-for-values.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "binary-search-tree-implementing-put",
-   "title": "Implementing put",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/binary-search-tree-implementing-put.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "binary-search-tree-in-order-traversal",
-   "title": "In-order traversal",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": true,
+      "content-file": ".guides/content/hashing.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "hashing",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Hashing",
+      "type": "markdown"
     },
     {
-     "path": "code/MyTreeMap.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/binary-search-tree-in-order-traversal.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "binary-search-tree-the-logarithmic-methods",
-   "title": "The logarithmic methods",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/hashing-hashing.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyBetterMap.java"
+        }
+      ],
+      "id": "hashing-hashing",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Hashing",
+      "type": "markdown"
     },
     {
-     "path": "code/MyTreeMap.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/binary-search-tree-the-logarithmic-methods.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "binary-search-tree-self-balancing-trees",
-   "title": "Self-balancing trees",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/hashing-how-does-hashing-work-.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/SillyString.java"
+        }
+      ],
+      "id": "hashing-how-does-hashing-work-",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "How does hashing work?",
+      "type": "markdown"
     },
     {
-     "path": "code/MyTreeMap.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/binary-search-tree-self-balancing-trees.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "binary-search-tree-one-more-exercise",
-   "title": "One more exercise",
-   "files": [
-    {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": false,
+      "content-file": ".guides/content/hashing-hashing-and-mutation.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/SillyArray.java"
+        }
+      ],
+      "id": "hashing-hashing-and-mutation",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Hashing and mutation",
+      "type": "markdown"
     },
     {
-     "path": "code/MyTreeMap.java",
-     "panel": 0,
-     "action": "open"
-    }
-   ],
-   "layout": "2-panels",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/binary-search-tree-one-more-exercise.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "persistence",
-   "title": "Persistence",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/hashing-exercise-8.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyBetterMap.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
+      "id": "hashing-exercise-8",
+      "layout": "3-cell-tree",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 8",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/persistence.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "persistence-redis",
-   "title": "Redis",
-   "files": [
+      "chapter": true,
+      "content-file": ".guides/content/hashmap.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "hashmap",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "HashMap",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/persistence-redis.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "persistence-redis-clients-and-servers",
-   "title": "Redis clients and servers",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/hashmap-exercise-9.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyHashMap.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#terminal: "
+        }
+      ],
+      "id": "hashmap-exercise-9",
+      "layout": "3-cell",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 9",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/persistence-redis-clients-and-servers.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "persistence-making-a-redis-backed-index",
-   "title": "Making a Redis-backed index",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/hashmap-analyzing-myhashmap.md",
+      "files": [],
+      "id": "hashmap-analyzing-myhashmap",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Analyzing MyHashMap",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/persistence-making-a-redis-backed-index.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "persistence-redis-data-types",
-   "title": "Redis data types",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/hashmap-the-tradeoffs.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "hashmap-the-tradeoffs",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "The tradeoffs",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/persistence-redis-data-types.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "persistence-exercise-11",
-   "title": "Exercise 11",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/hashmap-profiling-myhashmap.md",
+      "files": [],
+      "id": "hashmap-profiling-myhashmap",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Profiling MyHashMap",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/persistence-exercise-11.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "persistence-more-suggestions-if-you-want-them",
-   "title": "More suggestions if you want them",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/hashmap-fixing-myhashmap.md",
+      "files": [],
+      "id": "hashmap-fixing-myhashmap",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Fixing MyHashMap",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/persistence-more-suggestions-if-you-want-them.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "persistence-a-few-design-hints",
-   "title": "A few design hints",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/hashmap-uml-class-diagrams.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "hashmap-uml-class-diagrams",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "UML class diagrams",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/persistence-a-few-design-hints.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "crawling-wikipedia",
-   "title": "Crawling Wikipedia",
-   "files": [
+      "chapter": true,
+      "content-file": ".guides/content/treemap.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "treemap",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "TreeMap",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/crawling-wikipedia.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "crawling-wikipedia-the-redis-backed-indexer",
-   "title": "The Redis-backed indexer",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/treemap-what-s-wrong-with-hashing-.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "treemap-what-s-wrong-with-hashing-",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "What's wrong with hashing?",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/crawling-wikipedia-the-redis-backed-indexer.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "crawling-wikipedia-analysis-of-lookup",
-   "title": "Analysis of lookup",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/treemap-binary-search-tree.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "treemap-binary-search-tree",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Binary search tree",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/crawling-wikipedia-analysis-of-lookup.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "crawling-wikipedia-analysis-of-indexing",
-   "title": "Analysis of indexing",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/treemap-exercise-10.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyTreeMap.java"
+        }
+      ],
+      "id": "treemap-exercise-10",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 10",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/crawling-wikipedia-analysis-of-indexing.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "crawling-wikipedia-graph-traversal",
-   "title": "Graph traversal",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/treemap-implementing-a-treemap.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyTreeMap.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyTreeMapTest.java"
+        }
+      ],
+      "id": "treemap-implementing-a-treemap",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Implementing a TreeMap",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/crawling-wikipedia-graph-traversal.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "crawling-wikipedia-exercise-12",
-   "title": "Exercise 12",
-   "files": [
+      "chapter": true,
+      "content-file": ".guides/content/binary-search-tree.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "binary-search-tree",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Binary search tree",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/crawling-wikipedia-exercise-12.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "boolean-search",
-   "title": "Boolean search",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/binary-search-tree-a-simple-mytreemap.md",
+      "files": [],
+      "id": "binary-search-tree-a-simple-mytreemap",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "A simple MyTreeMap",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/boolean-search.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "boolean-search-crawler-solution",
-   "title": "Crawler solution",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/binary-search-tree-searching-for-values.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyTreeMap.java"
+        }
+      ],
+      "id": "binary-search-tree-searching-for-values",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Searching for values",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/boolean-search-crawler-solution.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "boolean-search-information-retrieval",
-   "title": "Information retrieval",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/binary-search-tree-implementing-put.md",
+      "files": [],
+      "id": "binary-search-tree-implementing-put",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Implementing put",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/boolean-search-information-retrieval.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "boolean-search-boolean-search",
-   "title": "Boolean search",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/binary-search-tree-in-order-traversal.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyTreeMap.java"
+        }
+      ],
+      "id": "binary-search-tree-in-order-traversal",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "In-order traversal",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/boolean-search-boolean-search.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "boolean-search-exercise-13",
-   "title": "Exercise 13",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/binary-search-tree-the-logarithmic-methods.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyTreeMap.java"
+        }
+      ],
+      "id": "binary-search-tree-the-logarithmic-methods",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "The logarithmic methods",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/boolean-search-exercise-13.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "boolean-search-comparable-and-comparator",
-   "title": "Comparable and Comparator",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/binary-search-tree-self-balancing-trees.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyTreeMap.java"
+        }
+      ],
+      "id": "binary-search-tree-self-balancing-trees",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Self-balancing trees",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/boolean-search-comparable-and-comparator.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "boolean-search-extensions",
-   "title": "Extensions",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/binary-search-tree-one-more-exercise.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyTreeMap.java"
+        }
+      ],
+      "id": "binary-search-tree-one-more-exercise",
+      "layout": "2-panels",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "One more exercise",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/boolean-search-extensions.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "sorting",
-   "title": "Sorting",
-   "files": [
+      "chapter": true,
+      "content-file": ".guides/content/persistence.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "persistence",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Persistence",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/sorting.md",
-   "chapter": true,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "sorting-insertion-sort",
-   "title": "Insertion sort",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/persistence-redis.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "persistence-redis",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Redis",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/sorting-insertion-sort.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "sorting-exercise-14",
-   "title": "Exercise 14",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/persistence-redis-clients-and-servers.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "persistence-redis-clients-and-servers",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Redis clients and servers",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/sorting-exercise-14.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "sorting-analysis-of-merge-sort",
-   "title": "Analysis of merge sort",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/persistence-making-a-redis-backed-index.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "persistence-making-a-redis-backed-index",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Making a Redis-backed index",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/sorting-analysis-of-merge-sort.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "sorting-radix-sort",
-   "title": "Radix sort",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/persistence-redis-data-types.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "persistence-redis-data-types",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Redis data types",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/sorting-radix-sort.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "sorting-heap-sort",
-   "title": "Heap sort",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/persistence-exercise-11.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "persistence-exercise-11",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 11",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/sorting-heap-sort.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "sorting-bounded-heap",
-   "title": "Bounded heap",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/persistence-more-suggestions-if-you-want-them.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "persistence-more-suggestions-if-you-want-them",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "More suggestions if you want them",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
-    }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/sorting-bounded-heap.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  },
-  {
-   "id": "sorting-space-complexity",
-   "title": "Space complexity",
-   "files": [
+      "chapter": false,
+      "content-file": ".guides/content/persistence-a-few-design-hints.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "persistence-a-few-design-hints",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "A few design hints",
+      "type": "markdown"
+    },
     {
-     "path": "#tabs",
-     "action": "close"
+      "chapter": true,
+      "content-file": ".guides/content/crawling-wikipedia.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "crawling-wikipedia",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Crawling Wikipedia",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/crawling-wikipedia-the-redis-backed-indexer.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "crawling-wikipedia-the-redis-backed-indexer",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "The Redis-backed indexer",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/crawling-wikipedia-analysis-of-lookup.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "crawling-wikipedia-analysis-of-lookup",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Analysis of lookup",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/crawling-wikipedia-analysis-of-indexing.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "crawling-wikipedia-analysis-of-indexing",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Analysis of indexing",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/crawling-wikipedia-graph-traversal.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "crawling-wikipedia-graph-traversal",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Graph traversal",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/crawling-wikipedia-exercise-12.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "crawling-wikipedia-exercise-12",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 12",
+      "type": "markdown"
+    },
+    {
+      "chapter": true,
+      "content-file": ".guides/content/boolean-search.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "boolean-search",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Boolean search",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/boolean-search-crawler-solution.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "boolean-search-crawler-solution",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Crawler solution",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/boolean-search-information-retrieval.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "boolean-search-information-retrieval",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Information retrieval",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/boolean-search-boolean-search.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "boolean-search-boolean-search",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Boolean search",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/boolean-search-exercise-13.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "boolean-search-exercise-13",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 13",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/boolean-search-comparable-and-comparator.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "boolean-search-comparable-and-comparator",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Comparable and Comparator",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/boolean-search-extensions.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "boolean-search-extensions",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Extensions",
+      "type": "markdown"
+    },
+    {
+      "chapter": true,
+      "content-file": ".guides/content/sorting.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "sorting",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Sorting",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/sorting-insertion-sort.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "sorting-insertion-sort",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Insertion sort",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/sorting-exercise-14.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "sorting-exercise-14",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Exercise 14",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/sorting-analysis-of-merge-sort.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "sorting-analysis-of-merge-sort",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Analysis of merge sort",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/sorting-radix-sort.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "sorting-radix-sort",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Radix sort",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/sorting-heap-sort.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "sorting-heap-sort",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Heap sort",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/sorting-bounded-heap.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "sorting-bounded-heap",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Bounded heap",
+      "type": "markdown"
+    },
+    {
+      "chapter": false,
+      "content-file": ".guides/content/sorting-space-complexity.md",
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
+      "id": "sorting-space-complexity",
+      "layout": "1-panel",
+      "learningObjectives": "",
+      "path": [],
+      "reset": [],
+      "teacherOnly": false,
+      "title": "Space complexity",
+      "type": "markdown"
     }
-   ],
-   "layout": "1-panel",
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/sorting-space-complexity.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false,
-   "learningObjectives": ""
-  }
- ],
- "theme": "light",
- "scripts": [],
- "lexikonTopic": "",
- "suppressPageNumbering": true,
- "useSubmitButtons": true,
- "useMarkAsComplete": true,
- "hideMenu": false,
- "allowGuideClose": false,
- "collapsedOnStart": false,
- "hideSectionsToggle": false,
- "hideBackToDashboard": false,
- "protectLayout": false
+  ],
+  "suppressPageNumbering": true,
+  "theme": "light",
+  "useMarkAsComplete": true,
+  "useSubmitButtons": true
 }

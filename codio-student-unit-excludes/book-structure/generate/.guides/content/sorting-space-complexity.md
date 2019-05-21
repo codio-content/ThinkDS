@@ -10,19 +10,8 @@ Software developers tend to pay more attention to runtime than space, and for ma
 
 
 
-1.  If a dataset doesn't fit into the memory of one program, the run
-time often increases dramatically, or it might not run at all. If you
-choose an algorithm that needs less space, and that makes it possible
-to fit the computation into memory, it might run much faster. In the
-same vein, a program that uses less space might make better use of
-CPU caches and run
-faster (see [http://thinkdast.com/cache](http://thinkdast.com/cache)).
-
-1.  On a server that runs many programs at the same time, if you can
-reduce the space needed for each program, you might be able to run
-more programs on the same server, which reduces hardware and energy
-costs.
-
+1.  If a dataset doesn't fit into the memory of one program, the run time often increases dramatically, or it might not run at all. If you choose an algorithm that needs less space, and that makes it possible to fit the computation into memory, it might run much faster. In the same vein, a program that uses less space might make better use of CPU caches and run faster (see [http://thinkdast.com/cache](http://thinkdast.com/cache)).
+1.  On a server that runs many programs at the same time, if you can reduce the space needed for each program, you might be able to run more programs on the same server, which reduces hardware and energy costs. 
 
 So those are some reasons you should know at least a little bit about the space needs of algorithms.
 

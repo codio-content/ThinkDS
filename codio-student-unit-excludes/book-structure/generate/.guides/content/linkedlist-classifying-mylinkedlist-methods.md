@@ -24,16 +24,8 @@ So what is the order of growth for this method?
 
 
 
-1. 
-Each time through the loop we invoke `equals`, which is
-constant time (it might depend on the size of `target` or
-`data`, but it doesn't depend on the size of the list). The
-other operations in the loop are also constant time.
-
-1. 
-The loop might run $n$ times, because in the worse case, we
-might have to traverse the whole list.
-
+1.  Each time through the loop we invoke `equals`, which is constant time (it might depend on the size of `target` or `data`, but it doesn't depend on the size of the list). The other operations in the loop are also constant time.
+1.  The loop might run $n$ times, because in the worse case, we might have to traverse the whole list. 
 
 So the runtime of this method is proportional to the length of the list.
 
@@ -77,14 +69,8 @@ So, what's the order of growth for `add`?
 
 
 
-1. 
-`getNode` is similar to
-`indexOf`, and it is linear for the same reason.
-
-1. 
-In `add`, everything before and after `getNode` is
-constant time.
-
+1.  `getNode` is similar to `indexOf`, and it is linear for the same reason.
+1.  In `add`, everything before and after `getNode` is constant time. 
 
 So all together, `add` is linear.
 

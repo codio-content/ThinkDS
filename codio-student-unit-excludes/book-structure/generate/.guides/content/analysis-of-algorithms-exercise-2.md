@@ -6,13 +6,8 @@ If you look in the two tabs to the left, you'll find the source files you need:
 
 
 
-*  `MyArrayList.java` contains a partial implementation of the
-`List` interface.  Four of the methods are incomplete; your job
-is to fill them in.
-
-*  `MyArrayListTest.java` contains JUnit tests you can use to
-check your work.
-
+*  `MyArrayList.java` contains a partial implementation of the `List` interface.  Four of the methods are incomplete; your job is to fill them in.
+*  `MyArrayListTest.java` contains JUnit tests you can use to check your work. 
 
 
 

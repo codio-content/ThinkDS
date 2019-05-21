@@ -12,18 +12,9 @@ But there are several problems with this solution:
 
 
 
-1. 
-Reading and writing large data structures (like a Web index) would be
-slow.
-
-1. 
-The entire data structure might not fit into the memory of a single
-running program.
-
-1. 
-If a program ends unexpectedly (for example, due to a power outage),
-any changes made since the program last started would be lost.
-
+1.  Reading and writing large data structures (like a Web index) would be slow.
+1.  The entire data structure might not fit into the memory of a single running program.
+1.  If a program ends unexpectedly (for example, due to a power outage), any changes made since the program last started would be lost. 
 
 A better alternative is a database that provides persistent storage and the ability to read and write parts of the database without reading and writing the whole thing.
 
@@ -35,14 +26,8 @@ The database I recommend for this exercise is Redis, which provides persistent d
 
 
 
-* 
-Lists of strings, similar to Java `List`.
-
-* 
-Hashes, similar to Java `Map`.
-
-* 
-Sets of strings, similar to Java `Set`.
-
+*  Lists of strings, similar to Java `List`.
+*  Hashes, similar to Java `Map`.
+*  Sets of strings, similar to Java `Set`. 
 
 Redis is a “key-value database”, which means that the data structures it contains (the values) are identified by unique strings (the keys). A key in Redis plays the same role as a reference in Java: it identifies an object. We'll see some examples soon.

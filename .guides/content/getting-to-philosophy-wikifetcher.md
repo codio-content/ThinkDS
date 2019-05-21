@@ -2,16 +2,8 @@ When you write a Web crawler, it is easy to download too many pages too fast, wh
 
 
 
-1. 
-It encapsulates the code we demonstrated in the previous chapter for
-downloading pages from Wikipedia, parsing the HTML, and selecting the
-content text.
-
-1. 
-It measures the time between requests and, if we don't leave enough
-time between requests, it sleeps until a reasonable interval has
-elapsed. By default, the interval is one second.
-
+1.  It encapsulates the code we demonstrated in the previous chapter for downloading pages from Wikipedia, parsing the HTML, and selecting the content text.
+1.  It measures the time between requests and, if we don't leave enough time between requests, it sleeps until a reasonable interval has elapsed. By default, the interval is one second. 
 
 Here's the definition of `WikiFetcher`:
 

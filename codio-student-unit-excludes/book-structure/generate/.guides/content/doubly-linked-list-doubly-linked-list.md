@@ -16,14 +16,8 @@ If you are not familiar with doubly-linked lists, you can read more about them a
 
 
 
-* 
-Each node contains a link to the next node and a link to the previous
-node.
-
-* 
-The `LinkedList` object contains links to the first and last
-elements of the list.
-
+*  Each node contains a link to the next node and a link to the previous node.
+*  The `LinkedList` object contains links to the first and last elements of the list. 
 
 So we can start at either end of the list and traverse it in either direction. As a result, we can add and remove elements from the beginning and the end of the list in constant time!
 

@@ -80,19 +80,8 @@ I'll explain how it works in two steps:
 
 
 
-1. 
-Instead of storing entries in one big `List`, we'll break them
-up into lots of short lists. For each key, we'll use a \textbf{hash
-code} (explained in the next section) to determine which list to use.
-
-1. 
-Using lots of short lists is faster than using just one, but as I'll
-explain, it doesn't change the order of growth; the core operations
-are still linear. But there is one more trick: if we increase the
-number of lists to limit the number of entries per list, the result is
-a constant-time map. You'll see the details in the next exercise, but
-first: hashing!
-
+1.  Instead of storing entries in one big `List`, we'll break them up into lots of short lists. For each key, we'll use a **hash code** (explained in the next section) to determine which list to use.
+1.  Using lots of short lists is faster than using just one, but as I'll explain, it doesn't change the order of growth; the core operations are still linear. But there is one more trick: if we increase the number of lists to limit the number of entries per list, the result is a constant-time map. You'll see the details in the next exercise, but first: hashing! 
 
 
 

@@ -54,30 +54,13 @@ Most of the complexity in this method is there to make it easier to test. Here's
 
 
 
-* 
-If the queue is empty, it returns `null` to indicate that it
-did not index a page.
-
-* 
-Otherwise it removes and stores the next URL from the queue.
-
-* 
-If the URL has already been indexed, `crawl` doesn't index it
-again, unless it's in testing mode.
-
-* 
-Next it reads the contents of the page: if it's in testing mode, it
-reads from a file; otherwise it reads from the Web.
-
-* 
-It indexes the page.
-
-* 
-It parses the page and adds internal links to the queue.
-
-* 
-Finally, it returns the URL of the page it indexed.
-
+*  If the queue is empty, it returns `null` to indicate that it did not index a page.
+*  Otherwise it removes and stores the next URL from the queue.
+*  If the URL has already been indexed, `crawl` doesn't index it again, unless it's in testing mode.
+*  Next it reads the contents of the page: if it's in testing mode, it reads from a file; otherwise it reads from the Web.
+*  It indexes the page.
+*  It parses the page and adds internal links to the queue.
+*  Finally, it returns the URL of the page it indexed. 
 
 I presented an implementation of `Index.indexPage` in Section 15.1. So the only new method is `WikiCrawler.queueInternalLinks`.
 

@@ -2,15 +2,9 @@ To classify the runtime of merge sort, it helps to think in terms of levels of r
 
 
 
-1. 
-Make two new arrays and copy half of the elements into each.
-
-1. 
-Sort the two halves.
-
-1. 
-Merge the halves.
-
+1.  Make two new arrays and copy half of the elements into each.
+1.  Sort the two halves.
+1.  Merge the halves. 
 
 Figure 17.1 shows these steps.
 
@@ -33,12 +27,8 @@ If the number of levels is $h$, the total amount of work for the algorithm is $O
 
 
 
-1. 
-How many times do we have to cut $n$ in half to get to 1?
-
-1. 
-Or, how many times do we have to double $1$ before we get to $n$?
-
+1.  How many times do we have to cut $n$ in half to get to 1?
+1.  Or, how many times do we have to double $1$ before we get to $n$? 
 
 Another way to ask the second question is “What power of 2 is $n$?”
 

@@ -5,14 +5,8 @@ If you look in the two tabs to the left, you'll find the source code for this ex
 
 
 
-* 
-`ListClientExample.java` contains the code from the previous
-section.
-
-* 
-`ListClientExampleTest.java` contains a JUnit test for
-`ListClientExample`.
-
+*  `ListClientExample.java` contains the code from the previous section.
+*  `ListClientExampleTest.java` contains a JUnit test for `ListClientExample`. 
 
 Review `ListClientExample` and make sure you understand what it does. Then compile and run it by pressing the button below:
 {Run!}(sh .guides/bg.sh javac code/ListClientExample.java java -cp code/ ListClientExample )

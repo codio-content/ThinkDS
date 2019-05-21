@@ -11,7 +11,7 @@
    "arePartialPointsAllowed": false,
    "oneTimeTest": false,
    "instructions": "Run `ListClientExampleTest` by clicking the button below.",
-   "codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\"code/ListClientExampleTest.java\",\"className\":\"ListClientExampleTest\"}],\"partialPoints\":false,\"maxPoints\":1,\"wd\":\"\",\"sources\":\"code\",\"libs\":\"code/lib/*\",\"testsources\":\"code\"}",
+   "codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\"code/ListClientExampleTest.java\",\"className\":\"ListClientExampleTest\"}],\"partialPoints\":false,\"maxPoints\":1,\"wd\":\"\",\"sources\":\"code/ListClientExample.java\",\"libs\":\"code/lib/*\",\"testsources\":\"code\"}",
    "command": "python /usr/share/codio/assessments/assessments.py",
    "learningObjectives": "",
    "points": 1,

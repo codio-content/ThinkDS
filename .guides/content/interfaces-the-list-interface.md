@@ -8,6 +8,7 @@ The `interface` defines what it means to be a `List`; any class that implements 
 
 
 See the contrived example that demonstrates the point in the panel to the left.
+[Open Visualizer](open_tutor code/ListClientExample.java panel=0)
 
 
 `ListClientExample` doesn't do anything useful, but it has the essential elements of a class that **encapsulates** a `List`; that is, it contains a `List` as an instance variable.  I'll use this class to make a point, and then you'll work with it in the first exercise.

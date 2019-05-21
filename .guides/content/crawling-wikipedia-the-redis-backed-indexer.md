@@ -2,14 +2,8 @@ In my solution, we store two kinds of structures in Redis:
 
 
 
-* 
-For each search term, we have a `URLSet`, which is a Redis \redis{set}
-of URLs that contain the search term.
-
-* 
-For each URL, we have a `TermCounter`, which is a Redis \redis{hash}
-that maps each search term to the number of times it appears.
-
+*  For each search term, we have a `URLSet`, which is a Redis \redis{set} of URLs that contain the search term.
+*  For each URL, we have a `TermCounter`, which is a Redis \redis{hash} that maps each search term to the number of times it appears. 
 
 We discussed these data types in the previous chapter. You can also read about Redis structures at [http://thinkdast.com/redistypes](http://thinkdast.com/redistypes)
 
@@ -49,13 +43,8 @@ To index a page, we
 
 
 
-1. 
-Make a Java `TermCounter` for the contents of the page, using
-code from a previous exercise.
-
-1. 
-Push the contents of the `TermCounter` to Redis.
-
+1.  Make a Java `TermCounter` for the contents of the page, using code from a previous exercise.
+1.  Push the contents of the `TermCounter` to Redis. 
 
 Here's the new code that pushes a `TermCounter` to Redis:
 
@@ -88,14 +77,8 @@ It loops through the terms in the `TermCounter`. For each one it
 
 
 
-1. 
-Finds or creates a `TermCounter` on Redis, then adds a field
-for the new term.
-
-1. 
-Finds or creates a `URLSet` on Redis, then adds the current
-URL.
-
+1.  Finds or creates a `TermCounter` on Redis, then adds a field for the new term.
+1.  Finds or creates a `URLSet` on Redis, then adds the current URL. 
 
 If the page has already been indexed, we delete its old `TermCounter` before pushing the new contents.
 
@@ -120,14 +103,8 @@ This method uses two helper methods:
 
 
 
-* 
-`getURLs` takes a search term and returns the Set of URLs where
-the term appears.
-
-* 
-`getCount` takes a URL and a term and returns the number of
-times the term appears at the given URL.
-
+*  `getURLs` takes a search term and returns the Set of URLs where the term appears.
+*  `getCount` takes a URL and a term and returns the number of times the term appears at the given URL. 
 
 Here are the implementations:
 

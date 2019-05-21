@@ -11,12 +11,8 @@ Pushing the `TermCounter` to Redis requires deleting a `TermCounter`, which is l
 
 
 
-1. 
-Add an element to a `URLSet`, and
-
-1. 
-Add an element to a Redis `TermCounter`.
-
+1.  Add an element to a `URLSet`, and
+1.  Add an element to a Redis `TermCounter`. 
 
 Both of these are constant time operations, so the total time to push the `TermCounter` is linear in the number of unique search terms.
 

@@ -2,37 +2,18 @@ In the repository for this book, you'll find the source files for this exercise:
 
 
 
-* 
-`JedisMaker.java` contains example code for connecting to a
-Redis server and running a few Jedis methods.
-
-* 
-`JedisIndex.java` contains starter code for this exercise.
-
-* 
-`JedisIndexTest.java` contains test code for
-`JedisIndex`.
-
-* 
-`WikiFetcher.java` contains the code we saw in previous exercises to
-read web pages and parse them using jsoup.
-
+*  `JedisMaker.java` contains example code for connecting to a Redis server and running a few Jedis methods.
+*  `JedisIndex.java` contains starter code for this exercise.
+*  `JedisIndexTest.java` contains test code for `JedisIndex`.
+*  `WikiFetcher.java` contains the code we saw in previous exercises to read web pages and parse them using jsoup. 
 
 You will also need these files, which you worked on in previous exercises:
 
 
 
-* 
-`Index.java` implements an index using Java data structures.
-
-* 
-`TermCounter.java` represents a map from terms to their
-frequencies.
-
-* 
-`WikiNodeIterable.java` iterates through the nodes in a DOM
-tree produced by jsoup.
-
+*  `Index.java` implements an index using Java data structures.
+*  `TermCounter.java` represents a map from terms to their frequencies.
+*  `WikiNodeIterable.java` iterates through the nodes in a DOM tree produced by jsoup. 
 
 If you have working versions of these files, you can use them for this exercise.  If you didn't do the previous exercises, or you are not confident in your solutions, you can copy my solutions from the `solutions` folder.
 
@@ -45,16 +26,8 @@ If you open `JedisMaker.java`, you should see the `JedisMaker` class, which is a
 
 
 
-* 
-Use a text editor to create end edit
-`ThinkDataStructures/code/src/resources/redis_url.txt`.
-
-* 
-Paste in the URL of your server. If you are using RedisToGo, the URL
-will look like this:
-
-`redis://redistogo:1234567feedfacebeefa1e1234567@dory.redistogo.com:10534`
-
+*  Use a text editor to create end edit `ThinkDataStructures/code/src/resources/redis_url.txt`.
+*  Paste in the URL of your server. If you are using RedisToGo, the URL will look like this: `redis://redistogo:1234567feedfacebeefa1e1234567@dory.redistogo.com:10534` 
 
 Because this file contains the password for your Redis server, you should not put this file in a public repository. To help you avoid doing that by accident, the repository contains a `.gitignore` file that makes it harder (but not impossible) to put this file in your repo.
 

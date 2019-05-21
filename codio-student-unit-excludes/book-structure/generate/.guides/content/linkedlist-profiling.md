@@ -47,15 +47,8 @@ The `Profiler` provides `timingLoop` which uses the `Timeable` object stored as 
 
 
 
-* 
-`startN` is the value of $n$ the timing loop should
-start at.
-
-* 
-`endMillis` is a threshold in milliseconds. As
-`timingLoop` increases the problem size, the runtime increases;
-when the runtime exceeds this threshold, `timingLoop` stops.
-
+*  `startN` is the value of $n$ the timing loop should start at.
+*  `endMillis` is a threshold in milliseconds. As `timingLoop` increases the problem size, the runtime increases; when the runtime exceeds this threshold, `timingLoop` stops. 
 
 When you run the experiments, you might have to adjust these parameters. If `startN` is too low, the runtime might be too short to measure accurately. If `endMillis` is too low, you might not get enough data to see a clear relationship between problem size and runtime.
 

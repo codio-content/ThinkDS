@@ -7,15 +7,8 @@ Java provides an interface called `Map` that specifies the methods a map should 
 
 
 
-* 
-`get(key)`: This method looks up a key and returns the
-corresponding value.
-
-* 
-`put(key, value)`: This method adds a new key-value pair to the
-`Map`, or if the key is already in the map, it replaces the
-value associated with `key`.
-
+*  `get(key)`: This method looks up a key and returns the corresponding value.
+*  `put(key, value)`: This method adds a new key-value pair to the `Map`, or if the key is already in the map, it replaces the value associated with `key`. 
 
 Java provides several implementations of `Map`, including the two we will focus on, `HashMap` and `TreeMap`. In upcoming chapters, we'll look at these implementations and analyze their performance.
 
@@ -28,14 +21,8 @@ As you might expect by now, Java provides a `Set` interface that defines the ope
 
 
 
-* 
-`add(element)`: This method adds an element to a set; if the
-element is already in the set, it has no effect.
-
-* 
-`contains(element)`: This method checks whether the given
-element is in the set.
-
+*  `add(element)`: This method adds an element to a set; if the element is already in the set, it has no effect.
+*  `contains(element)`: This method checks whether the given element is in the set. 
 
 Java provides several implementations of `Set`, including `HashSet` and `TreeSet`.
 
