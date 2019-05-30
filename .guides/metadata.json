@@ -523,8 +523,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/linkedlist-interpreting-results.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "linkedlist-interpreting-results",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -547,7 +553,7 @@
         },
         {
           "action": "open",
-          "panel": 1,
+          "panel": 2,
           "path": "code/ProfileListAdd.java"
         },
         {

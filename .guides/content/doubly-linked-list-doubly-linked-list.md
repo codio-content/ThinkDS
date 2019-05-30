@@ -6,7 +6,7 @@ But if you read the documentation of `LinkedList` at [http://thinkdast.com/linke
 
 
 > Doubly-linked list implementation of the List and Deque
-> interfaces. [\ldots] All of the operations perform as
+> interfaces. ... All of the operations perform as
 > could be expected for a doubly-linked list. Operations that
 > index into the list will traverse the list from the beginning or the
 > end, whichever is closer to the specified index.
@@ -24,8 +24,8 @@ So we can start at either end of the list and traverse it in either direction. A
 
 The following table summarizes the performance we expect from `ArrayList`, `MyLinkedList` (singly-linked), and `LinkedList` (doubly-linked):
 
-|& MyArrayList|MyLinkedList|LinkedList|
-|-|-|-|
+||MyArrayList|MyLinkedList|LinkedList|
+|-|-|-|-|
 |add (at the end)|**1**|n|**1**|
 |add (at the beginning)|n|**1**|**1**|
 |add (in general)|n|n|n|

@@ -28,7 +28,7 @@ where $\approx$ means “approximately equal”. Now, if we take the logarithm o
 
 $ \log(runtime) \approx \log(c) + k \log(n) $
 
-This equation implies that if we plot $\runtime$ versus $n$ on a log-log scale, we expect to see a straight line with intercept $\log(c)$ and slope $k$. We don't care much about the intercept, but the slope indicates the order of growth: if $k=1$, the algorithm is linear; if $k=2$, it's quadratic.
+This equation implies that if we plot $runtime$ versus $n$ on a log-log scale, we expect to see a straight line with intercept $\log(c)$ and slope $k$. We don't care much about the intercept, but the slope indicates the order of growth: if $k=1$, the algorithm is linear; if $k=2$, it's quadratic.
 
 
 Looking at the figure in the previous section, you can estimate the slope by eye. But when you call `plotResults` it computes a least squares fit to the data and prints the estimated slope. In this example:

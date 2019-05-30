@@ -3,33 +3,9 @@ For the next exercise I provide a class called `Profiler` that contains code tha
 
 You will use `Profiler` to classify the performance of the `add` method for the Java implementations of `ArrayList` and `LinkedList`.
 
-Here's an example that shows how to use the profiler:
+Here's an example that shows how to use the profiler: [Highlight in Code](open_file code/ProfileListAdd.java panel=2 ref="public static void profileArrayListAddEnd" count=17)
 
-```code
-    public static void profileArrayListAddEnd() {
-        Timeable timeable = new Timeable() {
-            List<String> list;
 
-            public void setup(int n) {
-                list = new ArrayList<String>();
-            }
-
-            public void timeMe(int n) {
-                for (int i=0; i<n; i++) {
-                    list.add("a string");
-                }
-            }
-        };
-
-        String title = "ArrayList add end";
-        Profiler profiler = new Profiler(title, timeable);
-
-        int startN = 4000;
-        int endMillis = 1000;
-        XYSeries series = profiler.timingLoop(startN, endMillis);
-        profiler.plotResults(series);
-    }
-```
 
 This method measures the time it takes to run `add` on an `ArrayList`, which adds the new element at the end. I'll explain the code and then show the results.
 
@@ -52,7 +28,9 @@ The `Profiler` provides `timingLoop` which uses the `Timeable` object stored as 
 
 When you run the experiments, you might have to adjust these parameters. If `startN` is too low, the runtime might be too short to measure accurately. If `endMillis` is too low, you might not get enough data to see a clear relationship between problem size and runtime.
 
-This code is in `ProfileListAdd.java`, which you'll run in the next exercise. When I ran it, I got this output:
+Run the code for yourself using the button below and compare it to the output I got.
+{Run! | terminal}(cd code && javac Profiler.java ProfileListAdd.java && java -cp lib/*:. ProfileListAdd && cd ../ )
+
 
 ```code
 4000, 3
