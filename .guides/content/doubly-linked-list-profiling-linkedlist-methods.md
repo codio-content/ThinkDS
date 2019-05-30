@@ -39,8 +39,8 @@ We only had a make a few changes, replacing `ArrayList` with `LinkedList` and ad
 
 Figure 5.2 shows the graph of these results.
 
-![Figure 5.2 \caption{Profiling results: runtime versus problem size for adding](figs/profile3.png)
+![Figure 5.2 Profiling results: runtime versus problem size for adding $n$ elements at the beginning of a `LinkedList`.](figs/profile3.png)
 
-**Figure 5.2 \caption{Profiling results: runtime versus problem size for adding**
+**Figure 5.2 Profiling results: runtime versus problem size for adding $n$ elements at the beginning of a `LinkedList`.**
 
 It's not a very straight line, and the slope is not exactly 1; the slope of the least squares fit is 1.23. But these results indicate that the total time for $n$ adds is at least approximately $O(n)$, so each add is constant time.

@@ -377,11 +377,24 @@ class LaTeX2Markdown(object):
             self._chapter_num, self._figure_counter + self._figure_counter_offset
         )
 
+        caption_line = None
+
         for line in block_contents.strip().split("\n"):
-            if line.startswith("\\includegraphics"):
+            if "\\includegraphics" in line:
+                if not line.startswith("\\includegraphics"):
+                    line = get_text_in_brackets(line)
                 images.append(get_text_in_brackets(line))
             elif line.startswith("\\caption"):
-                caption += get_text_in_brackets(line)
+                if '}' in line:
+                    caption += get_text_in_brackets(line)
+                else:
+                    caption_line = line
+            elif caption_line:
+                if '}' in line:
+                    caption += get_text_in_brackets(caption_line + ' ' + line)
+                    caption_line = None
+                else:
+                    caption_line += ' ' + line
 
         markdown_images = []
 
@@ -518,6 +531,7 @@ class LaTeX2Markdown(object):
         output = self._eqnarray_re.sub(self._eqnarray_block, output)
 
         output = re.compile(r"\\java{(?P<block_contents>.*?)}").sub(self._inline_code_block, output)
+        output = re.compile(r"\\redis{(?P<block_contents>.*?)}").sub(self._inline_code_block, output)
         output = re.compile(r"\\verb\"(?P<block_contents>.*?)\"").sub(self._inline_code_block, output)
         output = re.compile(r"\\verb'(?P<block_contents>.*?)'").sub(self._inline_code_block, output)
 
@@ -526,6 +540,8 @@ class LaTeX2Markdown(object):
         output = re.sub(r"\\href{(.*?)}{(\\[a-z]+)?\s?(.*?)}", r"[\1](\3)", output)
 
         output = re.sub(r"{\\tt (.*?)}", r"`\1`", output)
+
+        output = re.sub(r"\\\[ (.*?)\\runtime(.*?) \\\]", r"\[ \1runtime\2 \]", output)
 
         output = re.sub(r"\\\[ (.*?) \\\]", r"$ \1 $", output)
 

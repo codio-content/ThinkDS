@@ -5,6 +5,9 @@ refs:
   chapter_counter_from: 0
 metadata:
   suppressPageNumbering: true
+assets:
+  - figs: "*.png"
+  - figs: "*.jpg"
 sections:
   - name: Preface
     type: chapter
@@ -461,7 +464,7 @@ sections:
           panel: 0
           action: open
         - path: "code/ProfileListAdd.java"
-          panel: 1
+          panel: 2
           action: open
         - path: "#preview: https://{{domain3000}}/"
           panel: 3

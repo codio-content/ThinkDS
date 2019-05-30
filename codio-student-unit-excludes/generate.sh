@@ -14,3 +14,4 @@ rm -rf trinket
 
 cp -r book-structure/generate/* ../.
 cp -r book-structure/generate/.guides ../.
+cp -r book-structure/generate/figs ../.

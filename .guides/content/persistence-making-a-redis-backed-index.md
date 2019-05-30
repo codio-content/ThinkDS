@@ -77,6 +77,3 @@ frequency of word2: 1
 ```
 
 In the next section, I'll explain how the code works.
-
-
-\newcommand{\redis}{\textit}

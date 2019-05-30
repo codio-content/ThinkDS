@@ -502,7 +502,7 @@
         },
         {
           "action": "open",
-          "panel": 1,
+          "panel": 2,
           "path": "code/ProfileListAdd.java"
         },
         {

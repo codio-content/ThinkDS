@@ -46,8 +46,8 @@ Here are the timing results (problem size on the left, runtime in milliseconds o
 
 Figure 5.1 shows the graph of runtime versus problem size.
 
-![Figure 5.1 \caption{Profiling results: runtime versus problem size for adding](figs/profile2.png)
+![Figure 5.1 Profiling results: runtime versus problem size for adding $n$ elements at the beginning of an `ArrayList`.](figs/profile2.png)
 
-**Figure 5.1 \caption{Profiling results: runtime versus problem size for adding**
+**Figure 5.1 Profiling results: runtime versus problem size for adding $n$ elements at the beginning of an `ArrayList`.**
 
 Remember that a straight line on this graph does **not** mean that the algorithm is linear. Rather, if the runtime is proportional to $n^k$ for any exponent, $k$, we expect to see a straight line with slope $k$. In this case, we expect the total time for $n$ adds to be proportional to $n^2$, so we expect a straight line with slope 2. In fact, the estimated slope is 1.992, which is so close I would be afraid to fake data this good.

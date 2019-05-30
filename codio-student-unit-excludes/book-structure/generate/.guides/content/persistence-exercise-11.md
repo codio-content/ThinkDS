@@ -30,12 +30,12 @@ If we look up `url1` in the result, `map`, we should get 339, which is the numbe
 
 If we index the same page again, the new results should replace the old ones.
 
-One suggestion for translating data structures from Java to Redis: remember that each object in a Redis database is identified by a unique key, which is a \redis{string}. If you have two kinds of objects in the same database, you might want to add a prefix to the keys to distinguish between them. For example, in our solution, we have two kinds of objects:
+One suggestion for translating data structures from Java to Redis: remember that each object in a Redis database is identified by a unique key, which is a `string`. If you have two kinds of objects in the same database, you might want to add a prefix to the keys to distinguish between them. For example, in our solution, we have two kinds of objects:
 
 
 
-*  We define a `URLSet` to be a Redis \redis{set} that contains the URLs that contain a given search term. The key for each `URLSet` starts with `"URLSet:"`, so to get the URLs that contain the word “the”, we access the \redis{set} with the key `"URLSet:the"`.
-*  We define a `TermCounter` to be a Redis \redis{hash} that maps from each term that appears on a page to the number of times it appears. The key for each `TermCounter` starts with `"TermCounter:"` and ends with the URL of the page we're looking up. 
+*  We define a `URLSet` to be a Redis `set` that contains the URLs that contain a given search term. The key for each `URLSet` starts with `"URLSet:"`, so to get the URLs that contain the word “the”, we access the `set` with the key `"URLSet:the"`.
+*  We define a `TermCounter` to be a Redis `hash` that maps from each term that appears on a page to the number of times it appears. The key for each `TermCounter` starts with `"TermCounter:"` and ends with the URL of the page we're looking up. 
 
 
 In my implementation,  there is one `URLSet` for each term and one `TermCounter` for each indexed page. I provide two helper methods, `urlSetKey` and `termCounterKey`, to assemble these keys.

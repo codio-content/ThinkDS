@@ -3,9 +3,8 @@ Based on our understanding of how `ArrayList` works, we expect the `add` method 
 
 To test that theory, we could plot total runtime versus problem size, and we should see a straight line, at least for problem sizes that are big enough to measure accurately. Mathematically, we can write the function for that line:
 
-\newcommand{\runtime}{\mbox{runtime}}
 
-$ \runtime = a + b n $
+$ runtime = a + b n $
 
 where $a$ is the intercept of the line and $b$ is the slope.
 

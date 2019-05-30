@@ -2,8 +2,8 @@ In my solution, we store two kinds of structures in Redis:
 
 
 
-*  For each search term, we have a `URLSet`, which is a Redis \redis{set} of URLs that contain the search term.
-*  For each URL, we have a `TermCounter`, which is a Redis \redis{hash} that maps each search term to the number of times it appears. 
+*  For each search term, we have a `URLSet`, which is a Redis `set` of URLs that contain the search term.
+*  For each URL, we have a `TermCounter`, which is a Redis `hash` that maps each search term to the number of times it appears. 
 
 We discussed these data types in the previous chapter. You can also read about Redis structures at [http://thinkdast.com/redistypes](http://thinkdast.com/redistypes)
 

@@ -52,6 +52,8 @@ The `Profiler` provides `timingLoop` which uses the `Timeable` object stored as 
 
 When you run the experiments, you might have to adjust these parameters. If `startN` is too low, the runtime might be too short to measure accurately. If `endMillis` is too low, you might not get enough data to see a clear relationship between problem size and runtime.
 
+{Run! | terminal}(cd code && javac Profiler.java ProfileListAdd.java && java -cp lib/*:. ProfileListAdd && cd ../ )
+
 This code is in `ProfileListAdd.java`, which you'll run in the next exercise. When I ran it, I got this output:
 
 ```code
@@ -75,8 +77,8 @@ The first column is problem size, $n$; the second column is runtime in milliseco
 
 The result from `timingLoop` is an `XYSeries` that contains this data. If you pass this series to `plotResults`, it generates a plot like the one in Figure 4.1.
 
-![Figure 4.1 \caption{Profiling results: runtime versus problem size for](figs/profile1.png)
+![Figure 4.1 Profiling results: runtime versus problem size for adding $n$ elements to the end of an `ArrayList`.](figs/profile1.png)
 
-**Figure 4.1 \caption{Profiling results: runtime versus problem size for**
+**Figure 4.1 Profiling results: runtime versus problem size for adding $n$ elements to the end of an `ArrayList`.**
 
 The next section explains how to interpret it.

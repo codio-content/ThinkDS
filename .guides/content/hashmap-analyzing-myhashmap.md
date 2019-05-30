@@ -36,7 +36,7 @@ Now the size of the hash table is 4, so the next time we call `put`, it takes 1 
 
 Figure 11.1 shows the pattern, with the normal work of hashing a new key shown across the bottom and extra work of rehashing shown as a tower.
 
-
+![Figure 11.1 Representation of the work done to add elements to a hash table.](figs/tower.jpg)
 
 **Figure 11.1 Representation of the work done to add elements to a hash table.**
 

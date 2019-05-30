@@ -75,8 +75,8 @@ The first column is problem size, $n$; the second column is runtime in milliseco
 
 The result from `timingLoop` is an `XYSeries` that contains this data. If you pass this series to `plotResults`, it generates a plot like the one in Figure 4.1.
 
-![Figure 4.1 \caption{Profiling results: runtime versus problem size for](figs/profile1.png)
+![Figure 4.1 Profiling results: runtime versus problem size for adding $n$ elements to the end of an `ArrayList`.](figs/profile1.png)
 
-**Figure 4.1 \caption{Profiling results: runtime versus problem size for**
+**Figure 4.1 Profiling results: runtime versus problem size for adding $n$ elements to the end of an `ArrayList`.**
 
 The next section explains how to interpret it.

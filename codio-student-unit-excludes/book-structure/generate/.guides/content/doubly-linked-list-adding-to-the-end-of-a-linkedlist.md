@@ -40,9 +40,9 @@ Here are the results:
 
 Figure 5.3 shows the graph of these results.
 
-![Figure 5.3 \caption{Profiling results: runtime versus problem size for adding](figs/profile4.png)
+![Figure 5.3 Profiling results: runtime versus problem size for adding $n$ elements at the end of a `LinkedList`.](figs/profile4.png)
 
-**Figure 5.3 \caption{Profiling results: runtime versus problem size for adding**
+**Figure 5.3 Profiling results: runtime versus problem size for adding $n$ elements at the end of a `LinkedList`.**
 
 
 Again, the measurements are noisy and the line is not perfectly straight, but the estimated slope is 1.19, which is close to what we got adding elements at the beginning, and not very close to 2, which is what we expected based on our analysis. In fact, it is closer to 1, which suggests that adding elements at the end is constant time. What's going on?
