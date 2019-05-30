@@ -21,5 +21,5 @@ In this example, we print a `Node` only if it is a `TextNode` and ignore other t
 
 
 > Java is a general-purpose computer programming language that is
-> concurrent, class-based, object-oriented,{[}13{]} and specifically
-> designed \ldots
+> concurrent, class-based, object-oriented,[13] and specifically
+> designed...

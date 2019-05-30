@@ -830,15 +830,10 @@
           "action": "open",
           "panel": 0,
           "path": "code/WikiNodeExample.java"
-        },
-        {
-          "action": "open",
-          "panel": 1,
-          "path": "#tutor: code/WikiNodeExample.java"
         }
       ],
       "id": "tree-traversal-iterative-dfs",
-      "layout": "3-cell",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],

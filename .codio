@@ -4,5 +4,5 @@
         "Virtual Desktop": "https://{{domain3000}}/",
         "Open Visualizer": "open_tutor code/ListClientExample.java panel=0"
     },
-  "debugger": [{"type":"JAVA","command":"-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5105","before":"cd code/ && javac -g -d . ListClientExample.java && java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5105 ListClientExample ","single":true,"path":"ListClientExample.java","args":"","rootFolder":"code/","uuid":"20ab6de6-66df-ad38-6bee-ac8517047a0b","name":"ListClientExample"}]
+  "debugger": []
 }

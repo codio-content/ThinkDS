@@ -1,25 +1,6 @@
-Here is an iterative version of DFS that uses an `ArrayDeque` to represent a stack of `Node` objects:
+Here is an iterative version of DFS that uses an `ArrayDeque` to represent a stack of `Node` objects: [Highlight in Code](open_file code/WikiNodeExample.java panel=0 ref="private static void iterativeDFS" count=23)
 
-```code
-    private static void iterativeDFS(Node root) {
-        Deque<Node> stack = new ArrayDeque<Node>();
-        stack.push(root);
 
-        while (!stack.isEmpty()) {
-            Node node = stack.pop();
-            if (node instanceof TextNode) {
-                System.out.print(node);
-            }
-
-            List<Node> nodes = new ArrayList<Node>(node.childNodes());
-            Collections.reverse(nodes);
-
-            for (Node child: nodes) {
-                stack.push(child);
-            }
-        }
-    }
-```
 
 The parameter, `root`, is the root of the tree we want to traverse, so we start by creating the stack and pushing the root onto it.
 

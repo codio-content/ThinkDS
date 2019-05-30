@@ -21,7 +21,7 @@ As a first step, we'll build a crawler that reads a Wikipedia page, finds the fi
 > articles, usually eventually gets one to the Philosophy article.
 
 
-This conjecture is stated at [http://thinkdast.com/getphil](http://thinkdast.com/getphil){}, and you can read its history there.
+This conjecture is stated at [http://thinkdast.com/getphil](http://thinkdast.com/getphil), and you can read its history there.
 
 Testing the conjecture will allow us to build the basic pieces of a crawler without having to crawl the entire web, or even all of Wikipedia. And I think the exercise is kind of fun!
 

@@ -656,16 +656,19 @@ sections:
           action: open
   - name: Iterative DFS
     type: section
+    transformations:
+        - remove: 20
+          position: 3344
+        - add:  |
+              [Highlight in Code](open_file code/WikiNodeExample.java panel=0 ref="private static void iterativeDFS" count=23)
+          position: 3343
     configuration:
-      layout: 3-cell
+      layout: 2-panels
       files:
         - path: "#tabs"
           action: close
         - path: "code/WikiNodeExample.java"
           panel: 0
-          action: open
-        - path: "#tutor: code/WikiNodeExample.java"
-          panel: 1
           action: open
 # Chapter 7
   - name: Getting to Philosophy
