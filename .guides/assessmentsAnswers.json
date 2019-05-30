@@ -1,3 +1,38 @@
 [
-
+ {
+  "taskId": "test-958272319",
+  "points": 0,
+  "results": [
+   {
+    "code": 1,
+    "output": "<b>1</b> tests, <b>1</b> failures, <b>0.351s</b> duration\n\n<strong>ListClientExampleTest</strong>\ntestListClientExample, 0.008s, <span style=\"color: red\">failed</span>\n",
+    "timestamp": 1559231450307,
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "test-1977323988",
+  "points": 0,
+  "results": [
+   {
+    "code": 9,
+    "output": "<b>20</b> tests, <b>9</b> failures, <b>0.062s</b> duration\n\n<strong>MyArrayListTest</strong>\ntestToArray, 0.003s, <span style=\"color: green\">passed</span>\ntestAddIntT, 0.003s, <span style=\"color: red\">failed</span>\ntestGet, 0.0s, <span style=\"color: green\">passed</span>\ntestSet, 0.001s, <span style=\"color: red\">failed</span>\ntestAddAllCollectionOfQextendsT, 0.0s, <span style=\"color: green\">passed</span>\ntestClear, 0.0s, <span style=\"color: green\">passed</span>\ntestAddT, 0.0s, <span style=\"color: green\">passed</span>\ntestSize, 0.0s, <span style=\"color: green\">passed</span>\ntestLastIndexOf, 0.0s, <span style=\"color: green\">passed</span>\ntestContainsAll, 0.0s, <span style=\"color: red\">failed</span>\ntestRemoveObject, 0.001s, <span style=\"color: red\">failed</span>\ntestContains, 0.001s, <span style=\"color: red\">failed</span>\ntestIndexOfNull, 0.001s, <span style=\"color: red\">failed</span>\ntestIndexOf, 0.0s, <span style=\"color: red\">failed</span>\ntestMyList, 0.0s, <span style=\"color: green\">passed</span>\ntestIsEmpty, 0.0s, <span style=\"color: green\">passed</span>\ntestIterator, 0.0s, <span style=\"color: green\">passed</span>\ntestRemoveAll, 0.0s, <span style=\"color: red\">failed</span>\ntestRemoveInt, 0.001s, <span style=\"color: red\">failed</span>\ntestSubList, 0.0s, <span style=\"color: green\">passed</span>\n",
+    "timestamp": 1559231501812,
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "test-187817179",
+  "points": 0,
+  "results": [
+   {
+    "code": 8,
+    "output": "<b>20</b> tests, <b>8</b> failures, <b>0.063s</b> duration\n\n<strong>MyLinkedListTest</strong>\ntestToArray, 0.004s, <span style=\"color: green\">passed</span>\ntestAddIntT, 0.003s, <span style=\"color: red\">failed</span>\ntestGet, 0.0s, <span style=\"color: green\">passed</span>\ntestSet, 0.0s, <span style=\"color: green\">passed</span>\ntestAddAllCollectionOfQextendsT, 0.0s, <span style=\"color: green\">passed</span>\ntestClear, 0.0s, <span style=\"color: green\">passed</span>\ntestAddT, 0.0s, <span style=\"color: green\">passed</span>\ntestSize, 0.0s, <span style=\"color: green\">passed</span>\ntestLastIndexOf, 0.0s, <span style=\"color: green\">passed</span>\ntestContainsAll, 0.001s, <span style=\"color: red\">failed</span>\ntestRemoveObject, 0.001s, <span style=\"color: red\">failed</span>\ntestContains, 0.001s, <span style=\"color: red\">failed</span>\ntestIndexOfNull, 0.0s, <span style=\"color: red\">failed</span>\ntestIndexOf, 0.001s, <span style=\"color: red\">failed</span>\ntestMyList, 0.0s, <span style=\"color: green\">passed</span>\ntestIsEmpty, 0.0s, <span style=\"color: green\">passed</span>\ntestIterator, 0.0s, <span style=\"color: green\">passed</span>\ntestRemoveAll, 0.001s, <span style=\"color: red\">failed</span>\ntestRemoveInt, 0.001s, <span style=\"color: red\">failed</span>\ntestSubList, 0.0s, <span style=\"color: green\">passed</span>\n",
+    "timestamp": 1559231602952,
+    "state": "fail"
+   }
+  ]
+ }
 ]

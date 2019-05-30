@@ -455,6 +455,20 @@ sections:
             action: close
   - name: Profiling
     type: section
+    transformations:
+        - remove: 19
+          position: 2184
+        - add:  |
+            [Highlight in Code](open_file code/ProfileListAdd.java panel=2 ref="public static void profileArrayListAddEnd" count=17)
+     
+         position: 2183
+        - remove: 2
+          position: 2265
+        - add: |
+          Run the code for yourself using the button below and compare it to the output I got.
+          {Run! | terminal}(cd code && javac Profiler.java ProfileListAdd.java && java -cp lib/*:. ProfileListAdd && cd ../ )
+        
+          position: 2267
     configuration:
       layout: 4-cell
       files:

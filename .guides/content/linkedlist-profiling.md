@@ -52,8 +52,6 @@ The `Profiler` provides `timingLoop` which uses the `Timeable` object stored as 
 
 When you run the experiments, you might have to adjust these parameters. If `startN` is too low, the runtime might be too short to measure accurately. If `endMillis` is too low, you might not get enough data to see a clear relationship between problem size and runtime.
 
-{Run! | terminal}(cd code && javac Profiler.java ProfileListAdd.java && java -cp lib/*:. ProfileListAdd && cd ../ )
-
 This code is in `ProfileListAdd.java`, which you'll run in the next exercise. When I ran it, I got this output:
 
 ```code

@@ -1,7 +1,7 @@
 The following table summarizes the differences between `MyLinkedList` and `MyArrayList`, where `1` means $O(1)$ or constant time and $n$ means $O(n)$ or linear.
 
-|& MyArrayList|MyLinkedList |
-|-|-|
+||MyArrayList|MyLinkedList |
+|-|-|-|
 |add (at the end)|**1**|n|
 |add (at the beginning)|n|**1**|
 |add (in general)|n|n|
