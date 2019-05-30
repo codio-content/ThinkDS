@@ -1,5 +1,3 @@
-
-
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -51,9 +49,12 @@ public class WikiFetcher {
 		// assemble the file name
 		String slash = File.separator;
 		String filename = "resources" + slash + realURL.getHost() + realURL.getPath();
-
+    
 		// read the file
+		System.out.println(filename);
+    System.out.println(WikiFetcher.class.getClassLoader().getResourceAsStream(filename));
 		InputStream stream = WikiFetcher.class.getClassLoader().getResourceAsStream(filename);
+    System.out.println("Stream: " + stream);
 		Document doc = Jsoup.parse(stream, "UTF-8", filename);
 
 		// parse the contents of the file
@@ -88,7 +89,7 @@ public class WikiFetcher {
 	public static void main(String[] args) throws IOException {
 		WikiFetcher wf = new WikiFetcher();
 		String url = "https://en.wikipedia.org/wiki/Java_(programming_language)";
-		Elements paragraphs = wf.readWikipedia(url);
+		Elements paragraphs = wf.fetchWikipedia(url);
 
 		for (Element paragraph: paragraphs) {
 			System.out.println(paragraph);

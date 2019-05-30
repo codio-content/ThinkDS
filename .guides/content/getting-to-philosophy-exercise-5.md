@@ -20,7 +20,9 @@ So what should we consider a “valid” link? You have some choices here. Vario
 1.  You should skip external links, links to the current page, and red links.
 1.  In some versions, you should skip a link if the text starts with an uppercase letter. 
 
-You don't have to enforce all of these rules, but we recommend that you at least handle parentheses, italics, and links to the current page.
+You don't have to enforce all of these rules, but we recommend that you at least handle parentheses, italics, and links to the current page. 
+{Run | terminal}(javac code/WikiPhilosophy.java code/WikiFetcher.java && java -cp code WikiPhilosophy)
+
 
 If you feel like you have enough information to get started, go ahead. Or you might want to read these hints:
 

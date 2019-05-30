@@ -884,17 +884,12 @@
         },
         {
           "action": "open",
-          "panel": 2,
+          "panel": 0,
           "path": "code/WikiPhilosophy.java"
-        },
-        {
-          "action": "open",
-          "panel": 3,
-          "path": "#terminal: "
         }
       ],
       "id": "getting-to-philosophy-getting-started",
-      "layout": "4-cell",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -928,8 +923,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/getting-to-philosophy-wikifetcher.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/WikiFetcher.java"
+        }
+      ],
       "id": "getting-to-philosophy-wikifetcher",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],

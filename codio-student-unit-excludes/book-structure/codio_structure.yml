@@ -681,12 +681,15 @@ sections:
   - name: Getting started
     type: section
     transformations:
-        - add: |
-              {Run `ant WikiPhilosophy` | terminal}(ant WikiPhilosophy)
-  
-          position: 3461
+        - remove: 3
+          position: 3458
+        - add:  |
+        
+            {Run Wiki Fetcher | terminal}(cd code && javac WikiFetcher.java && java -cp lib/*:. WikiFetcher && cd ../)
+            
+          position: 3457
     configuration:
-      layout: 4-cell
+      layout: 2-panels
       files:
         - path: "#tabs"
           action: close
@@ -700,13 +703,23 @@ sections:
           panel: 0
           action: open
         - path: "code/WikiPhilosophy.java"
-          panel: 2
-          action: open
-        - path: "#terminal: "
-          panel: 3
+          panel: 0
           action: open
   - name: Iterables and Iterators
     type: section
+    transformations:
+        - remove: 15
+          position: 3519
+        - add:  |
+             [Highlight in Code](open_file code/WikiNodeIterable.java panel=0 ref="public class WikiNodeIterable" count=13)
+ 
+          position: 3518
+        - remove: 31
+          position: 3537
+        - add:  |
+             [Highlight in Code](open_file code/WikiNodeIterable.java panel=0 ref="private class WikiNodeIterator" count=38)
+  
+          position: 3536
     configuration:
       layout: 2-panels
       files:
@@ -715,8 +728,15 @@ sections:
         - path: "code/WikiNodeIterable.java"
           panel: 0
           action: open
-  - name: \java{WikiFetcher}
+  - name: WikiFetcher
     type: section
+    transformations:
+        - add:  |
+             [Highlight in Code](open_file code/WikiFetcher.java panel=0 ref="public class WikiFetcher" count=75)
+  
+          position: 3629
+        - remove: 40
+          position: 3630
     configuration:
       layout: 2-panels
       files:
@@ -727,6 +747,12 @@ sections:
           action: open
   - name: Exercise 5
     type: section
+    transformations:
+        - add:  |
+              
+              {Run | terminal}(javac code/WikiPhilosophy.java code/WikiFetcher.java && java -cp code WikiPhilosophy)
+ 
+          position: 3771
     configuration:
       layout: 3-cell-tree
       files:

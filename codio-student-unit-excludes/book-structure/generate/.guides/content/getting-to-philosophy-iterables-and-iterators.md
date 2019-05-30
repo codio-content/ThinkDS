@@ -23,57 +23,13 @@ The implementation of `WikiNodeIterable` follows a conventional formula:
 1.  The constructor takes and stores a reference to the root `Node`.
 1.  The `iterator` method creates a returns an `Iterator` object. 
 
-Here's what it looks like:
+Here's what it looks like: [Highlight in Code](open_file code/WikiNodeIterable.java panel=0 ref="public class WikiNodeIterable" count=13)
 
-```code
-public class WikiNodeIterable implements Iterable<Node> {
 
-    private Node root;
 
-    public WikiNodeIterable(Node root) {
-        this.root = root;
-    }
+The inner class, `WikiNodeIterator`, does all the real work: [Highlight in Code](open_file code/WikiNodeIterable.java panel=0 ref="private class WikiNodeIterator" count=38)
 
-    @Override
-    public Iterator<Node> iterator() {
-        return new WikiNodeIterator(root);
-    }
-}
-```
 
-The inner class, `WikiNodeIterator`, does all the real work:
-
-```code
-    private class WikiNodeIterator implements Iterator<Node> {
-
-        Deque<Node> stack;
-
-        public WikiNodeIterator(Node node) {
-            stack = new ArrayDeque<Node>();
-            stack.push(root);
-        }
-
-        @Override
-        public boolean hasNext() {
-            return !stack.isEmpty();
-        }
-
-        @Override
-        public Node next() {
-            if (stack.isEmpty()) {
-                throw new NoSuchElementException();
-            }
-
-            Node node = stack.pop();
-            List<Node> nodes = new ArrayList<Node>(node.childNodes());
-            Collections.reverse(nodes);
-            for (Node child: nodes) {
-                stack.push(child);
-            }
-            return node;
-        }
-    }
-```
 
 
 This code is almost identical to the iterative version of DFS, but now it's split into three methods:
