@@ -43,4 +43,7 @@ Because `poll` returns the smallest element remaining in the queue, the elements
 Adding $n$ elements to the queue takes $n \log n$ time. So does removing $n$ elements. So the runtime for heap sort is $O(n \log n)$.
 
 
-In the repository for this book, in `ListSorter.java` you'll find the outline of a method called `heapSort`. Fill it in and then run `ant ListSorterTest` to confirm that it works.
+
+In the repository for this book, in `ListSorter.java` you'll find the outline of a method called `heapSort`. Fill it in and then run `ListSorterTest` to confirm that it works.
+
+{Check It!|assessment}(test-2358547291)

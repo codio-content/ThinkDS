@@ -3,29 +3,9 @@ We'll start with insertion sort, mostly because it is simple to describe and imp
 
 Rather than explain the algorithm here, I suggest you read the insertion sort Wikipedia page at [http://thinkdast.com/insertsort](http://thinkdast.com/insertsort), which includes pseudocode and animated examples. Come back when you get the general idea.
 
-Here's an implementation of insertion sort in Java:
+Here's an implementation of insertion sort in Java: [Highlight in Code](open_file code/ListSorter.java panel=0 ref="public void insertionSort" count=16)
 
-```code
-public class ListSorter<T> {
 
-    public void insertionSort(List<T> list, Comparator<T> comparator) {
-
-        for (int i=1; i < list.size(); i++) {
-            T elt_i = list.get(i);
-            int j = i;
-            while (j > 0) {
-                T elt_j = list.get(j-1);
-                if (comparator.compare(elt_i, elt_j) >= 0) {
-                    break;
-                }
-                list.set(j, elt_j);
-                j--;
-            }
-            list.set(j, elt_i);
-        }
-    }
-}
-```
 
 I define a class, `ListSorter`, as a container for sort algorithms. By using the type parameter, `T`, we can write methods that work on lists containing any object type.
 
@@ -33,23 +13,9 @@ I define a class, `ListSorter`, as a container for sort algorithms. By using the
 `insertionSort` takes two parameters, a `List` of any kind and a `Comparator` that knows how to compare type `T` objects. It sorts the list “in place”, which means it modifies the existing list and does not have to allocate any new space.
 
 
-The following example shows how to call this method with a `List` of `Integer` objects:
+The following example shows how to call this method with a `List` of `Integer` objects: [Highlight in Code](open_file code/ListSorter.java panel=0 ref="public static void main" count=12)
 
-```code
-        List<Integer> list = new ArrayList<Integer>(
-            Arrays.asList(3, 5, 1, 4, 2));
 
-        Comparator<Integer> comparator = new Comparator<Integer>() {
-            @Override
-            public int compare(Integer elt1, Integer elt2) {
-                return elt1.compareTo(elt2);
-            }
-        };
-
-        ListSorter<Integer> sorter = new ListSorter<Integer>();
-        sorter.insertionSort(list, comparator);
-        System.out.println(list);
-```
 
 `insertionSort` has two nested loops, so you might guess that its runtime is quadratic. In this case, that turns out to be correct, but before you jump to that conclusion, you have to check that the number of times each loop runs is proportional to $n$, the size of the array.
 

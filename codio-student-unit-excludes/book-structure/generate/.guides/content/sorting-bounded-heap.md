@@ -20,4 +20,7 @@ Using a heap with the smallest element at the top, we can keep track of the larg
 In the worst case, if the elements appear in ascending order, we always run Branch 3. In that case, the total time to process $n$ elements is $O(n \log k)$, which is linear in $n$.
 
 
-In `ListSorter.java` you'll find the outline of a method called `topK` that takes a `List`, a `Comparator`, and an integer $k$. It should return the $k$ largest elements in the `List` in ascending order. Fill it in and then run `ant   ListSorterTest` to confirm that it works.
+
+In `ListSorter.java` you'll find the outline of a method called `topK` that takes a `List`, a `Comparator`, and an integer $k$. It should return the $k$ largest elements in the `List` in ascending order. Fill it in and then run `ListSorterTest`
+
+{Check It!|assessment}(test-2358547291)

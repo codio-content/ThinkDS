@@ -14,10 +14,3 @@ Software developers tend to pay more attention to runtime than space, and for ma
 1.  On a server that runs many programs at the same time, if you can reduce the space needed for each program, you might be able to run more programs on the same server, which reduces hardware and energy costs. 
 
 So those are some reasons you should know at least a little bit about the space needs of algorithms.
-
-
-
-\backmatter \printindex
-
-
-\end{document}

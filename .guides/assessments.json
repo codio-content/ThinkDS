@@ -226,5 +226,24 @@
    "points": 1,
    "timeoutSeconds": 300
   }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2358547291",
+  "source": {
+   "name": "exercise14",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Run `ListSorterTest`",
+   "codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\"code/ListSorterTest.java\",\"className\":\"ListSorterTest\"}],\"partialPoints\":false,\"maxPoints\":1,\"wd\":\"\",\"sources\":\"code/ListSorterTest.java\",\"libs\":\"code/lib/*\",\"testsources\":\"code\"}",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 300
+  }
  }
 ]

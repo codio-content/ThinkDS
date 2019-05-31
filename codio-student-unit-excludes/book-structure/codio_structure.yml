@@ -1591,18 +1591,52 @@ sections:
             action: close
   - name: Insertion sort
     type: section
+    transformations:
+        - add:  |
+              [Highlight in Code](open_file code/ListSorter.java panel=0 ref="public void insertionSort" count=16)
+ 
+          position: 8280
+        - remove: 21
+          position: 8281
+        - add:  |
+              [Highlight in Code](open_file code/ListSorter.java panel=0 ref="public static void main" count=12)
+ 
+          position: 8319
+        - remove: 15
+          position: 8320
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ListSorter.java"
+            panel: 0
+            action: open
   - name: Exercise 14
     type: section
+    transformations:
+        - add:  |
+              {Check It!|assessment}(test-2358547291)
+              
+              As usual, it should fail, because you have work to do.
+ 
+          position: 8421
+        - remove: 3
+          position: 8422
+        - add:  |
+              [Highlight in Code](open_file code/ListSorter.java panel=0 ref="public void mergeSortInPlace" count=25)
+ 
+          position: 8431
+        - remove: 13
+          position: 8432
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ListSorter.java"
+            panel: 0
+            action: open
   - name: Analysis of merge sort
     type: section
     configuration:
@@ -1619,18 +1653,42 @@ sections:
             action: close
   - name: Heap sort
     type: section
+    transformations:
+        - add:  |
+              In the repository for this book, in `ListSorter.java` you'll find the outline of a method called `heapSort`. Fill it in and then run `ListSorterTest` to confirm that it works.
+
+              {Check It!|assessment}(test-2358547291)
+ 
+          position: 8812
+        - remove: 3
+          position: 8808
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ListSorter.java"
+            panel: 0
+            action: open
   - name: Bounded heap
     type: section
+    transformations:
+        - add:  |
+              In `ListSorter.java` you'll find the outline of a method called `topK` that takes a `List`, a `Comparator`, and an integer $k$. It should return the $k$ largest elements in the `List` in ascending order. Fill it in and then run `ListSorterTest`
+              
+              {Check It!|assessment}(test-2358547291)
+ 
+          position: 8875
+        - remove: 5
+          position: 8868
     configuration:
-      layout: 1-panel
+      layout: 2-panels
       files:
           - path: "#tabs"
             action: close
+          - path: "code/ListSorter.java"
+            panel: 0
+            action: open
   - name: Space complexity
     type: section
     configuration:

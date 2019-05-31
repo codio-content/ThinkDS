@@ -7,24 +7,15 @@ In the repository for this book, you'll find the source files for this exercise:
 
 *  `ListSorter.java`
 *  `ListSorterTest.java` 
+{Check It!|assessment}(test-2358547291)
 
-Run `ant build` to compile the source files, then run `ant ListSorterTest`. As usual, it should fail, because you have work to do.
+As usual, it should fail, because you have work to do.
 
 
-In `ListSorter.java`, I've provided an outline of two methods, `mergeSortInPlace` and `mergeSort`:
 
-```code
-    public void mergeSortInPlace(List<T> list, Comparator<T> comparator) {
-        List<T> sorted = mergeSortHelper(list, comparator);
-        list.clear();
-        list.addAll(sorted);
-    }
 
-    private List<T> mergeSort(List<T> list, Comparator<T> comparator) {
-       // TODO: fill this in!
-       return null;
-    }
-```
+In `ListSorter.java`, I've provided an outline of two methods, `mergeSortInPlace` and `mergeSort`: [Highlight in Code](open_file code/ListSorter.java panel=0 ref="public void mergeSortInPlace" count=25)
+
 
 These two methods do the same thing but provide different interfaces. `mergeSort` takes a list and returns a new list with the same elements sorted in ascending order. `mergeSortInPlace` is a `void` method that modifies an existing list.
 

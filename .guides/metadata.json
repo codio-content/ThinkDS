@@ -2147,10 +2147,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ListSorter.java"
         }
       ],
       "id": "sorting-insertion-sort",
-      "layout": "1-panel",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2165,10 +2170,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ListSorter.java"
         }
       ],
       "id": "sorting-exercise-14",
-      "layout": "1-panel",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2219,10 +2229,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ListSorter.java"
         }
       ],
       "id": "sorting-heap-sort",
-      "layout": "1-panel",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2237,10 +2252,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ListSorter.java"
         }
       ],
       "id": "sorting-bounded-heap",
-      "layout": "1-panel",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
