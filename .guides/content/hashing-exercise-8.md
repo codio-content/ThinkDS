@@ -11,7 +11,11 @@ In this exercise, you will finish off the implementation of `MyBetterMap`.  In t
 *  `Profiler.java` contains code for measuring and plotting runtime versus problem size.
 *  `ProfileMapPut.java` contains code that profiles the `Map.put` method. 
 
-As usual, you should run `ant build` to compile the source files. Then run `ant MyBetterMapTest`. Several tests should fail, because you have some work to do!
+{Check It!|assessment}(test-617588014)
+
+Several tests should fail, because you have some work to do!
+
+
 
 
 Review the implementation of `put` and `get` from the previous chapter. Then fill in the body of `containsKey`. HINT: use `chooseMap`. Run `ant MyBetterMapTest` again and confirm that `testContainsKey` passes.

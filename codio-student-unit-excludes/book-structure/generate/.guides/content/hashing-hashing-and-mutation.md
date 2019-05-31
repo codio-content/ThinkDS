@@ -1,44 +1,13 @@
 `String`s are immutable, and `SillyString` is also immutable because `innerString` is declared to be `final`. Once you create a `SillyString`, you can't make `innerString` refer to a different `String`, and you can't modify the `String` it refers to. Therefore, it will always have the same hash code.
 
 
-But let's see what happens with a mutable object. Here's a definition for `SillyArray`, which is identical to `SillyString`, except that it uses an array of characters instead of a `String`:
-
-```code
-public class SillyArray {
-    private final char[] array;
-
-    public SillyArray(char[] array) {
-        this.array = array;
-    }
-
-    public String toString() {
-        return Arrays.toString(array);
-    }
-    
-    @Override
-    public boolean equals(Object other) {
-        return this.toString().equals(other.toString());
-    }
-    
-    @Override
-    public int hashCode() {
-        int total = 0;
-        for (int i=0; i<array.length; i++) {
-            total += array[i];
-        }
-        System.out.println(total);
-        return total;
-    }
-```
+But let's see what happens with a mutable object. Here's a definition for `SillyArray`, which is identical to `SillyString`, except that it uses an array of characters instead of a `String`: [Highlight in Code](open_file code/SillyArray.java panel=0 ref="public class SillyArray" count=24)
 
 
-`SillyArray` also provides `setChar`, which makes it possible to modify the characters in the array:
 
-```code
-public void setChar(int i, char c) {
-    this.array[i] = c;
-}
-```
+
+`SillyArray` also provides `setChar`, which makes it possible to modify the characters in the array: [Highlight in Code](open_file code/SillyArray.java panel=0 ref="public void setChar" count=3)
+
 
 Now suppose we create a `SillyArray` and add it to a map:
 

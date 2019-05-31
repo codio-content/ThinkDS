@@ -1318,8 +1318,14 @@
     {
       "chapter": false,
       "content-file": ".guides/content/hashmap-analyzing-myhashmap.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        }
+      ],
       "id": "hashmap-analyzing-myhashmap",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1348,8 +1354,24 @@
     {
       "chapter": false,
       "content-file": ".guides/content/hashmap-profiling-myhashmap.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/ProfileMapPut.java"
+        },
+        {
+          "action": "open",
+          "panel": 1,
+          "path": "#preview: https://{{domain3000}}/"
+        }
+      ],
       "id": "hashmap-profiling-myhashmap",
+      "layout": "3-cell",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1360,8 +1382,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/hashmap-fixing-myhashmap.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyFixedHashMap.java"
+        }
+      ],
       "id": "hashmap-fixing-myhashmap",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],

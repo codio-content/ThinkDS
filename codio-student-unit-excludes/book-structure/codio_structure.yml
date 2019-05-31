@@ -925,6 +925,19 @@ sections:
             action: close
   - name: Hashing
     type: section
+    transformations:
+        - add:  |
+              [Highlight in Code](open_file code/MyBetterMap.java panel=0 ref="public class MyBetterMap" count=23)
+ 
+          position: 4581
+        - remove: 17
+          position: 4582
+        - add:  |
+              [Highlight in Code](open_file code/MyBetterMap.java panel=0 ref="protected MyLinearMap" count=4)
+ 
+          position: 4642
+        - remove: 9
+          position: 4643
     configuration:
       layout: 2-panels
       files:
@@ -935,6 +948,19 @@ sections:
           action: open
   - name: How does hashing work?
     type: section
+    transformations:
+        - add:  |
+              [Highlight in Code](open_file code/SillyString.java panel=0 ref="public class SillyString" count=9)
+ 
+          position: 4717
+        - remove: 12
+          position: 4718
+        - add:  |
+              [Highlight in Code](open_file code/SillyString.java panel=0 ref="public boolean equals" count=13)
+ 
+          position: 4734
+        - remove: 15
+          position: 4735
     configuration:
       layout: 2-panels
       files:
@@ -945,6 +971,19 @@ sections:
           action: open
   - name: Hashing and mutation
     type: section
+    transformations:
+        - add:  |
+              [Highlight in Code](open_file code/SillyArray.java panel=0 ref="public class SillyArray" count=24)
+ 
+          position: 4814
+        - remove: 27
+          position: 4815
+        - add:  |
+              [Highlight in Code](open_file code/SillyArray.java panel=0 ref="public void setChar" count=3)
+ 
+          position: 4847
+        - remove: 6
+          position: 4848
     configuration:
       layout: 2-panels
       files:
@@ -955,6 +994,16 @@ sections:
           action: open
   - name: Exercise 8
     type: section
+    transformations:
+        - add:  |
+              
+              {Check It!|assessment}(test-617588014)
+              
+              Several tests should fail, because you have some work to do!
+ 
+          position: 4925
+        - remove: 3
+          position: 4926
     configuration:
       layout: 3-cell-tree
       files:
@@ -976,6 +1025,22 @@ sections:
             action: close
   - name: Exercise 9
     type: section
+    transformations:
+        - add:  |
+              [Highlight in Code](open_file code/MyHashMap.java panel=0 ref="public class MyHashMap" count=15)
+ 
+          position: 4992
+        - remove: 18
+          position: 4993
+        - add:  |
+              
+              {Check It!|assessment}(test-2138140034)
+              
+              It should fail because the implementation of `rehash` throws an exception. Your job is to fill it in.
+ 
+          position: 5031
+        - remove: 3
+          position: 5032
     configuration:
       layout: 3-cell
       files:
@@ -987,7 +1052,7 @@ sections:
         - path: "#terminal: "
           panel: 1
           action: open
-  - name: Analyzing \java{MyHashMap}
+  - name: Analyzing MyHashMap
     type: section
     configuration:
       layout: 1-panel
@@ -1001,8 +1066,17 @@ sections:
       files:
           - path: "#tabs"
             action: close
-  - name: Profiling \java{MyHashMap}
+  - name: Profiling MyHashMap
     type: section
+    transformations:
+        - add:  |
+              {Run! | terminal}(cd code && javac Profiler.java ProfileMapPut.java && java -cp lib/*:. ProfileMapPut && cd ../ )
+              
+              It measures the runtime of `HashMap.put` (provided by Java) with a range of problem sizes, and plots runtime versus problem size on a log-log scale. If this operation is constant time, the total time for $n$ operations should be linear, so the result should be a straight line with slope 1. When I ran this code, the estimated slope was close to 1, which is consistent with our analysis. You should get something similar. 
+ 
+          position: 5193
+        - remove: 8
+          position: 5194
     configuration:
       layout: 3-cell
       files:
@@ -1011,21 +1085,18 @@ sections:
         - path: "code/ProfileMapPut.java"
           panel: 0
           action: open
-        - path: "#terminal: "
+        - path: "#preview: https://{{domain3000}}/"
           panel: 1
           action: open
-  - name: Fixing \java{MyHashMap}
+  - name: Fixing MyHashMap
     type: section
     configuration:
-      layout: 3-cell
+      layout: 2-panels
       files:
         - path: "#tabs"
           action: close
-        - path: "code/MyHashMap.java"
+        - path: "code/MyFixedHashMap.java"
           panel: 0
-          action: open
-        - path: "#terminal: "
-          panel: 1
           action: open
   - name: UML class diagrams
     type: section

@@ -1,24 +1,8 @@
 To improve the performance of `MyLinearMap`, we'll write a new class, called `MyBetterMap`, that contains a collection of `MyLinearMap` objects. It divides the keys among the embedded maps, so the number of entries in each map is smaller, which speeds up `findEntry` and the methods that depend on it.
 
-Here's the beginning of the class definition:
+Here's the beginning of the class definition: [Highlight in Code](open_file code/MyBetterMap.java panel=0 ref="public class MyBetterMap" count=23)
 
-```code
-public class MyBetterMap<K, V> implements Map<K, V> {
-    
-    protected List<MyLinearMap<K, V>> maps;
-    
-    public MyBetterMap(int k) {
-        makeMaps(k);
-    }
 
-    protected void makeMaps(int k) {
-        maps = new ArrayList<MyLinearMap<K, V>>(k);
-        for (int i=0; i<k; i++) {
-            maps.add(new MyLinearMap<K, V>());
-        }
-    }
-}
-```
 
 The instance variable, `maps`, is a collection of `MyLinearMap` objects. The constructor takes a parameter, `k`, that determines how many maps to use, at least initially. Then `makeMaps` creates the embedded maps and stores them in an `ArrayList`.
 
@@ -34,17 +18,9 @@ A better approach is to use a **hash function**, which takes an `Object`, any `O
 In Java, every `Object` provides a method called `hashCode` that computes a hash function. The implementation of this method is different for different objects; we'll see an example soon.
 
 
-Here's a helper method that chooses the right sub-map for a given key:
+Here's a helper method that chooses the right sub-map for a given key: [Highlight in Code](open_file code/MyBetterMap.java panel=0 ref="protected MyLinearMap" count=4)
 
-```code
-protected MyLinearMap<K, V> chooseMap(Object key) {
-    int index = 0;
-    if (key != null) { 
-        index = Math.abs(key.hashCode()) % maps.size();
-    }
-    return maps.get(index);
-}
-```
+
 
 If `key` is `null`, we choose the sub-map with index 0, arbitrarily. Otherwise we use `hashCode` to get an integer, apply `Math.abs` to make sure it is non-negative, then use the remainder operator, `%`, which guarantees that the result is between 0 and `maps.size()-1`. So `index` is always a valid index into `maps`. Then `chooseMap` returns a reference to the map it chose.
 

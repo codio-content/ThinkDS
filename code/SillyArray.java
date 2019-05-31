@@ -21,10 +21,6 @@ public class SillyArray {
 		return Arrays.toString(array);
 	}
 	
-	public void setChar(int i, char c) {
-		this.array[i] = c;
-	}
-	
 	@Override
 	public boolean equals(Object other) {
 		return this.toString().equals(other.toString());
@@ -40,6 +36,10 @@ public class SillyArray {
 		return total;
 	}
 	
+  public void setChar(int i, char c) {
+		this.array[i] = c;
+	}
+  
 	/**
 	 * @param args
 	 */
