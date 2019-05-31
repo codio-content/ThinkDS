@@ -7,11 +7,11 @@ In the repository for this book, you'll find the source files for this exercise:
 *  `Index.java` contains the class definition for the next part of this exercise.
 *  `WikiFetcher.java` contains the class we used in the previous exercise to download and parse Web pages.
 *  `WikiNodeIterable.java` contains the class we used to traverse the nodes in a DOM tree. 
+{Run! | terminal}(cd code && javac WikiNodeIterable.java WikiFetcher.java TermCounter.java && java -cp lib/*:. TermCounter && cd ../)
 
-You'll also find the Ant build file `build.xml`.
+Use the button above to compile and run the source files. It should run the code from the previous section and print a list of terms and their counts. The output should look something like this: 
 
 
-Run `ant build` to compile the source   files. Then run `ant TermCounter`; it should run the code from   the previous section and print a list of terms and their counts. The   output should look something like this:
 
 ```code
 genericservlet, 2
@@ -27,7 +27,8 @@ When you run it, the order of the terms might be different.
 
 The last line is supposed to print the total of the term counts, but it returns `-1` because the method `size` is incomplete. Fill in this method and run `ant TermCounter` again. The result should be `4798`.
 
-Run `ant TermCounterTest` to confirm that this part of the exercise is complete and correct.
+{Check It!|assessment}(test-4137955851)
+
 
 
 For the second part of the exercise, I'll present an implementation of an `Index` object and you will fill in a missing method. Here's the beginning of the class definition:
@@ -93,8 +94,11 @@ The method `printIndex` shows how to unpack this data structure:
 
 The outer loop iterates the search terms. The inner loop iterates the `TermCounter` objects.
 
+{Run | terminal}(cd code && javac WikiNodeIterable.java WikiFetcher.java TermCounter.java Index.java && java -cp lib/*:. Index && cd ../)
 
-Run `ant build` to make sure your source code is compiled, and then run `ant Index`. It downloads two Wikipedia pages, indexes them, and prints the results; but when you run it you won't see any output because we've left one of the methods empty.
+Use the button above to compile and run Index. It downloads two Wikipedia pages, indexes them, and prints the results; but when you run it you won't see any output because we've left one of the methods empty.
+
+
 
 
 Your job is to fill in `indexPage`, which takes a URL (as a `String`) and an `Elements` object, and updates the index. The comments below sketch what it should do:
@@ -124,4 +128,4 @@ occur
 
 The order of the search terms might be different when you run it.
 
-Also, run `ant TestIndex` to confirm that this part of the exercise is complete.
+{Check It!|assessment}(test-1630193058)

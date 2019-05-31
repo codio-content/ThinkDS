@@ -781,6 +781,31 @@ sections:
             action: close
   - name: TermCounter
     type: section
+    transformations:
+        - remove: 12
+          position: 3930
+        - add:  |
+              [Highlight in Code](open_file code/TermCounter.java panel=0 ref="public class TermCounter" count=10)
+ 
+          position: 3929
+        - remove: 10
+          position: 3958
+        - add:  |
+              [Highlight in Code](open_file code/TermCounter.java panel=0 ref="public void put" count=14)
+ 
+          position: 3957
+        - remove: 5
+          position: 3984
+        - add:  |
+              [Highlight in Code](open_file code/TermCounter.java panel=0 ref="public void incrementTermCount" count=3)
+ 
+          position: 3983
+        - remove: 26
+          position: 3998
+        - add:  |
+              [Highlight in Code](open_file code/TermCounter.java panel=0 ref="public void processElements" count=37)
+ 
+          position: 3997
     configuration:
       layout: 2-panels
       files:
@@ -792,10 +817,34 @@ sections:
   - name: Exercise 6
     type: section
     transformations:
+        - remove: 9
+          position: 4101
         - add: |
-              {Run! | terminal}(javac code/ScannerBug.java && java -cp code/ ScannerBug)
+              {Run! | terminal}(cd code && javac WikiNodeIterable.java WikiFetcher.java TermCounter.java && java -cp lib/*:. TermCounter && cd ../)
+              
+              Use the button above to compile and run the source files. It should run the code from the previous section and print a list of terms and their counts. The output should look something like this: 
   
-          position: 251
+          position: 4100
+        - remove: 2
+          position: 4129
+        - add:  |
+              {Check It!|assessment}(test-4137955851)
+ 
+          position: 4131
+        - remove: 4
+          position: 4230
+        - add:  |
+              {Run | terminal}(cd code && javac WikiNodeIterable.java WikiFetcher.java TermCounter.java Index.java && java -cp lib/*:. Index && cd ../)
+              
+              Use the button above to compile and run Index. It downloads two Wikipedia pages, indexes them, and prints the results; but when you run it you won't see any output because we've left one of the methods empty.
+ 
+          position: 4229
+        - remove: 2
+          position: 4267
+        - add:  |
+              {Check It!|assessment}(test-1630193058)
+ 
+          position: 4269
     configuration:
       layout: 3-cell-tree
       files:
