@@ -253,11 +253,11 @@ public class JedisIndex {
 		WikiFetcher wf = new WikiFetcher();
 
 		String url = "https://en.wikipedia.org/wiki/Java_(programming_language)";
-		Elements paragraphs = wf.readWikipedia(url);
+		Elements paragraphs = wf.fetchWikipedia(url);
 		index.indexPage(url, paragraphs);
 
 		url = "https://en.wikipedia.org/wiki/Programming_language";
-		paragraphs = wf.readWikipedia(url);
+		paragraphs = wf.fetchWikipedia(url);
 		index.indexPage(url, paragraphs);
 	}
 }

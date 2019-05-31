@@ -1,7 +1,9 @@
 At this point you have the information you need to make a web search index that stores results in a Redis database.
 
+{Check It!|assessment}(test-3509169483)
+It should fail, because you have some work to do!
 
-Now run `ant JedisIndexTest`. It should fail, because you have some work to do!
+
 
 `JedisIndexTest` tests these methods:
 
@@ -11,19 +13,11 @@ Now run `ant JedisIndexTest`. It should fail, because you have some work to do!
 *  `indexPage`, which adds a Web page to the index; it takes a `String` URL and a jsoup `Elements` object that contains the elements of the page that should be indexed.
 *  `getCounts`, which takes a search term and returns a `Map<String, Integer>` that maps from each URL that contains the search term to the number of times it appears on that page. 
 
-Here's an example of how these methods are used:
+Here's an example of how these methods are used: [Highlight in Code](open_file code/JedisIndex.java panel=0 ref="WikiFetcher" count=9)
 
-```code
-        WikiFetcher wf = new WikiFetcher();
-        String url1 = 
-            "http://en.wikipedia.org/wiki/Java_(programming_language)";
-        Elements paragraphs = wf.readWikipedia(url1);
+{Run! | terminal}(cd code && javac JedisIndex.java JedisMaker.java WikiFetcher.java && java -cp lib/*:. JedisIndex && cd ../ )
 
-        Jedis jedis = JedisMaker.make();
-        JedisIndex index = new JedisIndex(jedis);
-        index.indexPage(url1, paragraphs);
-        Map<String, Integer> map = index.getCounts("the");
-```
+
 
 If we look up `url1` in the result, `map`, we should get 339, which is the number of times the word “the” appears on the Java Wikipedia page (that is, the version we saved).
 

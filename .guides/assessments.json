@@ -169,5 +169,24 @@
    "points": 1,
    "timeoutSeconds": 300
   }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3509169483",
+  "source": {
+   "name": "exercise11",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Run `JedisIndexTest`",
+   "codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\"code/JedisIndexTest.java\",\"className\":\"JedisIndexTest\"}],\"partialPoints\":false,\"maxPoints\":1,\"wd\":\"\",\"sources\":\"code/JedisIndex.java\",\"libs\":\"code/lib/*\",\"testsources\":\"code\"}",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 300
+  }
  }
 ]

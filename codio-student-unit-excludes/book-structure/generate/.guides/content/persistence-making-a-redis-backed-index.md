@@ -20,51 +20,14 @@ If you have working versions of these files, you can use them for this exercise.
 The first step is to use Jedis to connect to your Redis server. `RedisMaker.java` shows how to do this. It reads information about your Redis server from a file, connects to it and logs in using your password, then returns a `Jedis` object you can use to perform Redis operations.
 
 
-If you open `JedisMaker.java`, you should see the `JedisMaker` class, which is a helper class that provides one static method, `make`, which creates a `Jedis` object. Once this object is authenticated, you can use it to communicate with your Redis database.
+If you open `JedisMaker.java`, you should see the `JedisMaker` class, which is a helper class that provides one static method, `make`, which creates a `Jedis` object. Once this object is authenticated, you can use it to communicate with your Redis database. 
+`JedisMaker` reads information about your Redis server from a file named `redis_url.txt`.
 
-`JedisMaker` reads information about your Redis server from a file named `redis_url.txt`, which you should put in the directory `src/resources`:
+Run the `JedisMaker` example code ([Highlight](open_file code/JedisMaker.java panel=0 ref="public static void main" count=27)) using the button below:
 
-
-
-*  Use a text editor to create end edit `ThinkDataStructures/code/src/resources/redis_url.txt`.
-*  Paste in the URL of your server. If you are using RedisToGo, the URL will look like this: `redis://redistogo:1234567feedfacebeefa1e1234567@dory.redistogo.com:10534` 
-
-Because this file contains the password for your Redis server, you should not put this file in a public repository. To help you avoid doing that by accident, the repository contains a `.gitignore` file that makes it harder (but not impossible) to put this file in your repo.
+{Run! | terminal}(cd code && javac JedisIndex.java JedisMaker.java WikiFetcher.java && java -cp lib/*:. JedisMaker && cd ../ )
 
 
-Now run `ant build` to compile the source files and `ant JedisMaker` to run the example code in `main`:
-
-```code
-    public static void main(String[] args) {
-
-        Jedis jedis = make();
-        
-        // String
-        jedis.set("mykey", "myvalue");
-        String value = jedis.get("mykey");
-        System.out.println("Got value: " + value);
-        
-        // Set
-        jedis.sadd("myset", "element1", "element2", "element3");
-        System.out.println("element2 is member: " + 
-                           jedis.sismember("myset", "element2"));
-        
-        // List
-        jedis.rpush("mylist", "element1", "element2", "element3");
-        System.out.println("element at index 1: " + 
-                           jedis.lindex("mylist", 1));
-        
-        // Hash
-        jedis.hset("myhash", "word1", Integer.toString(2));
-        jedis.hincrBy("myhash", "word2", 1);
-        System.out.println("frequency of word1: " + 
-                           jedis.hget("myhash", "word1"));
-        System.out.println("frequency of word1: " + 
-                            jedis.hget("myhash", "word2"));
-        
-        jedis.close();
-    }
-```
 
 This example demonstrates the data types and methods you are most likely to use for this exercise. When you run it, the output should be:
 

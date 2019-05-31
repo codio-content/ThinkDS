@@ -32,3 +32,7 @@ Each time you invoke `del` requires a round-trip from the client to the server a
 ```
 
 `jedis.multi` returns a `Transaction` object, which provides all the methods of a `Jedis` object. But when you invoke a method on a `Transaction`, it doesn't run the operation immediately, and it doesn't communicate with the server. It saves up a batch of operations until you invoke `exec`. Then it sends all of the saved operations to the server at the same time, which is usually much faster.
+
+{Run! | terminal}(cd code && javac JedisIndex.java JedisMaker.java WikiFetcher.java && java -cp lib/*:. JedisIndex && cd ../ )
+
+{Check It!|assessment}(test-3509169483)

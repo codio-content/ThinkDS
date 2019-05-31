@@ -51,10 +51,8 @@ public class WikiFetcher {
 		String filename = "resources" + slash + realURL.getHost() + realURL.getPath();
     
 		// read the file
-		System.out.println(filename);
     System.out.println(WikiFetcher.class.getClassLoader().getResourceAsStream(filename));
 		InputStream stream = WikiFetcher.class.getClassLoader().getResourceAsStream(filename);
-    System.out.println("Stream: " + stream);
 		Document doc = Jsoup.parse(stream, "UTF-8", filename);
 
 		// parse the contents of the file

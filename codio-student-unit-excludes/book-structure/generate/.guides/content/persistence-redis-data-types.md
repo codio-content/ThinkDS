@@ -1,4 +1,6 @@
-Redis is basically a map from keys, which are strings, to values, which can be one of several data types. The most basic Redis data type is a `string`.  I will write Redis types in italics to distinguish them from Java types. 
+Redis is basically a map from keys, which are strings, to values, which can be one of several data types. The most basic Redis data type is a `string`.
+
+
 
 To add a `string` to the database, use `jedis.set`, which is similar to `Map.put`; the parameters are the new key and the corresponding value. To look up a key and get its value, use `jedis.get`:
 

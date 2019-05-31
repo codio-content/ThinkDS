@@ -25,7 +25,7 @@ public class JedisMaker {
 		
 		// assemble the directory name
 		String slash = File.separator;
-		String filename = "resources" + slash + "redis_url.txt";
+		String filename = "redis_url.txt";
 		URL fileURL = JedisMaker.class.getClassLoader().getResource(filename);
 		String filepath = URLDecoder.decode(fileURL.getFile(), "UTF-8");
 		
@@ -47,7 +47,7 @@ public class JedisMaker {
 			sb.append(line);
 		}
 		br.close();
-
+    
 		// parse the URL
 		URI uri;
 		try {
@@ -58,25 +58,27 @@ public class JedisMaker {
 			printInstructions();
 			return null;
 		}
+    
 		String host = uri.getHost();
 		int port = uri.getPort();
-
-		String[] array = uri.getAuthority().split("[:@]");
-		String auth = array[1];
+    
+// 		String[] array = uri.getAuthority().split("[:@]");
+// 		String auth = array[1];
 		
 		// connect to the server
 		Jedis jedis = new Jedis(host, port);
 
-		try {
-			jedis.auth(auth);
-		} catch (Exception e) {
-			System.out.println("Trying to connect to " + host);
-			System.out.println("on port " + port);
-			System.out.println("with authcode " + auth);
-			System.out.println("Got exception " + e);
-			printInstructions();
-			return null;
-		}
+    
+// 		try {
+// 			jedis.auth(auth);
+// 		} catch (Exception e) {
+// 			System.out.println("Trying to connect to " + host);
+// 			System.out.println("on port " + port);
+// 			System.out.println("with authcode " + auth);
+// 			System.out.println("Got exception " + e);
+// 			printInstructions();
+// 			return null;
+// 		}
 		return jedis;
 	}
 

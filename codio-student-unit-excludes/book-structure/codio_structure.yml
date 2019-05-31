@@ -1304,6 +1304,13 @@ sections:
             action: close
   - name: Redis clients and servers
     type: section
+    transformations:
+        - remove: 53
+          position: 6563
+        - add:  |
+              Redis is usually run as a remote service; in fact, the name stands for ``REmote DIctionary Server''. To use Redis, you have to run the Redis server somewhere and then connect to it using a Redis client. There are many ways to set up a server and many clients you could use.
+ 
+          position: 6562
     configuration:
       layout: 1-panel
       files:
@@ -1311,13 +1318,39 @@ sections:
             action: close
   - name: Making a Redis-backed index
     type: section
+    transformations:
+        - remove: 61
+          position: 6684
+        - add:  |
+              
+              `JedisMaker` reads information about your Redis server from a file named `redis_url.txt`.
+              
+              Run the `JedisMaker` example code ([Highlight](open_file code/JedisMaker.java panel=0 ref="public static void main" count=27)) using the button below:
+              
+              {Run! | terminal}(cd code && javac JedisIndex.java JedisMaker.java WikiFetcher.java && java -cp lib/*:. JedisMaker && cd ../ )
+
+ 
+          position: 6683
     configuration:
-      layout: 1-panel
+      layout: 2-panels-tree
       files:
           - path: "#tabs"
             action: close
+          - path: "code/JedisMaker.java"
+            panel: 0
+            action: open
+          - path: "code/JedisIndex.java"
+            panel: 0
+            action: open
   - name: Redis data types
     type: section
+    transformations:
+        - add:  |
+              Redis is basically a map from keys, which are strings, to values, which can be one of several data types. The most basic Redis data type is a `string`.
+ 
+          position: 6764
+        - remove: 4
+          position: 6765
     configuration:
       layout: 1-panel
       files:
@@ -1325,25 +1358,64 @@ sections:
             action: close
   - name: Exercise 11
     type: section
+    transformations:
+        - add:  |
+              {Check It!|assessment}(test-3509169483)
+              It should fail, because you have some work to do!
+ 
+          position: 6886
+        - remove: 2
+          position: 6887
+        - add:  |
+              [Highlight in Code](open_file code/JedisIndex.java panel=0 ref="WikiFetcher" count=9)
+              
+              {Run! | terminal}(cd code && javac JedisIndex.java JedisMaker.java WikiFetcher.java && java -cp lib/*:. JedisIndex && cd ../ )
+ 
+          position: 6912
+        - remove: 11
+          position: 6913
     configuration:
-      layout: 1-panel
+      layout: 2-panels-tree
       files:
-          - path: "#tabs"
-            action: close
+        - path: "#tabs"
+          action: close
+        - path: "code/JedisIndex.java"
+          panel: 0
+          action: open
   - name: More suggestions if you want them
     type: section
+    transformations:
+        - add:  |
+              {Run! | terminal}(cd code && javac JedisIndex.java JedisMaker.java WikiFetcher.java && java -cp lib/*:. JedisIndex && cd ../ )
+              
+              {Check It!|assessment}(test-3509169483)
+ 
+          position: 7047
     configuration:
-      layout: 1-panel
+      layout: 2-panels-tree
       files:
-          - path: "#tabs"
-            action: close
+        - path: "#tabs"
+          action: close
+        - path: "code/JedisIndex.java"
+          panel: 0
+          action: open
   - name: A few design hints
     type: section
+    transformations:
+        - add:  |
+              {Run! | terminal}(cd code && javac JedisIndex.java JedisMaker.java WikiFetcher.java && java -cp lib/*:. JedisIndex && cd ../ )
+              
+              {Check It!|assessment}(test-3509169483)
+ 
+          position: 7060
     configuration:
-      layout: 1-panel
+      layout: 2-panels-tree
       files:
-          - path: "#tabs"
-            action: close
+        - path: "#tabs"
+          action: close
+        - path: "code/JedisIndex.java"
+          panel: 0
+          action: open
 # Chapter 15
   - name: Crawling Wikipedia
     type: chapter

@@ -1,6 +1,9 @@
 Now you *really* have all the information you need; you should start working on the exercise. But if you get stuck, or if you really don't know how to get started, you can come back for a few more hints.
 
-**Don't read the following until you have run the test code, tried out some basic Redis commands, and written a few methods in `JedisIndex.java**`.
+**Don't read the following until you have run the test code, tried out some basic Redis commands, and written a few methods in `JedisIndex.java**`. {Run! | terminal}(cd code && javac JedisIndex.java JedisMaker.java WikiFetcher.java && java -cp lib/*:. JedisIndex && cd ../ )
+
+{Check It!|assessment}(test-3509169483)
+
 
 OK, if you are really stuck, here are some methods you might want to work on:
 

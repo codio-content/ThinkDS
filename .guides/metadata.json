@@ -1755,10 +1755,20 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/JedisMaker.java"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/JedisIndex.java"
         }
       ],
       "id": "persistence-making-a-redis-backed-index",
-      "layout": "1-panel",
+      "layout": "2-panels-tree",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1791,10 +1801,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/JedisIndex.java"
         }
       ],
       "id": "persistence-exercise-11",
-      "layout": "1-panel",
+      "layout": "2-panels-tree",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1809,10 +1824,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/JedisIndex.java"
         }
       ],
       "id": "persistence-more-suggestions-if-you-want-them",
-      "layout": "1-panel",
+      "layout": "2-panels-tree",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1827,10 +1847,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/JedisIndex.java"
         }
       ],
       "id": "persistence-a-few-design-hints",
-      "layout": "1-panel",
+      "layout": "2-panels-tree",
       "learningObjectives": "",
       "path": [],
       "reset": [],
