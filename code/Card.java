@@ -109,6 +109,7 @@ public class Card implements Comparable<Card> {
         System.out.println(cards.get(0));
         System.out.println(cards.get(51));
 
+      //Comparator Card
         Comparator<Card> comparator = new Comparator<Card>() {
             @Override
             public int compare(Card card1, Card card2) {

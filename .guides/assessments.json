@@ -207,5 +207,24 @@
    "points": 1,
    "timeoutSeconds": 300
   }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1777987298",
+  "source": {
+   "name": "exercise13",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Run `WikiSearchTest`",
+   "codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\"code/WikiSearchTest.java\",\"className\":\"WikiSearchTest\"}],\"partialPoints\":false,\"maxPoints\":1,\"wd\":\"\",\"sources\":\"code/WikiSearch.java\",\"libs\":\"code/lib/*\",\"testsources\":\"code\"}",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 300
+  }
  }
 ]

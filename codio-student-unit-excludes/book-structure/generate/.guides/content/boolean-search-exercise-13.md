@@ -40,7 +40,7 @@ You'll have the option to implement TF-IDF later, but we'll start with something
 
 Now you're ready to start the exercise.
 
-ASSESSMENTGOESHERE
+{Check It!|assessment}(test-1777987298)
 
 As usual, it should fail, because you have work to do.
 
@@ -50,8 +50,11 @@ In `WikiSearch.java`, fill in the bodies of `and`, `or`, and `minus` so that the
 
 You can run `WikiSearchTest` without using Jedis because it doesn't depend on the index in your Redis database. But if you want to run a query against your index, you have to provide a file with information about your Redis server.  See Section 14.3 for details.
 
+{Run! | terminal}(cd code && javac JedisIndex.java JedisMaker.java WikiFetcher.java WikiSearch.java && java -cp lib/*:. WikiSearch && cd ../ )
 
-Run `ant JedisMaker` to make sure it is configured to connect to your Redis server. Then run `WikiSearch`, which prints results from three queries:
+Use the button above to run WikiSearch, which prints results from three queries:
+
+
 
 
 

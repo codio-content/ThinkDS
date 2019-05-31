@@ -2088,10 +2088,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/Card.java"
         }
       ],
       "id": "boolean-search-comparable-and-comparator",
-      "layout": "1-panel",
+      "layout": "2-panels-tree",
       "learningObjectives": "",
       "path": [],
       "reset": [],

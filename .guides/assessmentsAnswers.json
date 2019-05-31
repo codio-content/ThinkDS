@@ -1,14 +1,3 @@
 [
- {
-  "taskId": "test-438125698",
-  "points": 0,
-  "results": [
-   {
-    "code": 2,
-    "output": "<b>1</b> tests, <b>2</b> failures, <b>0.045s</b> duration\n\n<strong>WikiCrawlerTest</strong>\ntestCrawl, 0.006s, <span style=\"color: red\">failed</span>\n",
-    "timestamp": 1559316917147,
-    "state": "fail"
-   }
-  ]
- }
+
 ]

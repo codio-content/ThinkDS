@@ -1510,13 +1510,21 @@ sections:
     type: section
     transformations:
         - add:  |
-              ASSESSMENTGOESHERE
+              {Check It!|assessment}(test-1777987298)
               
               As usual, it should fail, because you have work to do.
  
           position: 7966
         - remove: 3
           position: 7961
+        - add:  |
+              {Run! | terminal}(cd code && javac JedisIndex.java JedisMaker.java WikiFetcher.java WikiSearch.java && java -cp lib/*:. WikiSearch && cd ../ )
+              
+              Use the button above to run WikiSearch, which prints results from three queries:
+ 
+          position: 7982
+        - remove: 3
+          position: 7983
     configuration:
       layout: 2-panels-tree
       files:
@@ -1527,11 +1535,45 @@ sections:
           action: open
   - name: Comparable and Comparator
     type: section
+    transformations:
+        - add:  |
+              [Highlight in Code](open_file code/Card.java panel=0 ref="public class Card" count=21)
+ 
+          position: 8043
+        - remove: 11
+          position: 8044
+        - add:  |
+              [Highlight in Code](open_file code/Card.java panel=0 ref="public int compareTo" count=15)
+ 
+          position: 8060
+        - remove: 17
+          position: 8061
+        - add:  |
+              [Highlight in Code](open_file code/Card.java panel=0 ref="public static List" count=9)
+ 
+          position: 8089
+        - remove: 12
+          position: 8090
+        - add:  |
+              [Highlight in Code](open_file code/Card.java panel=0 ref="Collections.sort" count=1)
+ 
+          position: 8104
+        - remove: 3
+          position: 8105
+        - add:  |
+              [Highlight in Code](open_file code/Card.java panel=0 ref="Comparator Card" count=29)
+ 
+          position: 8121
+        - remove: 32
+          position: 8122
     configuration:
-      layout: 1-panel
+      layout: 2-panels-tree
       files:
-          - path: "#tabs"
-            action: close
+        - path: "#tabs"
+          action: close
+        - path: "code/Card.java"
+          panel: 0
+          action: open
   - name: Extensions
     type: section
     configuration:
