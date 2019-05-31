@@ -1427,24 +1427,27 @@ sections:
   - name: The Redis-backed indexer
     type: section
     configuration:
-      layout: 1-panel
+      layout: 2-panels-tree
       files:
-          - path: "#tabs"
-            action: close
+        - path: "#tabs"
+          action: close
+        - path: "code/JedisIndex.java"
+          panel: 0
+          action: open
   - name: Analysis of lookup
     type: section
     configuration:
       layout: 1-panel
       files:
-          - path: "#tabs"
-            action: close
+        - path: "#tabs"
+          action: close
   - name: Analysis of indexing
     type: section
     configuration:
       layout: 1-panel
       files:
-          - path: "#tabs"
-            action: close
+        - path: "#tabs"
+          action: close
   - name: Graph traversal
     type: section
     configuration:
@@ -1454,11 +1457,23 @@ sections:
             action: close
   - name: Exercise 12
     type: section
+    transformations:
+        - add:  |
+              {Check It!|assessment}(test-438125698)
+              
+              It should fail, because you have work to do!
+ 
+          position: 7499
+        - remove: 6
+          position: 7500
     configuration:
-      layout: 1-panel
+      layout: 2-panels-tree
       files:
-          - path: "#tabs"
-            action: close
+        - path: "#tabs"
+          action: close
+        - path: "code/WikiCrawler.java"
+          panel: 0
+          action: open
 # Chapter 16
   - name: Boolean search
     type: chapter
@@ -1470,10 +1485,13 @@ sections:
   - name: Crawler solution
     type: section
     configuration:
-      layout: 1-panel
+      layout: 2-panels-tree
       files:
-          - path: "#tabs"
-            action: close
+        - path: "#tabs"
+          action: close
+        - path: "code/WikiCrawler.java"
+          panel: 0
+          action: open
   - name: Information retrieval
     type: section
     configuration:
@@ -1490,11 +1508,23 @@ sections:
             action: close
   - name: Exercise 13
     type: section
+    transformations:
+        - add:  |
+              ASSESSMENTGOESHERE
+              
+              As usual, it should fail, because you have work to do.
+ 
+          position: 7966
+        - remove: 3
+          position: 7961
     configuration:
-      layout: 1-panel
+      layout: 2-panels-tree
       files:
-          - path: "#tabs"
-            action: close
+        - path: "#tabs"
+          action: close
+        - path: "code/WikiSearch.java"
+          panel: 0
+          action: open
   - name: Comparable and Comparator
     type: section
     configuration:

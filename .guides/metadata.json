@@ -1888,10 +1888,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/JedisIndex.java"
         }
       ],
       "id": "crawling-wikipedia-the-redis-backed-indexer",
-      "layout": "1-panel",
+      "layout": "2-panels-tree",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1960,10 +1965,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/WikiCrawler.java"
         }
       ],
       "id": "crawling-wikipedia-exercise-12",
-      "layout": "1-panel",
+      "layout": "2-panels-tree",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1996,10 +2006,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/WikiCrawler.java"
         }
       ],
       "id": "boolean-search-crawler-solution",
-      "layout": "1-panel",
+      "layout": "2-panels-tree",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -2050,10 +2065,15 @@
         {
           "action": "close",
           "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/WikiSearch.java"
         }
       ],
       "id": "boolean-search-exercise-13",
-      "layout": "1-panel",
+      "layout": "2-panels-tree",
       "learningObjectives": "",
       "path": [],
       "reset": [],

@@ -18,10 +18,11 @@ You'll also need some of the helper classes we've used in previous exercises:
 
 Before you run `JedisMaker`, you have to provide a file with information about your Redis server. If you did this in the previous exercise, you should be all set. Otherwise you can find instructions in Section 14.3.
 
+{Check It!|assessment}(test-438125698)
 
-Run `ant build` to compile the source files, then run `ant JedisMaker` to make sure it is configured to connect to your Redis server.
+It should fail, because you have work to do!
 
-Now run `ant WikiCrawlerTest`. It should fail, because you have work to do!
+
 
 Here's the beginning of the `WikiCrawler` class I provided:
 

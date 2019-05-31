@@ -38,7 +38,11 @@ You'll have the option to implement TF-IDF later, but we'll start with something
 *  If a query contains a single search term, the relevance of a page is its term frequency; that is, the number of time the term appears on the page.
 *  For queries with multiple terms, the relevance of a page is the sum of the term frequencies; that is, the total number of times any of the search terms appear. 
 
-Now you're ready to start the exercise. Run `ant build` to compile the source files, then run `ant WikiSearchTest`. As usual, it should fail, because you have work to do.
+Now you're ready to start the exercise.
+
+ASSESSMENTGOESHERE
+
+As usual, it should fail, because you have work to do.
 
 
 In `WikiSearch.java`, fill in the bodies of `and`, `or`, and `minus` so that the relevant tests pass. You don't have to worry about `testSort` yet.
