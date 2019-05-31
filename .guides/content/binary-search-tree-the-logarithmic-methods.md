@@ -17,6 +17,11 @@ for (int i=0; i<n; i++) {
 }
 ```
 
+[Put code in the main method](open_file code/MyTreeMap.java panel=0 ref="public static void main" count=1)
+
+{Run | terminal}(javac code/MyTreeMap.java && java -cp code MyTreeMap)
+
+
 `UUID` is a class in the `java.util` package that can generate a random “universally unique identifier”. UUIDs are useful for a variety of applications, but in this example we're taking advantage of an easy way to generate random strings.
 
 
@@ -47,6 +52,11 @@ for (int i=0; i<n; i++) {
     map.put(timestamp, 0);
 }
 ```
+
+[Put code in the `main` method](open_file code/MyTreeMap.java panel=0 ref="public static void main" count=1)
+
+{Run | terminal}(javac code/MyTreeMap.java && java -cp code MyTreeMap)
+
 
 `System.nanoTime` returns an integer with type `long` that indicates elapsed time in nanoseconds. Each time we call it, we get a somewhat bigger number. When we convert these timestamps to strings, they appear in increasing alphabetical order.
 

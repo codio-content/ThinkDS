@@ -5,24 +5,17 @@ In the repository for this book, you'll find these source files:
 *  `MyTreeMap.java` contains the code from the previous section with outlines for the missing methods.
 *  `MyTreeMapTest.java` contains the unit tests for `MyTreeMap`. 
 
-Run `ant build` to compile the source files. Then run `ant   MyTreeMapTest`.  Several tests should fail, because you have some work to do!
+{Check It!|assessment}(test-1147894565)
+
+Several tests should fail, because you have some work to do!
 
 
-I've provided outlines for `get` and `containsKey`.  Both of them use `findNode`, which is a private method I defined; it is not part of the `Map` interface. Here's how it starts:
 
-```code
-    private Node findNode(Object target) {
-        if (target == null) {
-            throw new IllegalArgumentException();
-        }
 
-        @SuppressWarnings("unchecked")
-        Comparable<? super K> k = (Comparable<? super K>) target;
+I've provided outlines for `get` and `containsKey`.  Both of them use `findNode`, which is a private method I defined; it is not part of the `Map` interface. Here's how it starts: 
+[Highlight in Code](open_file code/MyTreeMap.java panel=0 ref="private Node findNode" count=13)
 
-        // TODO: FILL THIS IN!
-        return null;
-    }
-```
+
 
 
 The parameter `target` is the key we're looking for. If `target` is `null`, `findNode` throws an exception. Some implementations of `Map` can handle `null` as a key, but in a binary search tree, we need to be able to compare keys, so dealing with `null` is problematic. To keep things simple, this implementation does not allow `null` as a key.
@@ -40,25 +33,10 @@ Your next task is to fill in `containsValue`. To get you started, I've provided 
 
 Unlike your previous solution for `findNode`, your solution for `containsValue` *does* have to search the whole tree, so its runtime is proportional to the number of keys, $n$, not the height of the tree, `h`.
 
-The next method you should fill in is `put`. I've provided   starter code that handles the simple cases:
+The next method you should fill in is `put`. I've provided   starter code that handles the simple cases: 
+[Highlight in Code](open_file code/MyTreeMap.java panel=0 ref="public V put" count=17)
 
-```code
-    public V put(K key, V value) {
-        if (key == null) {
-            throw new IllegalArgumentException();
-        }
-        if (root == null) {
-            root = new Node(key, value);
-            size++;
-            return null;
-        }
-        return putHelper(root, key, value);
-    }
 
-    private V putHelper(Node node, K key, V value) {
-        // TODO: Fill this in.
-    }
-```
 
 If you try to put `null` as a key, `put` throws an exception.
 
@@ -79,14 +57,9 @@ Your implementation of `put` should take time proportional to the height of the 
 
 Finally, you should fill in the body of `keySet`.  According to the documentation at [http://thinkdast.com/mapkeyset](http://thinkdast.com/mapkeyset), this method should return a `Set` that iterates the keys in order; that is, in increasing order according to the `compareTo` method.  The `HashSet` implementation of `Set`, which we used in Section 8.3, doesn't maintain the order of the keys, but the `LinkedHashSet` implementation does.  You can read about it at [http://thinkdast.com/linkedhashset](http://thinkdast.com/linkedhashset).
 
-I've provided an outline of `keySet` that creates and returns a `LinkedHashSet`:
+I've provided an outline of `keySet` that creates and returns a `LinkedHashSet`: 
+[Highlight in Code](open_file code/MyTreeMap.java panel=0 ref="public Set" count=5)
 
-```code
-    public Set<K> keySet() {
-        Set<K> set = new LinkedHashSet<K>();
-        return set;
-    }
-```
 
 
 You should finish off this method so it adds the keys from the tree to `set` in ascending order. HINT: you might want to write a helper method; you might want to make it recursive; and you might want to read about in-order tree traversal at [http://thinkdast.com/inorder](http://thinkdast.com/inorder).

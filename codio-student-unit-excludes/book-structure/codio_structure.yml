@@ -1129,6 +1129,25 @@ sections:
             action: close
   - name: Exercise 10
     type: section
+    transformations:
+        - add:  |
+              [Highlight in Code](open_file code/MyTreeMap.java panel=0 ref="public class MyTreeMap" count=4)
+ 
+          position: 5651
+        - remove: 6
+          position: 5652
+        - add:  |
+              [Highlight in Code](open_file code/MyTreeMap.java panel=0 ref="protected class Node" count=16)
+ 
+          position: 5666
+        - remove: 13
+          position: 5667
+        - add:  |
+              [Highlight in Code](open_file code/MyTreeMap.java panel=0 ref="public int size" count=9)
+ 
+          position: 5690
+        - remove: 10
+          position: 5691
     configuration:
       layout: 2-panels
       files:
@@ -1139,15 +1158,43 @@ sections:
           action: open
   - name: Implementing a TreeMap
     type: section
+    transformations:
+        - add:  |
+              
+              {Check It!|assessment}(test-1147894565)
+              
+              Several tests should fail, because you have some work to do!
+ 
+          position: 5735
+        - remove: 3
+          position: 5736
+        - add:  |
+              
+              [Highlight in Code](open_file code/MyTreeMap.java panel=0 ref="private Node findNode" count=13)
+ 
+          position: 5745
+        - remove: 13
+          position: 5746
+        - add:  |
+                
+                [Highlight in Code](open_file code/MyTreeMap.java panel=0 ref="public V put" count=17)
+ 
+          position: 5813
+        - remove: 17
+          position: 5814
+        - add:  |
+              
+              [Highlight in Code](open_file code/MyTreeMap.java panel=0 ref="public Set" count=5)
+ 
+          position: 5877
+        - remove: 7
+          position: 5878
     configuration:
-      layout: 2-panels
+      layout: 2-panels-tree
       files:
         - path: "#tabs"
           action: close
         - path: "code/MyTreeMap.java"
-          panel: 0
-          action: open
-        - path: "code/MyTreeMapTest.java"
           panel: 0
           action: open
 # Chapter 13
@@ -1158,7 +1205,7 @@ sections:
       files:
           - path: "#tabs"
             action: close
-  - name: A simple \java{MyTreeMap}
+  - name: A simple MyTreeMap
     type: section
     configuration:
       layout: 2-panels
@@ -1178,7 +1225,7 @@ sections:
         - path: "code/MyTreeMap.java"
           panel: 0
           action: open
-  - name: Implementing {\tt put}
+  - name: Implementing put
     type: section
     configuration:
       layout: 2-panels
@@ -1200,6 +1247,21 @@ sections:
           action: open
   - name: The logarithmic methods
     type: section
+    transformations:
+        - add:  |
+              
+              [Put code in the main method](open_file code/MyTreeMap.java panel=0 ref="public static void main" count=1)
+              
+              {Run | terminal}(javac code/MyTreeMap.java && java -cp code MyTreeMap)
+ 
+          position: 6261
+        - add:  |
+              
+              [Put code in the `main` method](open_file code/MyTreeMap.java panel=0 ref="public static void main" count=1)
+              
+              {Run | terminal}(javac code/MyTreeMap.java && java -cp code MyTreeMap)
+ 
+          position: 6314
     configuration:
       layout: 2-panels
       files:
@@ -1211,13 +1273,10 @@ sections:
   - name: Self-balancing trees
     type: section
     configuration:
-      layout: 2-panels
+      layout: 1-panel
       files:
         - path: "#tabs"
           action: close
-        - path: "code/MyTreeMap.java"
-          panel: 0
-          action: open
   - name: One more exercise
     type: section
     configuration:

@@ -46,6 +46,11 @@ public class MyTreeMap<K, V> implements Map<K, V> {
 	}
 
 	@Override
+	public int size() {
+		return size;
+	}
+  
+  @Override
 	public void clear() {
 		size = 0;
 		root = null;
@@ -99,6 +104,13 @@ public class MyTreeMap<K, V> implements Map<K, V> {
 		return false;
 	}
 
+  @Override
+	public Set<K> keySet() {
+		Set<K> set = new LinkedHashSet<K>();
+		// TODO: FILL THIS IN!
+		return set;
+	}
+  
 	@Override
 	public Set<Map.Entry<K, V>> entrySet() {
 		throw new UnsupportedOperationException();
@@ -116,13 +128,6 @@ public class MyTreeMap<K, V> implements Map<K, V> {
 	@Override
 	public boolean isEmpty() {
 		return size == 0;
-	}
-
-	@Override
-	public Set<K> keySet() {
-		Set<K> set = new LinkedHashSet<K>();
-		// TODO: FILL THIS IN!
-		return set;
 	}
 
 	@Override
@@ -154,11 +159,6 @@ public class MyTreeMap<K, V> implements Map<K, V> {
 	public V remove(Object key) {
 		// OPTIONAL TODO: FILL THIS IN!
 		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public int size() {
-		return size;
 	}
 
 	@Override

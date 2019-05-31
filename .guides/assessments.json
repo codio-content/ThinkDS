@@ -150,5 +150,24 @@
    "points": 1,
    "timeoutSeconds": 300
   }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1147894565",
+  "source": {
+   "name": "exercise10",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Run `TreeMapTest`",
+   "codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\"code/MyTreeMapTest.java\",\"className\":\"MyTreeMapTest\"}],\"partialPoints\":false,\"maxPoints\":1,\"wd\":\"\",\"sources\":\"code/MyTreeMap.java\",\"libs\":\"code/lib/*\",\"testsources\":\"code\"}",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 300
+  }
  }
 ]

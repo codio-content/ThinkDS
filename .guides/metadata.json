@@ -1509,15 +1509,10 @@
           "action": "open",
           "panel": 0,
           "path": "code/MyTreeMap.java"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/MyTreeMapTest.java"
         }
       ],
       "id": "treemap-implementing-a-treemap",
-      "layout": "2-panels",
+      "layout": "2-panels-tree",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1546,8 +1541,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/binary-search-tree-a-simple-mytreemap.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyTreeMap.java"
+        }
+      ],
       "id": "binary-search-tree-a-simple-mytreemap",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1581,8 +1587,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/binary-search-tree-implementing-put.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyTreeMap.java"
+        }
+      ],
       "id": "binary-search-tree-implementing-put",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1643,15 +1660,10 @@
         {
           "action": "close",
           "path": "#tabs"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/MyTreeMap.java"
         }
       ],
       "id": "binary-search-tree-self-balancing-trees",
-      "layout": "2-panels",
+      "layout": "1-panel",
       "learningObjectives": "",
       "path": [],
       "reset": [],
