@@ -888,18 +888,24 @@ sections:
           action: open
   - name: Exercise 7
     type: section
+    transformations:
+        - remove: 8
+          position: 4364
+        - add:  |
+              {Check It!|assessment}(test-27590314)
+              
+              Several tests should fail, because you have some work to do!
+ 
+          position: 4372
     configuration:
-      layout: 2-panels
+      layout: 2-panels-tree
       files:
         - path: "#tabs"
           action: close
         - path: "code/MyLinearMap.java"
           panel: 0
           action: open
-        - path: "code/MyLinearMapTest.java"
-          panel: 0
-          action: open
-  - name: Analyzing \java{MyLinearMap}
+  - name: Analyzing MyLinearMap
     type: section
     configuration:
       layout: 2-panels
@@ -907,9 +913,6 @@ sections:
         - path: "#tabs"
           action: close
         - path: "code/MyLinearMap.java"
-          panel: 0
-          action: open
-        - path: "code/MyLinearMapTest.java"
           panel: 0
           action: open
 # Chapter 10

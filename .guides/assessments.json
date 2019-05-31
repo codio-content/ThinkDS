@@ -93,5 +93,24 @@
    "points": 1,
    "timeoutSeconds": 300
   }
+ },
+ {
+  "type": "test",
+  "taskId": "test-27590314",
+  "source": {
+   "name": "exercise7",
+   "showName": false,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Run `MyLinearMapTest`",
+   "codeEnvConfig": "{\"type\":\"java\",\"subtype\":\"junit\",\"files\":[{\"filePath\":\"code/MyLinearMapTest.java\",\"className\":\"MyLinearMapTest\"}],\"partialPoints\":false,\"maxPoints\":1,\"wd\":\"\",\"sources\":\"code/MyLinearMap.java\",\"libs\":\"code/lib/*\",\"testsources\":\"code\"}",
+   "command": "python /usr/share/codio/assessments/assessments.py",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 300
+  }
  }
 ]

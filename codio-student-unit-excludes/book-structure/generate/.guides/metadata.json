@@ -1120,15 +1120,10 @@
           "action": "open",
           "panel": 0,
           "path": "code/MyLinearMap.java"
-        },
-        {
-          "action": "open",
-          "panel": 0,
-          "path": "code/MyLinearMapTest.java"
         }
       ],
       "id": "the-map-interface-exercise-7",
-      "layout": "2-panels",
+      "layout": "2-panels-tree",
       "learningObjectives": "",
       "path": [],
       "reset": [],
@@ -1139,8 +1134,19 @@
     {
       "chapter": false,
       "content-file": ".guides/content/the-map-interface-analyzing-mylinearmap.md",
-      "files": [],
+      "files": [
+        {
+          "action": "close",
+          "path": "#tabs"
+        },
+        {
+          "action": "open",
+          "panel": 0,
+          "path": "code/MyLinearMap.java"
+        }
+      ],
       "id": "the-map-interface-analyzing-mylinearmap",
+      "layout": "2-panels",
       "learningObjectives": "",
       "path": [],
       "reset": [],

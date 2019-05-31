@@ -64,5 +64,17 @@
     "state": "fail"
    }
   ]
+ },
+ {
+  "taskId": "test-27590314",
+  "points": 0,
+  "results": [
+   {
+    "code": 10,
+    "output": "<b>11</b> tests, <b>10</b> failures, <b>0.056s</b> duration\n\n<strong>MyLinearMapTest</strong>\ntestGet, 0.007s, <span style=\"color: red\">failed</span>\ntestPut, 0.001s, <span style=\"color: red\">failed</span>\ntestClear, 0.0s, <span style=\"color: green\">passed</span>\ntestSize, 0.001s, <span style=\"color: red\">failed</span>\ntestContainsKey, 0.001s, <span style=\"color: red\">failed</span>\ntestContainsValue, 0.0s, <span style=\"color: red\">failed</span>\ntestKeySet, 0.001s, <span style=\"color: red\">failed</span>\ntestPutAll, 0.001s, <span style=\"color: red\">failed</span>\ntestIsEmpty, 0.001s, <span style=\"color: red\">failed</span>\ntestRemove, 0.0s, <span style=\"color: red\">failed</span>\ntestValues, 0.001s, <span style=\"color: red\">failed</span>\n",
+    "timestamp": 1559263142970,
+    "state": "fail"
+   }
+  ]
  }
 ]
