@@ -26,15 +26,15 @@ People who have read Think Java are prepared for this book.
 ## Using our recommended course
 This title has been compiled into a Codio Recommended course. You can check it out by navigating to Courses > Recommended > Introduction to Data Structures.
 
-To add this course content (or pieces of it) to a class, follow this documentation: https://codio.com/docs/classes/unitmanagement/assign-module/
+To add this course content (or pieces of it) to a class, follow this documentation: [https://codio.com/docs/classes/unitmanagement/assign-module/](https://codio.com/docs/classes/unitmanagement/assign-module/)
 
 You can also add pages straight from the book using a similar workflow.
 
 ## Creating an editable version of Think Data Structures in Codio
-Follow the documentation [here](https://codio.com/docs/project/creating/) to create a project and import Codio's version of Think Data Structures. The GitHub repo is located at https://github.com/codio-content/ThinkDS
+Follow the documentation [here](https://codio.com/docs/project/creating/) to create a project and import Codio's version of Think Data Structures. The GitHub repo is located at [https://github.com/codio-content/ThinkDS](https://github.com/codio-content/ThinkDS)
 
 ## Original Source
-You can find the original source at https://greenteapress.com/wp/think-data-structures/
+You can find the original source at [https://greenteapress.com/wp/think-data-structures/](https://greenteapress.com/wp/think-data-structures/)
 
 
 ## Licensing 
